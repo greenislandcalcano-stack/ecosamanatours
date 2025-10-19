@@ -1,0 +1,19 @@
+main:
+  - title: Home
+    url: /
+  - title: Excursions
+    url: /excursions/
+  - title: The Secret Treasure
+    url: /excursions/secret-treasure/
+  - title: Whale Watching
+    url: /excursions/whale-watching/
+  - title: Waterfalls & Nature
+    url: /excursions/waterfalls/
+  - title: Gallery
+    url: /gallery/
+  - title: FAQ & Safety
+    url: /faq/
+  - title: About
+    url: /about/
+  - title: Contact / Book
+    url: /contact/

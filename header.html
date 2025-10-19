@@ -1,0 +1,14 @@
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <img src="{{ '/assets/images/logos/logo.svg' | relative_url }}" alt="EcoSamaná" height="36">
+    </a>
+    <nav>
+      <ul class="nav">
+        {% for item in site.data.navigation.main %}
+          <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>

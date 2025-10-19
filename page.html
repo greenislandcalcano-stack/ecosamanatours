@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<article class="page">
+  {% if page.image %}
+  <section class="hero" style="background-image:url('{{ page.image | relative_url }}')">
+    <div class="hero-inner">
+      <h1>{{ page.title }}</h1>
+      {% if page.subtitle %}<p class="subtitle">{{ page.subtitle }}</p>{% endif %}
+    </div>
+  </section>
+  {% else %}
+    <h1>{{ page.title }}</h1>
+  {% endif %}
+  <div class="content">
+    {{ content }}
+  </div>
+</article>
