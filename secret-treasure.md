@@ -1,7 +1,7 @@
 ---
 title: The Secret Treasure – Pirate Excursion in Samaná
 description: Family-friendly boat & snorkeling treasure hunt visiting 4 beaches in Santa Bárbara de Samaná. Cruise 3h; Hotel 4h30. Snacks/Buffet included.
-image: "({{ '/assets/images/sunkenPirateship2.jpg' | relative_url }})"
+image: {{ '/assets/images/sunkenPirateship2.jpg' | relative_url }}
 ---
 
 **Durations:** Cruise 3h · Hotel 4h30 *(transport not included)*  
