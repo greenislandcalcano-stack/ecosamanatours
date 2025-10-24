@@ -1,3 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eco-Samaná Tours | Paradise Awaits</title>
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f6fff5;
+      color: #2b2b2b;
+    }
+
+    header {
+      background: linear-gradient(90deg, #028a0f, #00b86b);
+      color: white;
+      text-align: center;
+      padding: 1.5rem 1rem;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+
+    nav {
+      background-color: #f0f8f4;
+      text-align: center;
+      padding: 0.5rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #028a0f;
+      margin: 0 1rem;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #00b86b;
+    }
+
+    .hero {
+      background: url('/assets/images/beach.jpg') center/cover no-repeat;
+      height: 70vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      position: relative;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.4);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.4);
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto 1.5rem;
+    }
+
+    .hero a {
+      background-color: #00b86b;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .hero a:hover {
+      background-color: #028a0f;
+    }
+
+    section {
+      padding: 3rem 1rem;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .tours {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .tour-card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .tour-card:hover {
+      transform: scale(1.02);
+    }
+
+    .tour-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .tour-card h3 {
+      margin: 1rem;
+      color: #028a0f;
+    }
+
+    .tour-card p {
+      margin: 0 1rem 1rem;
+      color: #444;
+    }
+
+    footer {
+      background-color: #028a0f;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      .hero h2 { font-size: 1.8rem; }
+      .hero p { font-size: 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header>
+    <h1>Eco-Samaná Tours 🌿</h1>
+  </header>
+  <nav>
+    <a href="/index.html">Home</a>
+    <a href="/about.html">About</a>
+    <a href="/gallery.html">Gallery</a>
+    <a href="/contact.html">Contact</a>
+    <a href="https://wa.me/15046572553" target="_blank">Book Now</a>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Discover the Magic of Samaná</h2>
+      <p>Adventure, nature, and unforgettable experiences await you on the breathtaking shores of the Dominican Republic.</p>
+      <a href="https://wa.me/15046572553" target="_blank">Start Your Journey</a>
+    </div>
+  </section>
+
+  <!-- Featured Tours -->
+  <section>
+    <h2 style="text-align:center; margin-bottom:2rem; color:#028a0f;">Our Top Eco-Adventures</h2>
+    <div class="tours">
+      <div class="tour-card">
+        <img src="/assets/images/whales.jpg" alt="Whale Watching">
+        <h3>Whale Watching</h3>
+        <p>Experience majestic humpback whales in their natural sanctuary.</p>
+      </div>
+      <div class="tour-card">
+        <img src="/assets/images/waterfall.jpg" alt="El Limón Waterfall">
+        <h3>El Limón Waterfall</h3>
+        <p>Ride on horseback through lush forests to an enchanting cascade.</p>
+      </div>
+      <div class="tour-card">
+        <img src="/assets/images/snorkel.jpg" alt="Treasure Hunt Tour">
+        <h3>Treasure Hunt Tour</h3>
+        <p>Family-friendly snorkeling and beach treasure adventure.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Eco-Samaná Tours | Explore • Preserve • Inspire</p>
+    <p><a href="mailto:info@eco-samana.com" style="color:white; text-decoration:underline;">info@eco-samana.com</a></p>
+  </footer>
+
+</body>
+</html>
 
 
 
