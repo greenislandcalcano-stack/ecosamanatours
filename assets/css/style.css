@@ -1,3 +1,5 @@
+/* Give anchored sections some clearance below the sticky nav */
+section { scroll-margin-top: 90px; }
 /* ===== Tour pages ===== */
 .tour-hero {
   min-height: 55vh;
