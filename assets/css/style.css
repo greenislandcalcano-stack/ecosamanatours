@@ -31,6 +31,24 @@ header h1 {
 /* ================================
    NAVIGATION
 =================================== */
+/* ================================
+   STICKY NAVIGATION
+=================================== */
+nav {
+  background-color: rgba(240, 248, 244, 0.95);
+  backdrop-filter: blur(5px);
+}
+
+nav {
+  background-color: #f0f8f4;
+  text-align: center;
+  padding: 0.5rem;
+  position: sticky;      /* This makes the bar stick to the top */
+  top: 0;                /* Position at the very top */
+  z-index: 1000;         /* Ensures it stays above hero and sections */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* subtle shadow */
+}
+
 nav {
   background-color: #f0f8f4;
   text-align: center;
