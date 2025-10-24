@@ -1,3 +1,13 @@
+/* HERO tuning */
+.tour-hero {
+  min-height: 60vh;               /* was 55vh; gives a bit more room */
+  background-position: center;    /* tweak to 'top center' if heads are cut */
+  background-size: cover;
+}
+
+@media (max-width: 640px) {
+  .tour-hero { min-height: 45vh; }
+}
 /* Give anchored sections some clearance below the sticky nav */
 section { scroll-margin-top: 90px; }
 /* ===== Tour pages ===== */
