@@ -98,7 +98,7 @@ nav a:hover {
    HERO SECTION
 =================================== */
 .hero {
-  background: url('/assets/images/beach.jpg') center/cover no-repeat;
+  background: url('/assets/images/sunken-pirate-ship.jpg') center/cover no-repeat;
   height: 70vh;
   display: flex;
   justify-content: center;
