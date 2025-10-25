@@ -5,8 +5,9 @@
   <title>{{ page.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- ✅ Global stylesheet correctly loaded -->
-  <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+ {% assign cache_bust = site.github.build_revision | default: site.time | date: '%s' %}
+<link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}?v={{ cache_bust }}">
+
 </head>
 <body>
   {% include header.html %}
