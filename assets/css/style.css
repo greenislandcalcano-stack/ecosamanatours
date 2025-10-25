@@ -2,6 +2,13 @@
    Eco-Samaná Base Styles – universal, responsive, accessible
    Works with Jekyll (Markdown pages + HTML pages)
    ---------------------------------------------------------- */
+/* ✅ Make all images responsive */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
 
 /* 1) Modern CSS Reset (lightweight) */
 *, *::before, *::after { box-sizing: border-box; }
