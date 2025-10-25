@@ -1,17 +1,24 @@
 title: EcoSamaná Adventures
 description: Family-friendly eco tours & pirate treasure hunts in Santa Bárbara de Samaná.
-url: "https://www.eco-samana.com"
-baseurl: ""
+url: "https://eco-samana.com"   # Match your CNAME
+baseurl: ""                     # Root site
+
+# Optional: keep or remove minima if unused
 theme: minima
+
 markdown: kramdown
 permalink: /:categories/:title/
+
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: page
+
+# Optional: remove if you prefer explicit layout per page
+# defaults:
+#   - scope:
+#       path: ""
+#     values:
+#       layout: page
+
 sass:
   style: compressed
