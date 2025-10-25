@@ -3,11 +3,57 @@ layout: default
 title: Home
 permalink: /
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="container hero-content">
+    <h1>Discover the Magic of Samaná</h1>
+    <p class="sub">
+      Adventure, nature, and unforgettable experiences await you on the breathtaking shores of the Dominican Republic.
+    </p>
+    <a class="btn" href="https://wa.me/15046572553" target="_blank" rel="noopener">Start Your Journey</a>
+  </div>
+</section>
+
+<!-- Featured Tours -->
+<section class="container">
+  <h2 class="center mt-2" style="color:#028a0f;">Our Top Eco-Adventures</h2>
+
+  <div class="card-grid compact mt-2">
+    <div class="tour-card">
+      <a href="{{ '/whales.html' | relative_url }}">
+        <img src="{{ '/assets/images/whalesplash.jpg' | relative_url }}" alt="Whale Watching">
+        <h3>Whale Watching</h3>
+        <p>Experience majestic humpback whales in their natural sanctuary.</p>
+      </a>
+    </div>
+
+    <div class="tour-card">
+      <a href="{{ '/waterfall.html' | relative_url }}">
+        <img src="{{ '/assets/images/Elvis-waterfall-limon.jpg' | relative_url }}" alt="El Limón Waterfall">
+        <h3>El Limón Waterfall</h3>
+        <p>Ride on horseback through lush forests to an enchanting cascade.</p>
+      </a>
+    </div>
+
+    <div class="tour-card">
+      <a href="{{ '/treasure-hunt.html' | relative_url }}">
+        <img src="{{ '/assets/images/sunkenPirateship2.jpg' | relative_url }}" alt="Treasure Hunt Tour">
+        <h3>Treasure Hunt Tour</h3>
+        <p>Family-friendly snorkeling and beach treasure adventure.</p>
+      </a>
+    </div>
+
+    <div class="tour-card">
+      <a href="{{ '/caves-and-boating.html' | relative_url }}">
+        <img src="{{ '/assets/images/cavekid.jpg' | relative_url }}" alt="Caves and Boating">
+        <h3>Caves &amp; Boating</h3>
+        <p>Caving, mangrove exploration, tropical rivers, and bird watching.</p>
+      </a>
+    </div>
+  </div>
+</section>
+
   <title>Eco-Samaná Tours | Paradise Awaits</title>
 
   <!-- Load your single global stylesheet -->
