@@ -1,3 +1,4 @@
+![Eco-Samaná Team](/assets/imges/elvis-team.jpg)
 ---
 layout: page
 title: About Us
