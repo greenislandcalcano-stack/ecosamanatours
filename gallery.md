@@ -16,12 +16,12 @@ Explore a few moments from our eco-adventures around Samaná 🌿
   </figure>
 
   <figure>
-    <img src="{{ '/assets/images/tours/secret-treasure/snorkel.jpg' | relative_url }}" alt="Snorkeling in clear waters" loading="lazy">
+    <img src="{{ '/assets/images/tours/secret-treasure/rincon-beach.jpg' | relative_url }}" alt="Snorkeling in clear waters" loading="lazy">
     <figcaption>Snorkeling in clear waters</figcaption>
   </figure>
 
   <figure>
-    <img src="{{ '/assets/images/tours/secret-treasure/beach.jpg' | relative_url }}" alt="Hidden beach stop" loading="lazy">
+    <img src="{{ '/assets/images/tours/secret-treasure/treasure.ches.jpg' | relative_url }}" alt="Hidden beach stop" loading="lazy">
     <figcaption>Hidden beach stop</figcaption>
   </figure>
 </div>
