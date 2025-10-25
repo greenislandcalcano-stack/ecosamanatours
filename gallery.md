@@ -1,4 +1,11 @@
 ---
+layout: page
+title: Gallery
+permalink: /gallery/
+---
+# Gallery
+(Your gallery content goes here)
+---
 title: Gallery
 ---
 
