@@ -5,6 +5,12 @@ permalink: /about/
 description: Eco-Samaná — eco-friendly tours guided by locals who protect Samaná’s nature and culture.
 ---
 
+# Meet Our Team
+
+<img src="{{ '/assets/images/team/elvis-team.jpg' | relative_url }}" alt="Our Eco-Samaná Team">
+
+Eco-Samaná is built by passionate locals who love Samaná and protect its natural beauty.
+
 ## Discover the Soul of Samaná
 At **Eco-Samaná**, we believe that exploring nature isn’t just about seeing — it’s about *connecting*. Our tours are designed to immerse travelers in the breathtaking landscapes, vibrant culture, and untold stories of the Samaná Peninsula — one of the most biodiverse corners of the Caribbean.
 
