@@ -1,3 +1,10 @@
+# about.md
+---
+layout: page
+title: About Us
+permalink: /about/
+---
+
 ---
 title: Whale Watching – Samaná Bay
 image: /assets/images/hero/whales.jpg
