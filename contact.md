@@ -1,3 +1,10 @@
+# about.md
+---
+layout: page
+title: About Us
+permalink: /about/
+---
+
 ---
 title: Contact / Book
 ---
