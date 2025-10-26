@@ -1,9 +1,11 @@
 # about.md
----
+----
 layout: page
 title: About Us
 permalink: /about/
+description: Eco-Samaná — eco-friendly tours guided by locals.
 ---
+
 
 ---
 title: Waterfalls & Nature
