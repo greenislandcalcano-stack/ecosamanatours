@@ -25,3 +25,5 @@ Explore a few moments from our eco-adventures around Samaná 🌿
     <figcaption>Hidden beach stop</figcaption>
   </figure>
 </div>
+
+ 
