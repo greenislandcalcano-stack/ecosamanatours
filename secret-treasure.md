@@ -1,3 +1,10 @@
+# about.md
+---
+layout: page
+title: About Us
+permalink: /about/
+---
+
 ---
 title: "The Secret Treasure – Pirate Excursion in Samaná"
 description: "Family-friendly boat & snorkeling treasure hunt visiting 4 beaches in Santa Bárbara de Samaná. Cruise 3h; Hotel 4h30."
