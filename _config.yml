@@ -22,8 +22,11 @@ plugins:
 
 sass:
   style: compressed
+email: ecalcano@eco-samana.com
+
 social:
-  twitter: https://twitter.com/YourHandle
-  facebook: https://facebook.com/YourPage
-  instagram: https://instagram.com/YourProfile
-  tiktok: https://www.tiktok.com/@YourHandle
+  twitter: "https://twitter.com/YourHandle"
+  facebook: "https://facebook.com/YourPage"
+  instagram: "https://instagram.com/YourProfile"
+  tiktok: "https://www.tiktok.com/@YourHandle"
+
