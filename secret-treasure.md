@@ -3,7 +3,9 @@
 layout: page
 title: About Us
 permalink: /about/
+description: Eco-Samaná — eco-friendly tours guided by locals.
 ---
+
 
 ---
 title: "The Secret Treasure – Pirate Excursion in Samaná"
