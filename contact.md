@@ -9,8 +9,9 @@ permalink: /contact/
 title: Contact / Book
 ---
 
-**WhatsApp:** <a class="btn" href="https://wa.me/15046572553">+1 (504) 657-2553</a>  
-**Email:** info@ecosamana.com
+**WhatsApp:** [ +1 (504) 657-2553 ](https://wa.me/15046572553)  
+**Email:** [ecalcano@eco-samana.com](mailto:ecalcano@eco-samana.com)
+
 
 Or leave your details:
 
