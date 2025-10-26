@@ -14,11 +14,6 @@ Eco-Samaná is built by passionate locals who love Samaná and protect its natur
 ## Discover the Soul of Samaná
 At **Eco-Samaná**, we believe that exploring nature isn’t just about seeing — it’s about *connecting*. Our tours are designed to immerse travelers in the breathtaking landscapes, vibrant culture, and untold stories of the Samaná Peninsula — one of the most biodiverse corners of the Caribbean.
 
-<p align="center">
-  <img src="{{ '/assets/images/elvis-team.jpg' | relative_url }}" alt="Eco-Samaná Team" class="hero-image">
-  <br><em>Our team exploring the mangroves of Samaná</em>
-</p>
-
 We are more than just a tour company. We are **guardians of the land, the sea, and its people** — proud to share the magic of this region with travelers from all over the world.
 
 ### Our Story
