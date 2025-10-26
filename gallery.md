@@ -21,7 +21,7 @@ Explore a few moments from our eco-adventures around Samaná 🌿
   </figure>
 
   <figure>
-    <img src="{{ '/assets/images/tours/secret-treasure/treasure-chest.jpg' | relative_url }}" alt="Hidden beach stop" loading="lazy">
+    <img src="{{ '/assets/images/tours/my-treasure-chest.jpg' | relative_url }}" alt="Hidden beach stop" loading="lazy">
     <figcaption>Hidden beach stop</figcaption>
   </figure>
 </div>
