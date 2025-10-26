@@ -22,3 +22,8 @@ plugins:
 
 sass:
   style: compressed
+social:
+  twitter: https://twitter.com/YourHandle
+  facebook: https://facebook.com/YourPage
+  instagram: https://instagram.com/YourProfile
+  tiktok: https://www.tiktok.com/@YourHandle
