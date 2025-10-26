@@ -225,3 +225,23 @@ thead th{ background: color-mix(in oklab, var(--brand) 10%, transparent); }
   .site-header, .site-footer, .btn, .cta-button{ display:none !important; }
   a::after{ content:" (" attr(href) ")"; font-size: .9em; color: #666; }
 }
+/* Centered, readable page width */
+.container { max-width: 1100px; margin: 0 auto; padding: 0 1rem; }
+
+/* Default page spacing */
+.page { padding: 2rem 0; }
+.page-header { text-align: center; margin-bottom: 1.25rem; }
+.page-header .lead { margin-top: .5rem; opacity: .8; }
+
+/* Make common content look centered/clean */
+.page-content img { display: block; max-width: 100%; height: auto; margin: 1rem auto; border-radius: 10px; }
+.page-content p, .page-content ul, .page-content ol { line-height: 1.7; }
+.text-center, .center { text-align: center; }
+
+/* Optional: scale down huge first images on pages */
+.hero-image { max-width: 900px; width: 100%; margin: 0 auto; border-radius: 10px; }
+
+/* Cards/grids you already use elsewhere still work */
+.grid { display: grid; gap: 1rem; }
+.grid-3 { grid-template-columns: repeat(3, 1fr); }
+@media (max-width: 700px){ .grid-3 { grid-template-columns: 1fr; } }
