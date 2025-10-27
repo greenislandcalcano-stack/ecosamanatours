@@ -32,6 +32,6 @@ description: Reach out to plan your eco-adventure in Samaná.
 
 ## Find us
 <p class="text-center">
-  <img class="hero-image" src="{{ '/assets/images/misc/map-placeholder.jpg' | relative_url }}" alt="Map of Samaná" loading="lazy">
+  <img class="hero-image" src="{{ '/assets/images/misc/white-breast-humpback.jpg' | relative_url }}" alt="Map of Samaná" loading="lazy">
   <br><em>Santa Bárbara de Samaná, Dominican Republic</em>
 </p>
