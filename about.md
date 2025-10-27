@@ -2,44 +2,58 @@
 layout: page
 title: About Us
 permalink: /about/
-description: Eco-Samaná — eco-friendly tours guided by locals who protect Samaná’s nature and culture.
+description: Eco-Samaná — locally-guided eco tours that protect nature and culture.
 ---
 
-# Meet Our Team
+<!-- Hero / lead -->
+<p class="text-center">
+  <img class="hero-image"
+       src="{{ '/assets/images/team/elvis-team.jpg' | relative_url }}"
+       alt="Eco-Samaná Team" loading="lazy">
+  <br><em>Our team exploring the mangroves of Samaná</em>
+</p>
 
-<img src="{{ '/assets/images/team/elvis-team.jpg' | relative_url }}" alt="Our Eco-Samaná Team">
+## Our Mission
+At **Eco-Samaná**, we believe travel should protect what it touches. We design small-group adventures that fund conservation, empower local guides, and leave every place better than we found it.
 
-Eco-Samaná is built by passionate locals who love Samaná and protect its natural beauty.
+## What makes us different
+<div class="card-grid compact mt-2">
+  <div class="card">
+    <h3>Local Expertise</h3>
+    <p>Born and raised in Samaná — we share the hidden spots, stories, and sea lanes only locals know.</p>
+  </div>
+  <div class="card">
+    <h3>Wildlife First</h3>
+    <p>Responsible distances, quiet engines, and certified guides to keep whales, manatees, and birds stress-free.</p>
+  </div>
+  <div class="card">
+    <h3>Community Impact</h3>
+    <p>Every booking supports clean-up days, reef monitoring, and mangrove restoration.</p>
+  </div>
+</div>
 
-## Discover the Soul of Samaná
-At **Eco-Samaná**, we believe that exploring nature isn’t just about seeing — it’s about *connecting*. Our tours are designed to immerse travelers in the breathtaking landscapes, vibrant culture, and untold stories of the Samaná Peninsula — one of the most biodiverse corners of the Caribbean.
+## Moments from the water
+<div class="grid grid-3 mt-2">
+  <figure>
+    <img src="{{ '/assets/images/whalesplash.jpg' | relative_url }}" alt="Whale breach" loading="lazy">
+    <figcaption>Humpback breach during migration</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ '/assets/images/Elvis-waterfall-limon.jpg' | relative_url }}" alt="El Limón waterfall" loading="lazy">
+    <figcaption>Horseback approach to El Limón</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ '/assets/images/Samanaboats1.jpg' | relative_url }}" alt="Boats in Samaná" loading="lazy">
+    <figcaption>Quiet coves, clear water</figcaption>
+  </figure>
+</div>
 
-We are more than just a tour company. We are **guardians of the land, the sea, and its people** — proud to share the magic of this region with travelers from all over the world.
+## Meet your lead guide
+<div class="media">
+  <img class="media-img" src="{{ '/assets/images/Elvis-Calcano.jpg' | relative_url }}" alt="Elvis Calcaño" loading="lazy">
+  <div class="media-body">
+    <p><strong>Elvis Calcaño</strong> is a certified naturalist and captain with thousands of safe miles across Samaná Bay. He trains local youth in seamanship and reef etiquette.</p>
+    <p><a class="btn" href="{{ '/contact/' | relative_url }}">Plan your trip</a></p>
+  </div>
+</div>
 
-### Our Story
-Eco-Samaná was born from a simple idea: *Protect what we love and share it with respect.* Founded by locals who grew up surrounded by the ocean breeze, coconut groves, mangroves, and migrating whales, our team has deep roots in this land. We saw tourism rising — and decided to make it sustainable.  
-
-Today, we lead eco-friendly adventures that respect nature, uplift local communities, and give travelers authentic experiences — not just sightseeing.
-
-### Our Mission
-- Preserve Samaná’s natural treasures through responsible tourism.  
-- Support local families, guides, artisans, and fishermen.  
-- Inspire travelers to fall in love with nature — and protect it.  
-- Promote conservation of whales, mangroves, coral reefs, and endemic wildlife.
-
-Every tour booked is a **direct contribution** to the protection of Samaná’s ecosystems and the communities that care for them.
-
-### Meet the People Behind Eco-Samaná
-We are a team of passionate local guides, boat captains, environmental advocates, and storytellers who grew up exploring the hidden corners of Samaná.  
-
-### Why Travelers Choose Us
-- Small groups — big experiences.  
-- Local guides who know the land like the palm of their hand.  
-- Real community impact with every tour.  
-- Eco-friendly practices from shore to boat.  
-- Adventures that feel personal, not commercial.
-
-### Join Our Journey
-Samaná is more than a destination — it’s a living story. We invite you to walk its trails, sail its turquoise waters, and feel its heartbeat through its people.
-
-[**Book Your Eco-Adventure**](/tours/)
