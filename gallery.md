@@ -1,3 +1,4 @@
+
 ---
 layout: page
 title: Gallery
@@ -18,10 +19,15 @@ description: Scenes from our eco-tours in Samaná — whales, waterfalls, mangro
     <div class="grid">
       {% for item in section.items %}
       <figure class="card">
-        <a href="{{ item.src }}">
-          <img loading="lazy" src="{{ item.thumb | default: item.src }}" alt="{{ item.alt | escape }}">
+        <a href="{{ item.src | relative_url }}">
+          <img 
+            loading="lazy"
+            src="{{ (item.thumb | default: item.src) | relative_url }}"
+            alt="{{ item.alt | escape }}">
         </a>
-        {% if item.caption %}<figcaption>{{ item.caption }}</figcaption>{% endif %}
+        {% if item.caption %}
+          <figcaption>{{ item.caption }}</figcaption>
+        {% endif %}
       </figure>
       {% endfor %}
     </div>
@@ -32,12 +38,19 @@ description: Scenes from our eco-tours in Samaná — whales, waterfalls, mangro
 <style>
 /* --- Minimal, responsive gallery styles --- */
 .gallery-toc {
-  display:flex; flex-wrap:wrap; gap:.5rem; margin: 0 0 1rem 0;
+  display:flex;
+  flex-wrap:wrap;
+  gap:.5rem;
+  margin: 0 0 1rem 0;
 }
 .gallery-toc a {
-  padding:.4rem .7rem; border:1px solid var(--border, #ddd);
-  border-radius:999px; text-decoration:none; font-size:.95rem;
+  padding:.4rem .7rem;
+  border:1px solid var(--border, #ddd);
+  border-radius:999px;
+  text-decoration:none;
+  font-size:.95rem;
 }
+
 .gallery-wrap { --gap: .75rem; }
 .gallery-section { margin: 2rem 0; }
 .gallery-section h2 { margin: .5rem 0 1rem; font-size: clamp(1.25rem, 2vw, 1.6rem); }
@@ -50,24 +63,33 @@ description: Scenes from our eco-tours in Samaná — whales, waterfalls, mangro
 @media (min-width: 720px) { .grid { grid-template-columns: repeat(3, 1fr); } }
 @media (min-width: 1080px){ .grid { grid-template-columns: repeat(4, 1fr); } }
 
-.card { background: var(--card, #fff); border-radius: .75rem; overflow:hidden;
-        border: 1px solid var(--border, #e5e5e5); }
-.card img { width:100%; height: 220px; object-fit: cover; display:block; }
-.card figcaption { font-size:.9rem; padding:.5rem .6rem .7rem; color:#333; }
+.card {
+  background: var(--card, #fff);
+  border-radius: .75rem;
+  overflow:hidden;
+  border: 1px solid var(--border, #e5e5e5);
+}
+.card img {
+  width:100%;
+  height: 220px;
+  object-fit: cover;
+  display:block;
+}
+.card figcaption {
+  font-size:.9rem;
+  padding:.5rem .6rem .7rem;
+  color:#333;
+}
 
-/* Optional: light “zoom” without JS using :target */
+/* Optional: light “zoom” behavior */
 .gallery-wrap a { display:block; position:relative; }
 .gallery-wrap a[href^="#"]{ cursor: zoom-in; }
 </style>
 
 <script>
-/* Simple no-dependency lightbox:
-   - When you click an image, we open the full image in a new tab by default.
-   - If you prefer an on-page lightbox, plug in SimpleLightbox or Photoswipe later.
-*/
+/* Simple behavior: opens images in a new tab */
 document.querySelectorAll('.gallery-wrap a').forEach(a=>{
   a.addEventListener('click', (e)=>{
-    // open the high-res image in a new tab
     if (a.getAttribute('href')?.match(/\.(jpg|jpeg|png|webp|avif)(\?.*)?$/i)) {
       e.preventDefault();
       window.open(a.getAttribute('href'), '_blank', 'noopener');
