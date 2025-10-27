@@ -1,1 +1,58 @@
+# _data/gallery.yml
+sections:
+  - id: boats
+    title: Boats & Catamarans
+    items:
+      - src: /assets/images/gallery/catamaran-samana-01.jpg
+        thumb: /assets/images/gallery/catamaran-samana-01.jpg
+        alt: Catamaran in Samaná Bay at golden hour
+        caption: Catamaran in Samaná Bay
+      - src: /assets/images/gallery/caves-boat-01.jpg
+        thumb: /assets/images/gallery/caves-boat-01.jpg
+        alt: Small boat entering a limestone cave
+        caption: Caves & boating
+
+  - id: snorkeling
+    title: Snorkeling
+    items:
+      - src: /assets/images/gallery/snorkeling-reef-01.jpg
+        thumb: /assets/images/gallery/snorkeling-reef-01.jpg
+        alt: Snorkeler over clear coral reef
+        caption: Snorkeling in clear waters
+      - src: /assets/images/gallery/snorkeling-reef-02.jpg
+        thumb: /assets/images/gallery/snorkeling-reef-02.jpg
+        alt: Tropical fish in turquoise water
+        caption: Tropical reef life
+
+  - id: waterfalls
+    title: Waterfalls
+    items:
+      - src: /assets/images/gallery/waterfall-el-limon-01.jpg
+        thumb: /assets/images/gallery/waterfall-el-limon-01.jpg
+        alt: El Limón waterfall surrounded by jungle
+        caption: El Limón waterfall
+
+  - id: mangroves
+    title: Mangroves
+    items:
+      - src: /assets/images/gallery/mangrove-kayak-01.jpg
+        thumb: /assets/images/gallery/mangrove-kayak-01.jpg
+        alt: Kayaking through mangrove channels
+        caption: Kayak through mangroves
+
+  - id: beaches
+    title: Secret Beaches
+    items:
+      - src: /assets/images/gallery/hidden-beach-01.jpg
+        thumb: /assets/images/gallery/hidden-beach-01.jpg
+        alt: Secluded white-sand beach with palm shade
+        caption: Hidden beach stop
+
+  - id: whales
+    title: Whales (seasonal)
+    items:
+      - src: /assets/images/gallery/whale-watching-01.jpg
+        thumb: /assets/images/gallery/whale-watching-01.jpg
+        alt: Humpback whale tail in Samaná
+        caption: Humpback whale watching (Jan–Mar)
 
