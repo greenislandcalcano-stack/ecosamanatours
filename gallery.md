@@ -19,12 +19,16 @@ description: Scenes from our eco-tours in Samaná — whales, waterfalls, mangro
     <div class="grid">
       {% for item in section.items %}
       <figure class="card">
+        
         <a href="{{ item.src | relative_url }}">
-          <img 
-            loading="lazy"
-            src="{{ (item.thumb | default: item.src) | relative_url }}"
-            alt="{{ item.alt | escape }}">
-        </a>
+  <img
+    loading="lazy"
+    src="{{ (item.thumb | default: item.src) | relative_url }}"
+    alt="{{ item.alt | escape }}"
+  >
+</a>
+
+       
         {% if item.caption %}
           <figcaption>{{ item.caption }}</figcaption>
         {% endif %}
