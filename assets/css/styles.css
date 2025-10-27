@@ -11,11 +11,13 @@ img {
 }
 /* ✅ Hero image styling */
 .hero-image {
-  max-width: 900px;   /* adjust this number to taste */
+  max-width: 800px;
   width: 100%;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  margin: 0 auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
 }
+
 @media (max-width: 600px) {
   .hero-image {
     max-width: 100%;
