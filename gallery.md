@@ -28,6 +28,30 @@ image: /assets/images/catamaran-samana-01.jpg
     alt="{{ item.alt | escape }}"
   >
 </a>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TouristAttraction",
+  "name": "Eco-Samaná Tours Gallery",
+  "description": "Stunning eco-tours in Samaná, Dominican Republic — whale watching, snorkeling, waterfalls, and secret beaches.",
+  "image": [
+    "{{ '/assets/images/catamaran-samana-01.jpg' | relative_url }}",
+    "{{ '/assets/images/whale-watching-01.jpg' | relative_url }}",
+    "{{ '/assets/images/waterfall-el-limon-01.jpg' | relative_url }}"
+  ],
+  "touristType": "Eco Tourism",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Samaná",
+    "addressCountry": "Dominican Republic"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 19.2056,
+    "longitude": -69.3361
+  }
+}
+</script>
 
        
         {% if item.caption %}
