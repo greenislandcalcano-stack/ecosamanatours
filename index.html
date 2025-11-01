@@ -3,6 +3,14 @@ layout: default
 title: Home
 permalink: /
 ---
+<style>
+  .gallery { text-align: center; padding: 2rem; background: #0b1720; }
+  .gallery h2 { color: #fff; margin-bottom: 1rem; font-size: 2rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
+  .grid img { width: 100%; height: 180px; object-fit: cover; border-radius: 12px;
+              box-shadow: 0 4px 10px rgba(0,0,0,.15); transition: transform .3s; }
+  .grid img:hover { transform: scale(1.05); }
+</style>
 
 <!-- Hero Section -->
 <section class="hero">
