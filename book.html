@@ -1,1 +1,81 @@
+---
+layout: default
+title: Book a Tour
+permalink: /book/
+---
+
+<section class="book">
+  <h1>Reserve your Eco-Samaná tour</h1>
+  <p class="sub">Pickup at hotel gates or boarding dock. You’ll receive a confirmation by email/WhatsApp.</p>
+
+  <form id="bookingForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+    <label>Choose your tour
+      <select name="tour" id="tour" required>
+        <option value="">Select…</option>
+        <option value="Whale Watching">Whale Watching</option>
+        <option value="El Limón Waterfall">El Limón Waterfall</option>
+        <option value="Caves & Boating">Caves & Boating</option>
+        <option value="Treasure Hunt (Family)">Treasure Hunt (Family)</option>
+        <option value="Snorkeling Cayo Vigía">Snorkeling Cayo Vigía</option>
+      </select>
+    </label>
+
+    <label>Date <input type="date" name="date" required></label>
+    <label>Time (if applicable) <input type="time" name="time"></label>
+    <label>Adults <input type="number" name="adults" min="1" value="2" required></label>
+    <label>Children <input type="number" name="children" min="0" value="0"></label>
+
+    <label>Full name <input type="text" name="name" required></label>
+    <label>Email <input type="email" name="email" required></label>
+    <label>Phone / WhatsApp <input type="tel" name="phone" required></label>
+
+    <label>Pickup location (hotel/dock) <input type="text" name="pickup" placeholder="Hotel gates or boarding dock"></label>
+
+    <label>Notes <textarea name="notes" rows="3" placeholder="Language, diet, special requests…"></textarea></label>
+
+    <!-- anti-spam honeypot -->
+    <input type="text" name="_gotcha" style="display:none">
+
+    <!-- customer auto-reply subject -->
+    <input type="hidden" name="_subject" value="Eco-Samaná: we received your booking request!">
+    <!-- redirect after submit -->
+    <input type="hidden" name="_redirect" value="https://eco-samana.com/booked/">
+
+    <button type="submit" class="btn">Request reservation</button>
+  </form>
+
+  <p class="alt">Prefer WhatsApp? <a id="waLink" class="btn secondary" target="_blank" rel="noopener">Book on WhatsApp</a></p>
+</section>
+
+<script>
+  const wa = (text) => `https://wa.me/1809XXXXXXX?text=${encodeURIComponent(text)}`; // put your WhatsApp #
+  const f = document.getElementById('bookingForm');
+  const link = document.getElementById('waLink');
+
+  const buildMsg = () => {
+    const d = new FormData(f);
+    return `Booking request:
+Tour: ${d.get('tour')}
+Date: ${d.get('date')} ${d.get('time')||''}
+People: ${d.get('adults')} adults, ${d.get('children')} children
+Name: ${d.get('name')} | Email: ${d.get('email')} | Phone: ${d.get('phone')}
+Pickup: ${d.get('pickup')}
+Notes: ${d.get('notes')||'-'}`;
+  };
+
+  f.addEventListener('input', () => link.href = wa(buildMsg()));
+  link.href = wa('Hi! I want to book a tour with Eco-Samaná Adventures.');
+</script>
+
+<style>
+.book{max-width:860px;margin:0 auto;padding:2rem}
+.book h1{font-size:2rem;margin-bottom:.5rem}
+.book .sub{opacity:.8;margin-bottom:1rem}
+form{display:grid;gap:.9rem}
+label{display:grid;gap:.35rem}
+input,select,textarea{background:#0f172a;border:1px solid #1f2a3a;border-radius:.6rem;color:#fff;padding:.7rem}
+.btn{display:inline-block;padding:.8rem 1.1rem;border-radius:.8rem;background:#16A34A;color:#fff;font-weight:600;text-decoration:none;border:none}
+.btn.secondary{background:#2563EB}
+.alt{margin-top:1rem}
+</style>
 
