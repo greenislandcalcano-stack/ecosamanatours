@@ -79,3 +79,27 @@ input,select,textarea{background:#0f172a;border:1px solid #1f2a3a;border-radius:
 .alt{margin-top:1rem}
 </style>
 
+<script>
+  const paymentLinks = {
+    "Whale Watching": "https://buy.stripe.com/XXXXwhale",
+    "El Limón Waterfall": "https://buy.stripe.com/XXXXlimon",
+    "Caves & Boating": "https://buy.stripe.com/XXXXcaves",
+    "Treasure Hunt (Family)": "https://buy.stripe.com/XXXXtreasure",
+    "Snorkeling Cayo Vigía": "https://buy.stripe.com/XXXXsnorkel"
+  };
+
+  f.addEventListener('submit', (e) => {
+    const d = new FormData(f);
+    const tour = d.get('tour');
+    const qty  = (parseInt(d.get('adults')||0) + parseInt(d.get('children')||0)) || 1;
+
+    // send the form to Formspree for your records
+    // (optional) then open Stripe in a new tab:
+    if (paymentLinks[tour]) {
+      setTimeout(() => {
+        const url = paymentLinks[tour]; // Some links support &quantity=Q
+        window.open(url, '_blank');
+      }, 50);
+    }
+  });
+</script>
