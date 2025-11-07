@@ -13,7 +13,7 @@ description: Reach out to plan your eco-adventure in Samaná.
   </div>
   <div class="card">
     <h3>Email</h3>
-    <p><a class="btn" href="mailto:{{ site.email | default: 'ecalcano@eco-samana.com' }}">{{ site.email | default: 'ecalcano@eco-samana.com' }}</a></p>
+    <p><a class="btn" href="mailto:{{ site.email | default: 'eco-samanadventures@gmail.com' }}">{{ site.email | default: 'ecalcano@eco-samana.com' }}</a></p>
   </div>
   <div class="card">
     <h3>Instagram</h3>
