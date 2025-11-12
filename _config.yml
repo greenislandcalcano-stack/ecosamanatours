@@ -31,3 +31,8 @@ social:
   instagram: "https://www.instagram.com/eco.samana/"
   tiktok: "https://www.tiktok.com/@elinacalcano"
 
+collections:
+  info:
+    output: true
+    permalink: /info/:name/
+
