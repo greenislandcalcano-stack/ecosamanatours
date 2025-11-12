@@ -583,3 +583,47 @@ thead th{ background: color-mix(in oklab, var(--brand) 10%, transparent); }
     background: #00d47a;
   }
 </style>
+<style>
+  /* Gallery grid */
+  .tour-gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:1.2rem;
+  }
+
+  /* Clickable card */
+  .thumb-card{
+    display:flex;
+    flex-direction:column;
+    background:rgba(8,17,26,.75);
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:12px;
+    box-shadow:0 6px 18px rgba(0,0,0,.35);
+    overflow:hidden;
+    text-decoration:none;
+    color:inherit;
+    transition:transform .2s ease, box-shadow .2s ease;
+  }
+  .thumb-card:hover{ transform:translateY(-3px); box-shadow:0 10px 24px rgba(0,0,0,.45); }
+
+  /* Uniform image window (change aspect-ratio if you prefer 1/1 or 16/9) */
+  .thumb-card img{
+    width:100%;
+    aspect-ratio: 4/3;      /* <- choose 1/1, 4/3, 3/2, or 16/9 */
+    object-fit:cover;
+    display:block;
+  }
+
+  /* Caption */
+  .thumb-cap{
+    padding:.75rem .9rem;
+    font-size:.92rem;
+    color:#cfe3f2;
+    background:linear-gradient(180deg, rgba(6,14,22,.65), rgba(6,14,22,.9));
+    min-height:3rem;         /* keeps captions visually even */
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+  }
+</style>
