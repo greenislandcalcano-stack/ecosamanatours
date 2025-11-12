@@ -680,3 +680,12 @@ a.thumb-card img {
     aspect-ratio: 1/1;              /* square thumbs look best on phones */
   }
 }
+/* Make all <img> elements clickable, wrapping them in links */
+img.clickable {
+  cursor: zoom-in;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+img.clickable:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 14px rgba(0,0,0,.35);
+}
