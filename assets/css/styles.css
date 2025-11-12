@@ -388,3 +388,198 @@ thead th{ background: color-mix(in oklab, var(--brand) 10%, transparent); }
   .tour-hero { padding-top:3rem; }
 }
 
+<style>
+  /* --- General Page Style --- */
+  body {
+    background: radial-gradient(circle at top, #101924 0%, #070e14 100%);
+    color: #e8f0fa;
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+    line-height: 1.7;
+    font-size: 1.05rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1, h2, h3, h4 {
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+  }
+
+  p, li {
+    color: #d0dae6;
+    margin-bottom: 1rem;
+  }
+
+  strong {
+    color: #fff;
+  }
+
+  a {
+    color: #00b86b;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+
+  /* --- Hero Section --- */
+  .tour-hero, .treasure-hero {
+    background: linear-gradient(160deg, rgba(5,10,15,0.85), rgba(0,20,40,0.7)), 
+                url('{{ "/assets/images/hero-bg.jpg" | relative_url }}') center/cover no-repeat;
+    color: #ffffff;
+    text-align: center;
+    padding: 6rem 1rem;
+  }
+
+  .tour-hero h1 {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+
+  .tour-hero p.lead {
+    font-size: 1.2rem;
+    color: #e4eef9;
+    max-width: 750px;
+    margin: 0 auto 2rem;
+  }
+
+  .hero-meta span {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255,255,255,0.15);
+    padding: 0.4rem 1rem;
+    border-radius: 25px;
+    margin: 0.25rem;
+    font-size: 0.9rem;
+  }
+
+  .hero-ctas {
+    margin-top: 1.5rem;
+  }
+
+  .hero-ctas .btn {
+    display: inline-block;
+    background: #00b86b;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 6px;
+    padding: 0.8rem 1.6rem;
+    margin: 0.3rem;
+    transition: background 0.3s, transform 0.2s;
+  }
+
+  .hero-ctas .btn.secondary {
+    background: transparent;
+    border: 1.5px solid #00b86b;
+    color: #00b86b;
+  }
+
+  .hero-ctas .btn:hover {
+    transform: translateY(-2px);
+    background: #00c77a;
+  }
+
+  /* --- Content Section --- */
+  .tour-content {
+    background: rgba(10, 18, 25, 0.85);
+    border-radius: 12px;
+    padding: 3rem 1.5rem;
+    margin: 2rem auto;
+    max-width: 1100px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.3);
+  }
+
+  .tour-content h2 {
+    color: #0ff7a0;
+    border-left: 4px solid #0ff7a0;
+    padding-left: 0.5rem;
+    margin-top: 2rem;
+  }
+
+  .tour-main ul, .tour-main ol {
+    margin-left: 1.5rem;
+  }
+
+  /* --- Sidebar --- */
+  .tour-sidebar {
+    background: rgba(20, 30, 40, 0.8);
+    padding: 1.5rem;
+    border-radius: 10px;
+  }
+
+  .card {
+    background: rgba(0, 20, 35, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    padding: 1rem 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .card h3 {
+    color: #00e698;
+    margin-bottom: 0.8rem;
+  }
+
+  /* --- Gallery --- */
+  .tour-gallery {
+    padding: 3rem 1rem;
+    background: linear-gradient(180deg, #0b1720, #0a1b29);
+  }
+
+  .tour-gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.2rem;
+    margin-top: 2rem;
+  }
+
+  .tour-gallery img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+    transition: transform 0.3s ease;
+  }
+
+  .tour-gallery img:hover {
+    transform: scale(1.03);
+  }
+
+  figcaption {
+    text-align: center;
+    color: #a7bed3;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+  }
+
+  /* --- Bottom CTA --- */
+  .tour-bottom-cta {
+    background: #08131d;
+    text-align: center;
+    padding: 4rem 1.5rem;
+  }
+
+  .tour-bottom-cta h2 {
+    color: #00f5a0;
+    margin-bottom: 1rem;
+  }
+
+  .tour-bottom-cta p {
+    color: #cbe7dd;
+    max-width: 700px;
+    margin: 0 auto 2rem;
+  }
+
+  .tour-bottom-cta .btn {
+    background: #00b86b;
+    color: #fff;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+  }
+
+  .tour-bottom-cta .btn:hover {
+    background: #00d47a;
+  }
+</style>
