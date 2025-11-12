@@ -584,46 +584,49 @@ thead th{ background: color-mix(in oklab, var(--brand) 10%, transparent); }
   }
 </style>
 <style>
-  /* Gallery grid */
-  .tour-gallery-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-    gap:1.2rem;
-  }
+  <div class="tour-gallery-grid">
+  <a class="thumb-card" href="{{ '/assets/images/snorkeling-001.jpg' | relative_url }}" target="_blank" rel="noopener">
+    <img loading="lazy" src="{{ '/assets/images/snorkeling-001.jpg' | relative_url }}" alt="Snorkeling near Cayo Vigía">
+    <span class="thumb-cap">Snorkeling near Cayo Vigía</span>
+  </a>
 
-  /* Clickable card */
-  .thumb-card{
-    display:flex;
-    flex-direction:column;
-    background:rgba(8,17,26,.75);
-    border:1px solid rgba(255,255,255,.08);
-    border-radius:12px;
-    box-shadow:0 6px 18px rgba(0,0,0,.35);
-    overflow:hidden;
-    text-decoration:none;
-    color:inherit;
-    transition:transform .2s ease, box-shadow .2s ease;
-  }
-  .thumb-card:hover{ transform:translateY(-3px); box-shadow:0 10px 24px rgba(0,0,0,.45); }
+  <a class="thumb-card" href="{{ '/assets/images/snorkeling-coralvigia.jpg' | relative_url }}" target="_blank" rel="noopener">
+    <img loading="lazy" src="{{ '/assets/images/snorkeling-coralvigia.jpg' | relative_url }}" alt="Reef dive at Cayo Vigía">
+    <span class="thumb-cap">Reef dive at Cayo Vigía</span>
+  </a>
 
-  /* Uniform image window (change aspect-ratio if you prefer 1/1 or 16/9) */
-  .thumb-card img{
-    width:100%;
-    aspect-ratio: 4/3;      /* <- choose 1/1, 4/3, 3/2, or 16/9 */
-    object-fit:cover;
-    display:block;
-  }
+  <a class="thumb-card" href="{{ '/assets/images/santa-barbara-01.jpg' | relative_url }}" target="_blank" rel="noopener">
+    <img loading="lazy" src="{{ '/assets/images/santa-barbara-01.jpg' | relative_url }}" alt="Santa Bárbara de Samaná Coastline">
+    <span class="thumb-cap">The Village</span>
+  </a>
 
-  /* Caption */
-  .thumb-cap{
-    padding:.75rem .9rem;
-    font-size:.92rem;
-    color:#cfe3f2;
-    background:linear-gradient(180deg, rgba(6,14,22,.65), rgba(6,14,22,.9));
-    min-height:3rem;         /* keeps captions visually even */
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    text-align:center;
-  }
-</style>
+  <a class="thumb-card" href="{{ '/assets/images/snorkeling-003.jpg' | relative_url }}" target="_blank" rel="noopener">
+    <img loading="lazy" src="{{ '/assets/images/snorkeling-003.jpg' | relative_url }}" alt="Underwater near Vigía">
+    <span class="thumb-cap">Underwater near Vigía</span>
+  </a>
+
+  <a class="thumb-card" href="{{ '/assets/images/sailing-snorkeling.jpg' | relative_url }}" target="_blank" rel="noopener">
+    <img loading="lazy" src="{{ '/assets/images/sailing-snorkeling.jpg' | relative_url }}" alt="Snorkelers exploring reef">
+    <span class="thumb-cap">Snorkelers exploring reef</span>
+  </a>
+
+  <a class="thumb-card" href="{{ '/assets/images/tunel-island1.jpg' | relative_url }}" target="_blank" rel="noopener">
+    <img loading="lazy" src="{{ '/assets/images/tunel-island1.jpg' | relative_url }}" alt="Túnel Island Rock Tunnel">
+    <span class="thumb-cap">Túnel Island Rock Tunnel</span>
+  </a>
+
+  <a class="thumb-card" href="{{ '/assets/images/snorkeling-tunel.jpg' | relative_url }}" target="_blank" rel="noopener">
+    <img loading="lazy" src="{{ '/assets/images/snorkeling-tunel.jpg' | relative_url }}" alt="Punta Vigía Coastline">
+    <span class="thumb-cap">Punta Vigía Coastline</span>
+  </a>
+
+  <a class="thumb-card" href="{{ '/assets/images/snorkeling-001.jpg' | relative_url }}" target="_blank" rel="noopener">
+    <img loading="lazy" src="{{ '/assets/images/snorkeling-001.jpg' | relative_url }}" alt="Cayo Garza Coral Reef">
+    <span class="thumb-cap">Cayo Garza Coral Reef</span>
+  </a>
+
+  <a class="thumb-card" href="{{ '/assets/images/samanadock1.jpg' | relative_url }}" target="_blank" rel="noopener">
+    <img loading="lazy" src="{{ '/assets/images/samanadock1.jpg' | relative_url }}" alt="Samana Docking Area">
+    <span class="thumb-cap">Docking Zone</span>
+  </a>
+</div>
