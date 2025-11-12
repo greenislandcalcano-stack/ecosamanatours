@@ -630,3 +630,53 @@ thead th{ background: color-mix(in oklab, var(--brand) 10%, transparent); }
     <span class="thumb-cap">Docking Zone</span>
   </a>
 </div>
+/* --- Fix tour gallery thumbs on mobile --- */
+.tour-gallery-grid,
+.gallery .grid { /* your grids */
+  display: grid;
+  gap: 1rem;
+}
+
+/* Make every thumb a neat card and clip the image corners */
+.tour-gallery-grid figure,
+a.thumb-card {
+  border-radius: 12px;
+  overflow: hidden;                 /* prevents the “pill” look */
+  background: rgba(8,17,26,.75);
+  border: 1px solid rgba(255,255,255,.08);
+  box-shadow: 0 6px 18px rgba(0,0,0,.25);
+}
+
+/* Reset any inherited extreme rounding */
+.tour-gallery-grid img,
+.gallery .grid img,
+a.thumb-card img {
+  border-radius: 0 !important;      /* kill rounded-full pills */
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  aspect-ratio: 4/3;                 /* choose 4/3, 1/1, or 16/9 */
+}
+
+/* Keep captions tidy */
+.tour-gallery-grid figcaption,
+.thumb-cap {
+  padding: .6rem .8rem;
+  text-align: center;
+  font-size: .9rem;
+  color: #cfe3f2;
+  background: linear-gradient(180deg, rgba(6,14,22,.6), rgba(6,14,22,.85));
+}
+
+/* Mobile tweaks */
+@media (max-width: 640px) {
+  .tour-gallery-grid,
+  .gallery .grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 per row on phones */
+  }
+  .tour-gallery-grid img,
+  .gallery .grid img,
+  a.thumb-card img {
+    aspect-ratio: 1/1;              /* square thumbs look best on phones */
+  }
+}
