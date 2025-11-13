@@ -8,41 +8,64 @@ permalink: /book/
   <h1>Reserve your Eco-Samaná tour</h1>
   <p class="sub">Pickup at hotel gates or boarding dock. You’ll receive a confirmation by email/WhatsApp.</p>
 
-  <form id="bookingForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-    <label>Choose your tour
-      <select name="tour" id="tour" required>
-        <option value="">Select…</option>
-        <option value="Whale Watching">Whale Watching</option>
-        <option value="El Limón Waterfall">El Limón Waterfall</option>
-        <option value="Caves & Boating">Caves & Boating</option>
-        <option value="Treasure Hunt (Family)">Treasure Hunt (Family)</option>
-        <option value="Snorkeling Cayo Vigía">Snorkeling Cayo Vigía</option>
-      </select>
-    </label>
+  <form
+  action="https://formspree.io/f/mananaqj"   <!-- 👈 REPLACE with YOUR real Formspree URL -->
+  method="POST"
+  class="booking-form"
+>
 
-    <label>Date <input type="date" name="date" required></label>
-    <label>Time (if applicable) <input type="time" name="time"></label>
-    <label>Adults <input type="number" name="adults" min="1" value="2" required></label>
-    <label>Children <input type="number" name="children" min="0" value="0"></label>
+  <div class="field-row">
+    <label for="name">Full name</label>
+    <input type="text" id="name" name="name" required>
+  </div>
 
-    <label>Full name <input type="text" name="name" required></label>
-    <label>Email <input type="email" name="email" required></label>
-    <label>Phone / WhatsApp <input type="tel" name="phone" required></label>
+  <div class="field-row">
+    <label for="email">Email address</label>
+    <input type="email" id="email" name="email" required>
+  </div>
 
-    <label>Pickup location (hotel/dock) <input type="text" name="pickup" placeholder="Hotel gates or boarding dock"></label>
+  <div class="field-row">
+    <label for="whatsapp">WhatsApp number</label>
+    <input type="tel" id="whatsapp" name="whatsapp" placeholder="+1 809 000 0000">
+  </div>
 
-    <label>Notes <textarea name="notes" rows="3" placeholder="Language, diet, special requests…"></textarea></label>
+  <div class="field-row">
+    <label for="tour">Which tour?</label>
+    <select id="tour" name="tour" required>
+      <option value="">Choose a tour…</option>
+      <option value="Whale Watching">Whale Watching</option>
+      <option value="El Limon Waterfall">El Limón Waterfall</option>
+      <option value="Treasure Hunt">Treasure Hunt Tour</option>
+      <option value="Eco-Buggies">Eco-Buggies &amp; Beach Adventure</option>
+      <option value="Caves & Boating">Caves &amp; Boating</option>
+      <option value="Other">Other / Custom</option>
+    </select>
+  </div>
 
-    <!-- anti-spam honeypot -->
-    <input type="text" name="_gotcha" style="display:none">
+  <div class="field-row">
+    <label for="date">Preferred date</label>
+    <input type="date" id="date" name="date">
+  </div>
 
-    <!-- customer auto-reply subject -->
-    <input type="hidden" name="_subject" value="Eco-Samaná: we received your booking request!">
-    <!-- redirect after submit -->
-    <input type="hidden" name="_redirect" value="https://eco-samana.com/booked/">
+  <div class="field-row">
+    <label for="people">Number of people</label>
+    <input type="number" id="people" name="people" min="1" value="2">
+  </div>
 
-    <button type="submit" class="btn">Request reservation</button>
-  </form>
+  <div class="field-row">
+    <label for="message">Additional details</label>
+    <textarea id="message" name="message" rows="4"
+      placeholder="Hotel name, special requests, language, time flexibility…"></textarea>
+  </div>
+
+  <!-- Optional hidden subject for the email title -->
+  <input type="hidden" name="_subject" value="New Eco-Samaná booking request">
+
+  <button type="submit" class="btn">
+    Send Reservation Request
+  </button>
+</form>
+
 
   <p class="alt">Prefer WhatsApp? <a id="waLink" class="btn secondary" target="_blank" rel="noopener">Book on WhatsApp</a></p>
 </section>
