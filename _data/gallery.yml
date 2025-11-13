@@ -9,7 +9,7 @@ sections:
   - id: snorkeling
     title: Snorkeling
     items:
-      - src: /assets/images/snorkeling-reef-01.jpg
+      - src: /assets/images/snorkeling-001.jpg
         alt: Snorkeling over coral reef
         caption: Snorkeling in clear waters
 
@@ -23,7 +23,7 @@ sections:
   - id: whales
     title: Whales (seasonal)
     items:
-      - src: /assets/images/whale-watching-01.jpg
+      - src: /assets/images/humpback-tail-cascades.jpg
         alt: Humpback whale tail in Samaná Bay
         caption: Whale watching (Jan–Mar)
 
