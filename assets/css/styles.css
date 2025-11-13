@@ -738,3 +738,48 @@ img.clickable:hover {
   color: #a9bdd2;
   line-height: 1.4;
 }
+.booking-form {
+  max-width: 540px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border-radius: 16px;
+  background: rgba(4, 15, 24, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.4);
+}
+
+.field-row {
+  margin-bottom: 1rem;
+}
+
+.field-row label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-size: 0.9rem;
+  color: #cfe3f5;
+}
+
+.field-row input,
+.field-row select,
+.field-row textarea {
+  width: 100%;
+  padding: 0.55rem 0.7rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: #050e17;
+  color: #e9f2ff;
+}
+
+.field-row input:focus,
+.field-row select:focus,
+.field-row textarea:focus {
+  outline: none;
+  border-color: #00c47a;
+  box-shadow: 0 0 0 1px rgba(0, 196, 122, 0.5);
+}
+
+.booking-form .btn {
+  margin-top: 0.5rem;
+  width: 100%;
+  text-align: center;
+}
