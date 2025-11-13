@@ -1,7 +1,7 @@
 ---
 layout: info
 title: Snorkeling near Cayo Vigía
-image: /assets/images/snorkeling-003.jpg
+image: /assets/images/snorkeling-001.jpg
 alt: Snorkeling near Cayo Vigía in turquoise water
 caption: Clear, shallow reef with beginner-friendly visibility.
 location: Cayo Vigía, Santa Bárbara de Samaná
