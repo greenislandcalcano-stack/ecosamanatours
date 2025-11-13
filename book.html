@@ -8,9 +8,7 @@ permalink: /book/
   <h1>Reserve your Eco-Samaná tour</h1>
   <p class="sub">Pickup at hotel gates or boarding dock. You’ll receive a confirmation by email/WhatsApp.</p>
 
- <form action="https://formspree.io/f/mananajq" method="POST" class="booking-form">
-
->
+<form action="https://formspree.io/f/mananaqj" method="POST" id="bookingForm" class="booking-form">
 
   <div class="field-row">
     <label for="name">Full name</label>
@@ -34,8 +32,8 @@ permalink: /book/
       <option value="Whale Watching">Whale Watching</option>
       <option value="El Limon Waterfall">El Limón Waterfall</option>
       <option value="Treasure Hunt">Treasure Hunt Tour</option>
-      <option value="Eco-Buggies">Eco-Buggies &amp; Beach Adventure</option>
-      <option value="Caves & Boating">Caves &amp; Boating</option>
+      <option value="Eco-Buggies">Eco-Buggies & Beach Adventure</option>
+      <option value="Caves & Boating">Caves & Boating</option>
       <option value="Other">Other / Custom</option>
     </select>
   </div>
@@ -53,10 +51,9 @@ permalink: /book/
   <div class="field-row">
     <label for="message">Additional details</label>
     <textarea id="message" name="message" rows="4"
-      placeholder="Hotel name, special requests, language, time flexibility…"></textarea>
+      placeholder="Hotel name, special requests, language preference…"></textarea>
   </div>
 
-  <!-- Optional hidden subject for the email title -->
   <input type="hidden" name="_subject" value="New Eco-Samaná booking request">
 
   <button type="submit" class="btn">
