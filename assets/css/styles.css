@@ -689,3 +689,52 @@ img.clickable:hover {
   transform: scale(1.02);
   box-shadow: 0 4px 14px rgba(0,0,0,.35);
 }
+/* PRICE BOX STYLE */
+.price-box {
+  background: rgba(255,255,255,0.06);
+  padding: 1.8rem;
+  border-radius: 20px;
+  margin: 2rem 0;
+  border: 1px solid rgba(255,255,255,0.1);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  backdrop-filter: blur(14px);
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+
+.price-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 26px rgba(0,0,0,0.35);
+}
+
+.price-title {
+  margin-bottom: 1rem;
+  color: #7cdfff; /* Aqua highlight */
+  font-size: 1.6rem;
+  border-bottom: 1px solid rgba(255,255,255,0.15);
+  padding-bottom: 0.5rem;
+}
+
+.price-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: .6rem;
+  padding-bottom: .5rem;
+  border-bottom: 1px dashed rgba(255,255,255,0.1);
+}
+
+.price-label {
+  font-weight: 600;
+  color: #d9e9f7;
+}
+
+.price-value {
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.price-footnote {
+  font-size: .9rem;
+  margin-top: 1rem;
+  color: #a9bdd2;
+  line-height: 1.4;
+}
