@@ -783,3 +783,61 @@ img.clickable:hover {
   width: 100%;
   text-align: center;
 }
+/* === Global readability & contrast fixes === */
+
+/* Base text & background */
+html, body {
+  background-color: #020617;          /* deep navy */
+  color: #e5f1ff;                     /* light text */
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  color: #f9fbff;
+}
+
+/* Normal text */
+p, li, .sub, .lead {
+  color: #c9ddf4;
+  line-height: 1.6;
+}
+
+/* Hero + tour sections */
+.hero,
+.tour-hero,
+.tour-content,
+.tour-gallery,
+.tour-bottom-cta {
+  color: #e7f2ff;
+}
+
+/* Little meta text (like the chips under titles) */
+.hero-meta span,
+.tour-hero .hero-meta span,
+.card li,
+.card p {
+  color: #d0e2ff;
+}
+
+/* Links inside dark sections */
+a,
+a:visited {
+  color: #7cdfff;
+}
+a:hover {
+  color: #a5e7ff;
+}
+
+/* Ensure gallery captions are readable */
+.tour-gallery figcaption,
+.thumb-cap {
+  color: #dbe9ff;
+}
+
+/* Extra: slight text shadow over image/gradient backgrounds */
+.hero h1,
+.hero .sub,
+.tour-hero h1,
+.tour-hero .lead {
+  text-shadow: 0 2px 6px rgba(0,0,0,0.55);
+}
