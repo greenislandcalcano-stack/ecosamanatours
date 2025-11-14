@@ -5,14 +5,13 @@ permalink: /treasure-hunt/
 ---
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>{{ page.title }}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  {% assign cache_bust = site.github.build_revision | default: site.time | date: '%s' %}
-  <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}?v={{ cache_bust }}">
-</head>
+<title>
+  {% if page.title %}
+    {{ page.title }} | Eco-Samaná Adventures
+  {% else %}
+    Eco-Samaná Adventures
+  {% endif %}
+</title>
 <body>
   {% include header.html %}
 
