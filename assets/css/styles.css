@@ -1100,3 +1100,69 @@ p, li {
   color: #e9fdff;
   border-radius: 999px;
 }
+/* ===== ECO-SAMANÁ CLEANUP: kill old dark gradients & low contrast ===== */
+
+/* Standard page background */
+body {
+  background: linear-gradient(180deg, #e8fbff 0%, #fff6dc 40%, #ffe3c2 100%);
+  color: #102a3a;
+}
+
+/* Any section that still has old dark gradients */
+section,
+.tour-hero,
+.tour-content,
+.tour-gallery,
+.tour-bottom-cta {
+  background-image: none !important;
+  background-color: transparent;
+}
+
+/* Main tour content area = light card */
+.tour-main {
+  background: #ffffff;
+  color: #102a3a;
+  border-radius: 22px;
+  padding: 2rem 2.25rem;
+  box-shadow: 0 14px 40px rgba(0,0,0,0.14);
+}
+
+/* Sidebar cards (Key Info, What to Bring, etc.) */
+.tour-sidebar .card {
+  background: #ffffff;
+  color: #102a3a;
+  border-radius: 20px;
+  box-shadow: 0 10px 26px rgba(0,0,0,0.12);
+}
+
+/* Headings inside those panels */
+.tour-main h2,
+.tour-sidebar h3 {
+  color: #047857;
+}
+
+/* Paragraphs & lists inside */
+.tour-main p,
+.tour-main li,
+.tour-sidebar p,
+.tour-sidebar li {
+  color: #163447;
+  line-height: 1.7;
+}
+
+/* Hero text over header gradient/image */
+.tour-hero h1 {
+  color: #f9fdff;
+  text-shadow: 0 3px 10px rgba(0,0,0,0.75);
+}
+.tour-hero .lead {
+  color: #e3f5ff;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.7);
+}
+
+/* Small hero meta chips */
+.tour-hero .hero-meta span {
+  background: rgba(0,0,0,0.55);
+  color: #e9fdff;
+  border-radius: 999px;
+}
