@@ -1027,3 +1027,76 @@ p, li {
 .tour-bottom-cta p {
   color: #052013;
 }
+/* ===== TOUR PAGE READABILITY FIX ===== */
+
+/* Main article + sidebar cards use light backgrounds */
+.tour-content {
+  color: #06201f;
+}
+
+.tour-layout {
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+/* Center content panel */
+.tour-main {
+  background: rgba(255,255,255,0.97);
+  color: #102a3a;
+  border-radius: 22px;
+  padding: 2rem 2.25rem;
+  box-shadow: 0 14px 40px rgba(0,0,0,0.14);
+}
+
+/* Sidebar cards (Key Info, What to Bring, etc.) */
+.tour-sidebar .card {
+  background: rgba(255,255,255,0.98);
+  border-radius: 20px;
+  padding: 1.5rem 1.75rem;
+  box-shadow: 0 10px 26px rgba(0,0,0,0.12);
+  color: #102a3a;
+}
+
+/* Headings inside panels */
+.tour-main h2,
+.tour-sidebar h3 {
+  color: #047857;          /* nice palm green */
+  margin-bottom: 0.6rem;
+}
+
+/* Normal text and lists inside panels */
+.tour-main p,
+.tour-main li,
+.tour-sidebar li,
+.tour-sidebar p {
+  color: #163447;
+  line-height: 1.7;
+}
+
+/* Itinerary list numbers a bit stronger */
+.itinerary li {
+  margin-bottom: 0.4rem;
+}
+
+/* Make bold labels readable inside cards */
+.tour-sidebar strong {
+  color: #0b1f33;
+}
+
+/* HERO TEXT ON TOP OF GRADIENT/IMAGE */
+.tour-hero {
+  color: #f9fdff;
+}
+.tour-hero h1 {
+  text-shadow: 0 3px 10px rgba(0,0,0,0.7);
+}
+.tour-hero .lead {
+  color: #e3f5ff;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.65);
+}
+/* hero meta chips on dark background */
+.tour-hero .hero-meta span {
+  background: rgba(0,0,0,0.55);
+  color: #e9fdff;
+  border-radius: 999px;
+}
