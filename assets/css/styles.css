@@ -841,3 +841,189 @@ a:hover {
 .tour-hero .lead {
   text-shadow: 0 2px 6px rgba(0,0,0,0.55);
 }
+/* ================================
+   ECO-SAMANÁ TROPICAL THEME
+   Paste at the end of styles.css
+   ================================ */
+
+:root {
+  --eco-deep-ocean: #005f73;
+  --eco-lagoon: #0bb6c7;
+  --eco-sand: #ffe8b5;
+  --eco-coral: #ff7b6f;
+  --eco-palm: #16a34a;
+  --eco-sky: #e6f6ff;
+  --eco-text-main: #03232a;
+  --eco-text-soft: #214650;
+}
+
+/* Overall page background and base text */
+html, body {
+  background: linear-gradient(180deg,
+    #e8fbff 0%,
+    #fff6dc 40%,
+    #ffe3c2 100%
+  );
+  color: var(--eco-text-main);
+}
+
+/* Generic headings & text */
+h1, h2, h3, h4 {
+  color: #052727;
+}
+p, li {
+  color: var(--eco-text-soft);
+  line-height: 1.7;
+}
+
+/* ================= HERO / TOP SECTION ================= */
+
+.hero {
+  background: radial-gradient(circle at 10% 0%, #fffbd5 0%, #f5fdfc 35%, #c7f8ff 100%);
+  color: var(--eco-text-main);
+  padding: 4rem 1.5rem 3rem;
+}
+
+.hero .hero-content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: clamp(2.5rem, 4vw, 3.2rem);
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  text-shadow: 0 3px 10px rgba(255,255,255,0.6);
+}
+
+.hero .sub {
+  margin-top: 0.75rem;
+  font-size: 1.05rem;
+  max-width: 620px;
+}
+
+/* Small “chips” / hero meta if used on home */
+.hero-meta span {
+  background: rgba(255,255,255,0.8);
+  color: var(--eco-text-main);
+  border-radius: 999px;
+  padding: 0.35rem 0.85rem;
+  font-size: 0.85rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* ================= SECTIONS (gallery, team, etc.) ================= */
+
+.gallery {
+  background: rgba(255,255,255,0.85);
+  padding: 3rem 1.5rem;
+}
+
+.gallery h2 {
+  color: #064e3b;
+}
+
+.team-section {
+  background: linear-gradient(135deg, #fffbe9 0%, #ffe4ba 100%);
+  text-align: center;
+  padding: 3rem 1.5rem;
+}
+
+.team-section h2 {
+  color: #065f46;
+}
+.team-section p {
+  max-width: 520px;
+  margin: 0.5rem auto 0;
+}
+
+/* Cards for “Our Top Eco-Adventures” */
+.card-grid,
+.tour-card {
+  /* existing layout kept; only colors changed */
+}
+
+.tour-card {
+  background: rgba(255,255,255,0.9);
+  border-radius: 18px;
+  border: 1px solid rgba(0,0,0,0.04);
+  box-shadow: 0 14px 30px rgba(0,0,0,0.12);
+  overflow: hidden;
+  transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+}
+
+.tour-card img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+}
+
+.tour-card h3 {
+  color: #064e3b;
+  margin: 0.75rem 1rem 0.25rem;
+}
+
+.tour-card p {
+  margin: 0 1rem 1rem;
+}
+
+.tour-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 40px rgba(0,0,0,0.15);
+  border-color: rgba(22, 163, 74, 0.45);
+}
+
+/* ================= BUTTONS ================= */
+
+.btn {
+  display: inline-block;
+  padding: 0.8rem 1.4rem;
+  border-radius: 999px;
+  border: none;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  background: linear-gradient(135deg, #facc15, #f97316);
+  color: #052013;
+  text-decoration: none;
+  box-shadow: 0 10px 24px rgba(249,115,22,0.45);
+  transition: transform .18s ease, box-shadow .18s ease, filter .18s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 30px rgba(249,115,22,0.55);
+  filter: brightness(1.06);
+}
+
+.btn.secondary {
+  background: linear-gradient(135deg, var(--eco-lagoon), var(--eco-palm));
+  color: #eaffff;
+  box-shadow: 0 10px 24px rgba(11,182,199,0.45);
+}
+
+/* ================= GALLERY IMAGES ================= */
+
+.gallery .grid img,
+.tour-gallery-grid img {
+  border-radius: 16px;
+  box-shadow: 0 10px 22px rgba(0,0,0,0.18);
+}
+
+/* Captions */
+.tour-gallery figcaption,
+.thumb-cap {
+  color: #065f46;
+}
+
+/* ================= FOOTER / BOTTOM CTA ================= */
+
+.tour-bottom-cta,
+.footer {
+  background: linear-gradient(135deg, #0bb6c7 0%, #16a34a 60%, #facc15 100%);
+  color: #052013;
+}
+
+.tour-bottom-cta h2,
+.tour-bottom-cta p {
+  color: #052013;
+}
