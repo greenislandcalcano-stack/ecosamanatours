@@ -1166,3 +1166,24 @@ section,
   color: #e9fdff;
   border-radius: 999px;
 }
+/* === Fix blurry hero text on home page === */
+
+/* Remove heavy text-shadow + make color solid */
+.hero h1,
+.hero .sub,
+.hero p.sub {
+  text-shadow: none !important;
+}
+
+.hero .sub,
+.hero p.sub {
+  color: #083344 !important;   /* deep teal, high contrast */
+  opacity: 1 !important;
+  font-weight: 400;
+}
+
+/* Just in case any generic blur was applied */
+.hero,
+.hero * {
+  filter: none !important;
+}
