@@ -4,48 +4,47 @@ title: Home
 permalink: /
 ---
 
-<style>
-  .gallery { text-align: center; padding: 2rem; background: #0b1720; }
-  .gallery h2 { color: #fff; margin-bottom: 1rem; font-size: 2rem; }
-  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
-  .grid img { width: 100%; height: 180px; object-fit: cover; border-radius: 12px;
-              box-shadow: 0 4px 10px rgba(0,0,0,.15); transition: transform .3s; }
-  .grid img:hover { transform: scale(1.05); }
-</style>
-
 <!-- Hero Section -->
 <section class="hero">
   <div class="container hero-content">
     <h1>Discover the Magic of Samaná</h1>
     <p class="sub">
-      Adventure, nature, and unforgettable experiences await you on the breathtaking shores of the Dominican Republic.
+      Adventure, nature, and unforgettable experiences await you on the breathtaking shores
+      of the Dominican Republic.
     </p>
-    <a class="btn" href="https://wa.me/15046572553" target="_blank" rel="noopener">Start Your Journey</a>
+    <a class="btn" href="https://wa.me/15046572553" target="_blank" rel="noopener">
+      Start Your Journey
+    </a>
   </div>
 </section>
 
+<!-- Team Section -->
 <section class="team-section">
   <h2>Our Eco-Samaná Team</h2>
   <img src="{{ '/assets/images/team/elvis-team.jpg' | relative_url }}" alt="Our Eco-Samaná Team">
   <p>Passionate locals sharing the magic of Samaná with the world.</p>
+  <p>
+    <a href="{{ '/gallery/' | relative_url }}">
+      See our stunning eco-tour gallery in Samaná 🌿
+    </a>
+  </p>
 </section>
-
-<a href="{{ '/gallery/' | relative_url }}">See our stunning eco-tour gallery in Samaná 🌿</a>
 
 <!-- Snorkeling & Island Adventures Gallery -->
 <section class="gallery">
   <h2>Snorkeling &amp; Island Adventures</h2>
   <div class="grid">
-    <img src="{{ '/assets/images/snorkeling-coralvigia.jpg' | relative_url }}" alt="Cayo Vigía Snorkeling">
-    <img src="{{ '/assets/images/snorkeling-aguada.jpg' | relative_url }}" alt="Aguada Snorkeling Spot">
-    <img src="{{ '/assets/images/snorkeling-northvigia.jpg' | relative_url }}" alt="Snorkeling Cayo Vigía">
-    <img src="{{ '/assets/images/snorkeling-tunel.jpg' | relative_url }}" alt="Snorkeling near Vigía">
-    <img src="{{ '/assets/images/snorkeling-coralvigia.jpg' | relative_url }}" alt="Island Vigía Coastline">
-    <img src="{{ '/assets/images/santa-barbara-01.jpg' | relative_url }}" alt="Santa Bárbara Bay">
-    <img src="{{ '/assets/images/snorkeling-garza.jpg' | relative_url }}" alt="Cayo Garza Coral Reef">
-    <img src="{{ '/assets/images/snorkeling-001.jpg' | relative_url }}" alt="Cayo Garza Lagoon">
-    <img src="{{ '/assets/images/snorkeling-widevigia.jpg' | relative_url }}" alt="Cayo Vigía Snorkeling Tour">
-    <img src="{{ '/assets/images/snorkeling-napoleon-bridge-01.jpg' | relative_url }}" alt="Napoleón Bridge">
+    <img src="{{ '/assets/images/snorkeling-001.jpg' | relative_url }}" alt="Cayo Vigía Snorkeling">
+    <img src="{{ '/assets/images/aguada.jpg' | relative_url }}" alt="Aguada Snorkeling Spot">
+    <img src="{{ '/assets/images/snorkeling-002.jpg' | relative_url }}" alt="Snorkeling Cayo Vigía">
+    <img src="{{ '/assets/images/snorkeling-003.jpg' | relative_url }}" alt="Snorkeling near Vigía">
+    <img src="{{ '/assets/images/snorkeling-004.jpg' | relative_url }}" alt="Island Vigía Coastline">
+    <img src="{{ '/assets/images/snorkeling-005.jpg' | relative_url }}" alt="Santa Bárbara Bay">
+    <img src="{{ '/assets/images/snorkeling-006.jpg' | relative_url }}" alt="Cayo Garza Coral Reef">
+    <img src="{{ '/assets/images/snorkeling-007.jpg' | relative_url }}" alt="Cayo Garza Lagoon">
+    <img src="{{ '/assets/images/snorkeling-008.jpg' | relative_url }}" alt="Cayo Vigía Snorkeling Tour">
+    <img src="{{ '/assets/images/sailing-snorkeling.jpg' | relative_url }}" alt="Napoleón Bridge">
+    <!-- Make sure all these files exist in /assets/images/ -->
   </div>
 </section>
 
@@ -74,14 +73,14 @@ permalink: /
 
     <!-- Treasure Hunt -->
     <div class="tour-card">
-      <a href="{{ '/treasure-hunt.html' | relative_url }}">
+      <a href="{{ '/treasure-hunt/' | relative_url }}">
         <img src="{{ '/assets/images/sunkenPirateship2.jpg' | relative_url }}" alt="Treasure Hunt Tour">
         <h3>Treasure Hunt Tour</h3>
         <p>Family-friendly snorkeling and beach treasure adventure.</p>
       </a>
     </div>
 
-    <!-- Eco-Buggies & Beach -->
+    <!-- Eco-Buggies -->
     <div class="tour-card">
       <a href="{{ '/eco-buggies.html' | relative_url }}">
         <img src="{{ '/assets/images/buggy-limon001.png' | relative_url }}" alt="Eco-Buggies and Beach Adventure">
@@ -100,3 +99,4 @@ permalink: /
     </div>
   </div>
 </section>
+
