@@ -21,19 +21,29 @@ image: /assets/images/catamaran-samana-01.jpg
       {% for item in section.items %}
       <figure class="card">
      
-        <section class="container mt-3">
+     <section class="container mt-3">
   <h2 class="center">Video Highlights</h2>
 
-  <div class="video-wrapper">
-    <iframe 
-      src="https://www.youtube.com/embed/6ikHQZfu1JM" 
-      title="YouTube video player" 
-      frameborder="0" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-      allowfullscreen>
-    </iframe>
+  <div class="video-section">
+    <div class="video-card">
+      <div class="video-wrapper">
+        <iframe
+          src="https://www.youtube.com/embed/6ikHQZfu1JM"
+          title="Eco-Samaná Boats & Catamarans Video"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+      <img
+        src="{{ '/assets/images/boats-catamarans-01.jpg' | relative_url }}"
+        alt="Catamaran tour in Samaná"
+        class="video-thumb">
+    </div>
   </div>
 </section>
+
    
         <a href="{{ item.src | relative_url }}">
   <img
