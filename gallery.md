@@ -20,7 +20,21 @@ image: /assets/images/catamaran-samana-01.jpg
     <div class="grid">
       {% for item in section.items %}
       <figure class="card">
-        
+     
+        <section class="container mt-3">
+  <h2 class="center">Video Highlights</h2>
+
+  <div class="video-wrapper">
+    <iframe 
+      src="https://www.youtube.com/embed/6ikHQZfu1JM" 
+      title="YouTube video player" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+  </div>
+</section>
+   
         <a href="{{ item.src | relative_url }}">
   <img
     loading="lazy"
