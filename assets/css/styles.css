@@ -1332,3 +1332,13 @@ section,
   opacity: 0.9;
   margin-bottom: 0.5rem;
 }
+/* Clean, readable hero background for all tour pages */
+.tour-hero {
+  background: #f7f2e7; /* soft beige sand tone */
+  padding: 4rem 0 3rem;
+}
+.sub {
+  color: #1a1a1a !important;
+  font-weight: 500;
+  opacity: 0.9;
+}
