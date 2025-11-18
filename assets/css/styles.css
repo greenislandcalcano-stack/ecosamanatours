@@ -1471,3 +1471,10 @@ p.sub,
   color: #ffffff !important;
   text-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
 }
+.card figcaption,
+.card .caption,
+.card p,
+.card span {
+  color: #fff !important;
+  text-shadow: 0px 0px 6px rgba(0,0,0,0.7);
+}
