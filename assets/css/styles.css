@@ -1365,3 +1365,12 @@ p.sub,
   background: #f7f2e7 !important;   /* same soft beige as tour-hero */
   padding: 3rem 0 2rem;
 }
+/* Force page description text (p.sub) to be dark and readable */
+.hero .sub,
+p.sub,
+.sub {
+  color: #0b3726 !important;   /* same dark green as your main headings */
+  font-weight: 600 !important;
+  opacity: 1 !important;
+  text-shadow: none !important;
+}
