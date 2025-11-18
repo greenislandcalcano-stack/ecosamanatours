@@ -1355,3 +1355,13 @@ p.sub,
   opacity: 1 !important;
   text-shadow: none !important;
 }
+.sub {
+  color: #000 !important;
+  font-weight: 600 !important;
+  text-shadow: none !important;
+}
+/* Remove gradient from page header and replace with solid background */
+.hero {
+  background: #f7f2e7 !important;   /* same soft beige as tour-hero */
+  padding: 3rem 0 2rem;
+}
