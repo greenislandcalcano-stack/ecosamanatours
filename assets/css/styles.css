@@ -395,6 +395,16 @@ thead th{ background: color-mix(in oklab, var(--brand) 10%, transparent); }
   gap:1rem;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
+/* Page intro text under the big title (layout: page) */
+.page-header .lead {
+  color: #0b3726;        /* same deep green as your headings */
+  font-weight: 600;
+  opacity: 1;
+  text-shadow: none;
+  max-width: 52rem;
+  margin: 0.75rem auto 2rem;
+  text-align: center;
+}
 
 .tour-gallery figure {
   background:#0b1220;
