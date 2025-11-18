@@ -83,7 +83,7 @@ image: /assets/images/docking-samana-3.jpg
 {
   "@context": "https://schema.org",
   "@type": "TouristAttraction",
-  "name": "Eco-Samaná Adventures Gallery",
+    "name": "EcoSamana Adventures Gallery",
   "description": "Stunning eco-tours in Samaná, Dominican Republic — whale watching, snorkeling, waterfalls, and secret beaches.",
   "image": [
     "{{ '/assets/images/catamaran-samana-01.jpg' | relative_url }}",
