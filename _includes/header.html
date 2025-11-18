@@ -5,10 +5,12 @@
       <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a>
       <a href="{{ '/about/'   | relative_url }}" {% if page.url == '/about/' %}aria-current="page"{% endif %}>About</a>
       <a href="{{ '/gallery/' | relative_url }}" {% if page.url == '/gallery/' %}aria-current="page"{% endif %}>Gallery</a>
+
+      <!-- ⭐ NEW MENU LINK ⭐ -->
+      <a href="/el-limon.html" {% if page.url == '/el-limon.html' %}aria-current="page"{% endif %}>El Limón Waterfall</a>
+
       <a href="{{ '/contact/' | relative_url }}" {% if page.url == '/contact/' %}aria-current="page"{% endif %}>Contact</a>
       <a href="https://wa.me/15046572553" target="_blank" rel="noopener">Book Now</a>
     </nav>
   </div>
 </header>
-
-
