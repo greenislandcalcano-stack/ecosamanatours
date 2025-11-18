@@ -1,9 +1,10 @@
 ---
 layout: page
-title: About Us
+title: "About EcoSamana Adventures"
 permalink: /about/
-description: Eco-Samaná — locally-guided eco tours that protect nature and culture.
+description: "Learn about EcoSamana Adventures, a local family project in Santa Bárbara de Samaná offering eco-friendly tours, whale watching, waterfalls, and hidden beach experiences."
 ---
+
 
 <!-- Hero / lead -->
 <p class="text-center">
