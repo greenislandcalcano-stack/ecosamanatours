@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Contact / Book
+title: "Contact EcoSamana Adventures"
 permalink: /contact/
-description: Reach out to plan your eco-adventure in Samaná.
+description: "Contact EcoSamana Adventures to book whale watching, waterfalls, snorkeling, pirate treasure hunts, and eco-tours in Santa Bárbara de Samaná, Dominican Republic."
+---
+
 ---
 
 <!-- Contact cards -->
