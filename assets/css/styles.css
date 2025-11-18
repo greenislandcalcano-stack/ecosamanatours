@@ -417,6 +417,51 @@ thead th{ background: color-mix(in oklab, var(--brand) 10%, transparent); }
 .tour-gallery figure:hover img {
   transform:scale(1.05);
 }
+/* === Readability tweaks for tour pages === */
+
+/* Hero small text */
+.tour-hero .lead {
+  color: #111827;           /* much darker, very readable */
+  font-size: 1.05rem;
+  line-height: 1.7;
+  max-width: 48rem;
+  margin: 0.75rem auto 1.5rem;
+  text-align: center;
+}
+
+.tour-hero .eyebrow {
+  color: #374151;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.78rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.tour-hero .hero-meta span {
+  color: #111827;
+  font-size: 0.95rem;
+}
+
+/* Main body text on tour pages */
+.tour-content p,
+.tour-content li,
+.tour-gallery-intro,
+.price-list li,
+.price-note {
+  color: #111827;
+  font-size: 1.02rem;
+  line-height: 1.7;
+}
+
+/* Center and contain content nicely */
+.tour-content .container,
+.tour-gallery,
+.tour-bottom-cta .container {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .tour-gallery figcaption {
   padding:.5rem .8rem .7rem;
