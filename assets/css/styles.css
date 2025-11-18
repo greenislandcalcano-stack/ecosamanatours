@@ -1268,6 +1268,11 @@ section,
   opacity: 1 !important;
   font-weight: 400;
 }
+.tour-hero .lead,
+.tour-hero .hero-meta span,
+.tour-hero .eyebrow {
+  color: #1a1a1a !important;
+}
 
 /* Just in case any generic blur was applied */
 .hero,
