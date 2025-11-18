@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "Samaná Eco-Tour Gallery | Whales, Waterfalls & Beaches"
+title: "Eco-Samaná Adventures Gallery | Whales, Waterfalls & Beaches"
 permalink: /gallery/
 description: "Explore stunning eco-tours in Samaná — whale watching, waterfalls, mangroves, secret beaches, snorkeling, and catamaran adventures. Discover paradise in the Dominican Republic."
-keywords: "Samaná eco tours, Dominican Republic travel, whale watching Samaná, El Limón waterfall, mangrove kayaking, snorkeling Samaná, hidden beaches Dominican Republic"
-image: /assets/images/catamaran-samana-01.jpg
+keywords: "Eco Samaná Adventures, Dominican Republic travel, whale watching Samaná, El Limón waterfall, mangrove kayaking, snorkeling Samaná, hidden beaches Dominican Republic"
+image: /assets/images/docking-samana-3.jpg
 ---
 
 <nav class="gallery-toc">
@@ -83,7 +83,7 @@ image: /assets/images/catamaran-samana-01.jpg
 {
   "@context": "https://schema.org",
   "@type": "TouristAttraction",
-  "name": "Eco-Samaná Tours Gallery",
+  "name": "Eco-Samaná Adventures Gallery",
   "description": "Stunning eco-tours in Samaná, Dominican Republic — whale watching, snorkeling, waterfalls, and secret beaches.",
   "image": [
     "{{ '/assets/images/catamaran-samana-01.jpg' | relative_url }}",
