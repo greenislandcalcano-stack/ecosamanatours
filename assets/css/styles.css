@@ -1257,3 +1257,33 @@ section,
     height: 210px;
   }
 }
+/* === Readability for excursion pages === */
+.tour-content {
+  max-width: 900px;           /* keeps content in a nice central column */
+  margin: 2rem auto 3rem;     /* centers and adds top/bottom space */
+  padding: 0 1.5rem;          /* side padding so text doesn't touch edges */
+}
+
+/* Darker, more readable text for all small content */
+.tour-content p,
+.tour-content li {
+  color: #111827;             /* darker than normal grey; excellent contrast */
+  font-size: 1.02rem;
+  line-height: 1.7;
+}
+
+/* Optional: slightly clearer section spacing */
+.tour-content h2,
+.tour-content h3 {
+  margin-top: 1.8rem;
+}
+
+/* Center small taglines if you use them */
+.tour-content .tour-tagline {
+  text-align: center;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  opacity: 0.9;
+  margin-bottom: 0.5rem;
+}
