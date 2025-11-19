@@ -20,8 +20,12 @@
 
       <!-- EXCURSIONS DROPDOWN -->
       <div class="dropdown">
-        <a class="dropbtn"
-           {% if page.url contains '/el-limon/' or page.url contains '/treasure-hunt/' %}
+        <a href="#" class="dropbtn"
+           {% if page.url contains '/el-limon/'
+              or page.url contains '/treasure-hunt/'
+              or page.url == '/whales.html'
+              or page.url == '/eco-buggies.html'
+              or page.url == '/caves-and-boating.html' %}
            aria-current="page"
            {% endif %}>
           Excursions ▾
@@ -30,7 +34,9 @@
         <div class="dropdown-content">
           <a href="{{ '/el-limon/' | relative_url }}">El Limón Waterfall</a>
           <a href="{{ '/treasure-hunt/' | relative_url }}">Treasure Hunt &amp; Snorkeling</a>
-          <!-- Add more excursions here later -->
+          <a href="{{ '/whales.html' | relative_url }}">Whale Watching</a>
+          <a href="{{ '/eco-buggies.html' | relative_url }}">Eco-Buggies &amp; Beach Adventure</a>
+          <a href="{{ '/caves-and-boating.html' | relative_url }}">Caves &amp; Boating Tour</a>
         </div>
       </div>
       <!-- END EXCURSIONS DROPDOWN -->
