@@ -1601,3 +1601,19 @@ p.sub,
 .dropdown:hover .dropdown-content {
   display: block;
 }
+/* Fix Excursions text color in the navbar */
+.nav .dropbtn {
+  color: #ffffff !important;   /* force white text */
+  font-weight: 500;
+}
+
+/* Make sure hover stays visible */
+.nav .dropbtn:hover {
+  color: #ffffff !important;
+  opacity: 0.85;
+}
+
+/* Ensure dropdown arrow stays white */
+.nav .dropbtn::after {
+  color: #ffffff;
+}
