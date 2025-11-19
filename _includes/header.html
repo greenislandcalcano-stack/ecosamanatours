@@ -1,24 +1,48 @@
 <header class="site-header">
-  <nav class="nav" aria-label="Main">
-  <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a>
-  <a href="{{ '/about/' | relative_url }}" {% if page.url == '/about/' %}aria-current="page"{% endif %}>About</a>
-  <a href="{{ '/gallery/' | relative_url }}" {% if page.url == '/gallery/' %}aria-current="page"{% endif %}>Gallery</a>
+  <div class="container navbar">
+    <div class="brand">EcoSamana Adventures 🌿</div>
 
-  <!-- ▼ DROPDOWN MENU: EXCURSIONS -->
-  <div class="dropdown">
-    <button class="dropbtn"
-      {% if page.url contains '/el-limon/' or page.url contains '/treasure-hunt/' %}aria-current="page"{% endif %}>
-      Excursions ▾
-    </button>
+    <nav class="nav" aria-label="Main">
+      <a href="{{ '/' | relative_url }}"
+         {% if page.url == '/' %}aria-current="page"{% endif %}>
+        Home
+      </a>
 
-    <div class="dropdown-content">
-      <a href="{{ '/el-limon/' | relative_url }}">El Limón Waterfall</a>
-      <a href="{{ '/treasure-hunt/' | relative_url }}">Treasure Hunt & Snorkeling</a>
-      <!-- Add more tours here later -->
-    </div>
+      <a href="{{ '/about/' | relative_url }}"
+         {% if page.url == '/about/' %}aria-current="page"{% endif %}>
+        About
+      </a>
+
+      <a href="{{ '/gallery/' | relative_url }}"
+         {% if page.url == '/gallery/' %}aria-current="page"{% endif %}>
+        Gallery
+      </a>
+
+      <!-- EXCURSIONS DROPDOWN -->
+      <div class="dropdown">
+        <a class="dropbtn"
+           {% if page.url contains '/el-limon/' or page.url contains '/treasure-hunt/' %}
+           aria-current="page"
+           {% endif %}>
+          Excursions ▾
+        </a>
+
+        <div class="dropdown-content">
+          <a href="{{ '/el-limon/' | relative_url }}">El Limón Waterfall</a>
+          <a href="{{ '/treasure-hunt/' | relative_url }}">Treasure Hunt &amp; Snorkeling</a>
+          <!-- Add more excursions here later -->
+        </div>
+      </div>
+      <!-- END EXCURSIONS DROPDOWN -->
+
+      <a href="{{ '/contact/' | relative_url }}"
+         {% if page.url == '/contact/' %}aria-current="page"{% endif %}>
+        Contact
+      </a>
+
+      <a href="https://wa.me/15046572553" target="_blank" rel="noopener">
+        Book Now
+      </a>
+    </nav>
   </div>
-
-  <a href="{{ '/contact/' | relative_url }}" {% if page.url == '/contact/' %}aria-current="page"{% endif %}>Contact</a>
-  <a href="https://wa.me/15046572553" target="_blank" rel="noopener">Book Now</a>
-</nav>
 </header>
