@@ -1501,3 +1501,53 @@ p.sub,
     text-shadow: 0 0 6px rgba(0, 0, 0, 0.9); /* glow for readability */
   }
 </style>
+/* Excursions dropdown in main nav */
+.nav .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Make the dropdown trigger look like a normal nav link */
+.nav .dropbtn {
+  display: inline-block;
+  padding: 0 1rem;
+  text-decoration: none;
+  color: inherit;          /* use same color as other nav links */
+  cursor: pointer;
+}
+
+/* Optional hover effect (matches typical link hover) */
+.nav .dropbtn:hover {
+  opacity: 0.8;
+}
+
+/* Dropdown panel */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #111827;
+  min-width: 220px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  border-radius: 0.5rem;
+  z-index: 999;
+}
+
+/* Links inside dropdown */
+.dropdown-content a {
+  display: block;
+  padding: 0.75rem 1rem;
+  color: #ffffff;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.dropdown-content a:hover {
+  background-color: #1f2937;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
