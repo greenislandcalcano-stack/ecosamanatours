@@ -1617,3 +1617,30 @@ p.sub,
 .nav .dropbtn::after {
   color: #ffffff;
 }
+/* Improve contrast for all tour gallery captions */
+.tour-gallery-grid figure {
+  background: #111827;           /* dark fallback behind images */
+  border-radius: 0.75rem;
+  overflow: hidden;
+}
+
+.tour-gallery-grid figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* HIGH-CONTRAST TEXT */
+.tour-gallery-grid figcaption {
+  color: #ffffff !important;     /* bright white text */
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-align: center;
+  padding: 0.5rem 0.75rem;
+
+  /* Glow behind text to ensure readability over ANY background */
+  text-shadow: 
+      0 0 6px rgba(0, 0, 0, 0.9),
+      0 0 12px rgba(0, 0, 0, 0.7),
+      0 2px 8px rgba(0, 0, 0, 0.8);
+}
