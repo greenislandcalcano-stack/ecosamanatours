@@ -1,39 +1,114 @@
 ---
 layout: page
-title: "Contact EcoSamana Adventures"
+title: "Contact Eco-Samaná Adventures | Tours & Reservations"
 permalink: /contact/
-description: "Contact EcoSamana Adventures to book whale watching, waterfalls, snorkeling, pirate treasure hunts, and eco-tours in Santa Bárbara de Samaná, Dominican Republic."
+description: "Contact Eco-Samaná Adventures for tour reservations, questions about whale watching, El Limón waterfall, snorkeling, eco-buggies and more in Samaná."
 ---
 
----
+<section class="contact-page container">
+  <h1>Contact Eco-Samaná Adventures</h1>
+  <p class="lead">
+    Send us a message about tour reservations, custom group trips, or any questions
+    you have about Samaná. We’ll get back to you as soon as possible.
+  </p>
 
-<!-- Contact cards -->
-<div class="card-grid mt-2">
-  <div class="card">
-    <h3>WhatsApp</h3>
-    <p><a class="btn" href="https://wa.me/15046572553" target="_blank" rel="noopener">+1 (504) 657-2553</a></p>
-  </div>
-  <div class="card">
-    <h3>Email</h3>
-    <p><a class="btn" href="mailto:{{ site.email | default: 'eco-samanadventures@gmail.com' }}">{{ site.email | default: 'ecalcano@eco-samana.com' }}</a></p>
-  </div>
-  <div class="card">
-    <h3>Instagram</h3>
-    <p><a class="btn" href="{{ site.social.instagram }}" target="_blank" rel="noopener">Follow @Eco_Samana</a></p>
-  </div>
-</div>
+  <div class="contact-layout">
+    <form
+      action="https://formspree.io/f/mananaqj)"
+      method="POST"
+      class="contact-form"
+    >
+      <!-- replace YOUR_FORMSPREE_ID with the ID from your Formspree dashboard -->
 
-## Quick message
-<form name="contact" method="POST" data-netlify="true">
-  <p><label>Your Name<br><input type="text" name="name" required></label></p>
-  <p><label>Email<br><input type="email" name="email" required></label></p>
-  <p><label>Phone / WhatsApp<br><input type="tel" name="phone"></label></p>
-  <p><label>Message<br><textarea name="message" rows="5" required></textarea></label></p>
-  <p><button class="btn" type="submit">Send</button></p>
-</form>
+      <!-- optional: subject line for the email -->
+      <input type="hidden" name="_subject" value="New inquiry from Eco-Samaná website">
 
-## Find us
-<p class="text-center">
-  <img class="hero-image" src="{{ '/assets/images/misc/white-breast-humpback.jpg' | relative_url }}" alt="Map of Samaná" loading="lazy">
-  <br><em>Santa Bárbara de Samaná, Dominican Republic</em>
-</p>
+      <div class="field">
+        <label for="name">Your Name*</label>
+        <input id="name" name="name" type="text" required>
+      </div>
+
+      <div class="field">
+        <label for="email">Your Email*</label>
+        <input id="email" name="email" type="email" required>
+      </div>
+
+      <div class="field">
+        <label for="phone">WhatsApp / Phone (optional)</label>
+        <input id="phone" name="phone" type="text">
+      </div>
+
+      <div class="field">
+        <label for="tour">Interested in</label>
+        <select id="tour" name="tour">
+          <option value="">Choose a tour (optional)</option>
+          <option>Whale Watching</option>
+          <option>El Limón Waterfall</option>
+          <option>Treasure Hunt & Snorkeling</option>
+          <option>Eco-Buggies & Beach</option>
+          <option>Caves & Boating</option>
+          <option>Other / Custom Trip</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="message">Message*</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+
+      <!-- simple spam honeypot -->
+      <input type="text" name="_gotcha" style="display:none">
+
+      <!-- where to redirect after successful submit (optional) -->
+      <!-- <input type="hidden" name="_redirect" value="https://eco-samana.com/thank-you/"> -->
+
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+
+    <aside class="contact-info">
+      <h2>Other Ways to Reach Us</h2>
+      <p><strong>Email:</strong> ecosamanaadventures@gmail.com</p>
+      <p><strong>WhatsApp:</strong> <a href="https://wa.me/15046572553">+1 (504) 657-2553</a></p>
+      <p><strong>Location:</strong> Samaná, Dominican Republic</p>
+    </aside>
+  </div>
+</section>
+
+<style>
+.contact-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1.3fr);
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+@media (max-width: 768px) {
+  .contact-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.contact-form .field {
+  margin-bottom: 1rem;
+}
+.contact-form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: .25rem;
+}
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  width: 100%;
+  padding: .5rem .6rem;
+  border-radius: .5rem;
+  border: 1px solid #d4d4d4;
+  font: inherit;
+}
+.contact-form button.btn {
+  margin-top: .5rem;
+}
+
+.contact-info h2 {
+  margin-top: 0;
+}
+</style>
