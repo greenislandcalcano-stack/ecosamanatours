@@ -40,8 +40,8 @@ description: "Contact Eco-Samaná Adventures for tour reservations, questions ab
 
     <aside class="contact-info">
       <h2>Other Ways to Reach Us</h2>
-      <a href="mailto:ecosamanaadventures@gmail.com?subject=Eco-Samaná%20Tour%20Inquiry">
-  ecosamanaadventures@gmail.com
+      <a href="mailto:ecosamanadventures@gmail.com?subject=Eco-Samaná%20Tour%20Inquiry">
+  ecosamanadventures@gmail.com
 </a>
       <p><strong>WhatsApp:</strong> <a href="https://wa.me/15046572553">+1 (504) 657-2553</a></p>
       <p><strong>Location:</strong> Samaná, Dominican Republic</p>
