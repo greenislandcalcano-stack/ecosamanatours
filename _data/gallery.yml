@@ -1,3 +1,4 @@
+
 sections:
   - id: boats
     title: Boats & Catamarans
@@ -40,75 +41,74 @@ sections:
       - src: /assets/images/waterfall-el-limon-01.jpg
         alt: El Limón waterfall in the jungle
         caption: El Limón Waterfall
-- id: samana-town-countryside
-  title: "Samaná Town & Countryside"
-  items:
-    - src: "/assets/images/galleria/Samana rural dock1.jpg"
-      alt: "Small rural dock in Samaná Bay"
-      caption: "Rural dock in Samaná Bay"
 
-    - src: "/assets/images/galleria/Samana-rural-fishing-boats.jpg"
-      alt: "Fishing boats anchored near Samaná"
-      caption: "Local fishing boats in Samaná"
+  - id: samana-town-countryside
+    title: "Samaná Town & Countryside"
+    items:
+      - src: "/assets/images/galleria/Samana rural dock1.jpg"
+        alt: "Small rural dock in Samaná Bay"
+        caption: "Rural dock in Samaná Bay"
 
-    - src: "/assets/images/galleria/blue-2-limon.png"
-      alt: "Blue pool at El Limón waterfall"
-      caption: "The blue pool at El Limón"
+      - src: "/assets/images/galleria/Samana-rural-fishing-boats.jpg"
+        alt: "Fishing boats anchored near Samaná"
+        caption: "Local fishing boats in Samaná"
 
-    - src: "/assets/images/galleria/buggy-limon021.jpg"
-      alt: "Eco-buggy tour near El Limón"
-      caption: "Eco-buggies on the El Limón trails"
+      - src: "/assets/images/galleria/blue-2-limon.png"
+        alt: "Blue pool at El Limón waterfall"
+        caption: "The blue pool at El Limón"
 
-    - src: "/assets/images/galleria/buggy-limon12.jpg"
-      alt: "Buggies driving along a rural road"
-      caption: "Adventure by buggy in rural Samaná"
+      - src: "/assets/images/galleria/buggy-limon021.jpg"
+        alt: "Eco-buggy tour near El Limón"
+        caption: "Eco-buggies on the El Limón trails"
 
-    - src: "/assets/images/galleria/cascada-limon-001.png"
-      alt: "El Limón waterfall cascading into a natural pool"
-      caption: "El Limón waterfall cascade"
+      - src: "/assets/images/galleria/buggy-limon12.jpg"
+        alt: "Buggies driving along a rural road"
+        caption: "Adventure by buggy in rural Samaná"
 
-    - src: "/assets/images/galleria/el-limon-panoramic.png.png"
-      alt: "Panoramic view of El Limón waterfall and pool"
-      caption: "Panoramic view of El Limón"
+      - src: "/assets/images/galleria/cascada-limon-001.png"
+        alt: "El Limón waterfall cascading into a natural pool"
+        caption: "El Limón waterfall cascade"
 
-    - src: "/assets/images/galleria/heart-of-samana.jpg"
-      alt: "Scenic viewpoint over Samaná Bay"
-      caption: "Viewpoint over the heart of Samaná"
+      - src: "/assets/images/galleria/el-limon-panoramic.png.png"
+        alt: "Panoramic view of El Limón waterfall and pool"
+        caption: "Panoramic view of El Limón"
 
-    - src: "/assets/images/galleria/ranch-el-limon.jpg"
-      alt: "Horse ranch near El Limón trailhead"
-      caption: "Ranch at the start of the El Limón trail"
+      - src: "/assets/images/galleria/heart-of-samana.jpg"
+        alt: "Scenic viewpoint over Samaná Bay"
+        caption: "Viewpoint over the heart of Samaná"
 
-    - src: "/assets/images/galleria/samana-catholic-church.jpg"
-      alt: "Historic Catholic church in Samaná town"
-      caption: "Catholic church in Samaná"
+      - src: "/assets/images/galleria/ranch-el-limon.jpg"
+        alt: "Horse ranch near El Limón trailhead"
+        caption: "Ranch at the start of the El Limón trail"
 
-    - src: "/assets/images/galleria/samana-church.jpg"
-      alt: "Church facade in Samaná"
-      caption: "Church facade in Samaná town"
+      - src: "/assets/images/galleria/samana-catholic-church.jpg"
+        alt: "Historic Catholic church in Samaná town"
+        caption: "Catholic church in Samaná"
 
-    - src: "/assets/images/galleria/samana-city-center.jpg"
-      alt: "Street scene in Samaná city center"
-      caption: "Samaná city center"
+      - src: "/assets/images/galleria/samana-church.jpg"
+        alt: "Church facade in Samaná"
+        caption: "Church facade in Samaná town"
 
-    - src: "/assets/images/galleria/samana-colonial-ranch2.jpg"
-      alt: "Colonial-style countryside ranch near Samaná"
-      caption: "Colonial-style ranch near Samaná"
+      - src: "/assets/images/galleria/samana-city-center.jpg"
+        alt: "Street scene in Samaná city center"
+        caption: "Samaná city center"
 
-    - src: "/assets/images/galleria/samana-rural-boating.jpg"
-      alt: "Boat navigating a rural waterway near Samaná"
-      caption: "Rural boating near Samaná"
+      - src: "/assets/images/galleria/samana-colonial-ranch2.jpg"
+        alt: "Colonial-style countryside ranch near Samaná"
+        caption: "Colonial-style ranch near Samaná"
 
-    - src: "/assets/images/galleria/samana-street.jpg"
-      alt: "Colorful street in Samaná town"
-      caption: "Colorful street in Samaná"
+      - src: "/assets/images/galleria/samana-rural-boating.jpg"
+        alt: "Boat navigating a rural waterway near Samaná"
+        caption: "Rural boating near Samaná"
 
-    - src: "/assets/images/galleria/samana-view.jpg"
-      alt: "View over Samaná Bay and hills"
-      caption: "Scenic view over Samaná Bay"
+      - src: "/assets/images/galleria/samana-street.jpg"
+        alt: "Colorful street in Samaná town"
+        caption: "Colorful street in Samaná"
 
-    - src: "/assets/images/galleria/samana-whale-monument.jpg"
-      alt: "Whale monument in Samaná"
-      caption: "Whale monument in Samaná"
+      - src: "/assets/images/galleria/samana-view.jpg"
+        alt: "View over Samaná Bay and hills"
+        caption: "Scenic view over Samaná Bay"
 
-
+      - src: "/assets/images/galleria/samana-whale-monument.jpg"
+        alt: "Whale monument in Samaná"
+        caption: "Whale monument in Samaná"
