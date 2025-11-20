@@ -13,56 +13,29 @@ description: "Contact Eco-Samaná Adventures for tour reservations, questions ab
   </p>
 
   <div class="contact-layout">
+    <!-- ✅ This is the ONLY form on the page -->
     <form
-      action="https://formspree.io/f/mananaqj)"
+      action="https://formspree.io/f/mananaqj"
       method="POST"
       class="contact-form"
     >
-      <!-- replace YOUR_FORMSPREE_ID with the ID from your Formspree dashboard -->
-
-      <!-- optional: subject line for the email -->
+      <!-- optional subject line -->
       <input type="hidden" name="_subject" value="New inquiry from Eco-Samaná website">
 
       <div class="field">
-        <label for="name">Your Name*</label>
-        <input id="name" name="name" type="text" required>
+        <label for="email">Your email*</label>
+        <input id="email" type="email" name="email" required>
       </div>
 
       <div class="field">
-        <label for="email">Your Email*</label>
-        <input id="email" name="email" type="email" required>
-      </div>
-
-      <div class="field">
-        <label for="phone">WhatsApp / Phone (optional)</label>
-        <input id="phone" name="phone" type="text">
-      </div>
-
-      <div class="field">
-        <label for="tour">Interested in</label>
-        <select id="tour" name="tour">
-          <option value="">Choose a tour (optional)</option>
-          <option>Whale Watching</option>
-          <option>El Limón Waterfall</option>
-          <option>Treasure Hunt & Snorkeling</option>
-          <option>Eco-Buggies & Beach</option>
-          <option>Caves & Boating</option>
-          <option>Other / Custom Trip</option>
-        </select>
-      </div>
-
-      <div class="field">
-        <label for="message">Message*</label>
+        <label for="message">Your message*</label>
         <textarea id="message" name="message" rows="5" required></textarea>
       </div>
 
       <!-- simple spam honeypot -->
       <input type="text" name="_gotcha" style="display:none">
 
-      <!-- where to redirect after successful submit (optional) -->
-      <!-- <input type="hidden" name="_redirect" value="https://eco-samana.com/thank-you/"> -->
-
-      <button type="submit" class="btn">Send Message</button>
+      <button type="submit" class="btn">Send</button>
     </form>
 
     <aside class="contact-info">
@@ -96,8 +69,7 @@ description: "Contact Eco-Samaná Adventures for tour reservations, questions ab
   margin-bottom: .25rem;
 }
 .contact-form input,
-.contact-form textarea,
-.contact-form select {
+.contact-form textarea {
   width: 100%;
   padding: .5rem .6rem;
   border-radius: .5rem;
