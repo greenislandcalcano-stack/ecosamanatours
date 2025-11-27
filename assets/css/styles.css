@@ -1655,3 +1655,34 @@ p.sub,
   .tour-content .itinerary strong::after {
     content: " ";
   }
+/* GLOBAL NAV CONTRAST FIX */
+.site-header .nav a {
+  color: #0f172a !important; /* dark navy */
+  font-weight: 600;
+}
+
+.site-header .nav a:hover,
+.site-header .nav a:focus {
+  color: #0284c7 !important; /* ocean blue highlight */
+}
+
+/* Dropdown button */
+.dropbtn {
+  color: #0f172a !important;
+  font-weight: 600;
+}
+
+.dropdown-content a {
+  color: #0f172a;
+}
+
+.dropdown-content a:hover {
+  background-color: #e0f2fe; /* soft blue */
+}
+
+/* Active page highlight */
+nav a[aria-current="page"],
+.dropbtn[aria-current="page"] {
+  color: #047857 !important; /* eco green */
+  font-weight: 700;
+}
