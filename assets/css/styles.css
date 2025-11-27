@@ -862,3 +862,75 @@ section h3 {
   margin-top: 1.25rem;
   text-align: center;
 }
+/* === TUNING: TOUR PRICING BOXES (NO MORE COHIBAS) === */
+
+.tour-pricing {
+  padding: 3rem 0 3.25rem;
+  background: rgba(224, 242, 254, 0.4); /* toque muy suave azulito */
+}
+
+.tour-pricing .container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Grid más ancho y cómodo */
+.price-grid {
+  display: grid;
+  gap: 1.75rem;
+}
+
+/* 1 columna en móvil (para que no se aplaste) */
+@media (max-width: 639px) {
+  .price-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* el destacado no se sube tanto en pantallas pequeñas */
+  .price-box--highlight {
+    transform: none;
+    box-shadow: var(--shadow-soft);
+  }
+}
+
+/* 2–3 columnas en pantallas medias/grandes */
+@media (min-width: 640px) and (max-width: 1023px) {
+  .price-grid {
+    grid-template-columns: repeat(2, minmax(240px, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .price-grid {
+    grid-template-columns: repeat(3, minmax(260px, 1fr));
+  }
+}
+
+/* Cajas un poco más anchas y cómodas */
+.price-box {
+  padding: 1.4rem 1.5rem 1.6rem;
+  border-radius: 1.1rem;
+}
+
+.price-box h3 {
+  margin-bottom: 0.35rem;
+}
+
+.price-box .price {
+  margin-bottom: 0.25rem;
+}
+
+.price-box p,
+.price-box ul {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.price-box ul {
+  padding-left: 1.1rem;
+}
+
+/* Badge un poquito más discreto */
+.price-badge {
+  top: -0.55rem;
+}
