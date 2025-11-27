@@ -512,4 +512,48 @@ section {
   border-radius: 0.9rem;
   object-fit: cover;
 }
+/* === HOME HERO SECTION === */
+
+.hero {
+  background: linear-gradient(to bottom, #e0f2fe, #fef9c3);
+  padding: 3rem 0 3.25rem;
+}
+
+.hero .container {
+  max-width: 920px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: clamp(2.3rem, 3.5vw, 2.8rem);
+  margin-bottom: 0.8rem;
+  color: #022c22;
+}
+
+.hero .lead {
+  font-size: 1rem;
+  max-width: 760px;
+  margin: 0 auto 1.5rem;
+}
+/* === TITLES & HEADINGS === */
+
+main h1,
+.tour-hero h1 {
+  color: #022c22;
+  letter-spacing: 0.01em;
+}
+
+main h2,
+section h2 {
+  font-size: 1.7rem;
+  text-align: center;
+  color: #075985; /* deep ocean blue */
+  margin-bottom: 0.75rem;
+}
+
+section h3 {
+  font-size: 1.05rem;
+  color: #022c22;
+}
 
