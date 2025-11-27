@@ -1,1 +1,475 @@
+/* =========================
+   ECO-SAMANA GLOBAL THEME
+   ========================= */
+
+/* --- Color system & base --- */
+:root {
+  --bg-body: #f3fafb;
+  --bg-section: #f9fafb;
+  --bg-hero-top: #e0f2fe;
+  --bg-hero-bottom: #fef9c3;
+  --bg-card: #ffffff;
+  --bg-card-dark: #0f172a;
+  --bg-chip: #e0f2fe;
+
+  --border-soft: #d1d5db;
+  --border-strong: #0f172a;
+
+  --text-main: #022c22;
+  --text-muted: #6b7280;
+  --text-light: #e5e7eb;
+
+  --accent: #059669;         /* eco green */
+  --accent-soft: #dcfce7;
+  --accent-strong: #047857;
+  --accent-blue: #0284c7;
+
+  --shadow-soft: 0 10px 25px rgba(15, 23, 42, 0.15);
+  --shadow-strong: 0 18px 35px rgba(15, 23, 42, 0.25);
+
+  --radius-md: 0.75rem;
+  --radius-lg: 1.25rem;
+}
+
+/* --- Reset-ish basics --- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+               sans-serif;
+  background: var(--bg-body);
+  color: var(--text-main);
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Links */
+a {
+  color: var(--accent-blue);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* --- Layout helpers --- */
+.container {
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+main {
+  padding-bottom: 3rem;
+}
+
+section {
+  padding: 2.5rem 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.mt-1 { margin-top: 0.5rem; }
+.mt-2 { margin-top: 1rem;   }
+.mt-3 { margin-top: 1.5rem; }
+.mt-4 { margin-top: 2rem;   }
+
+/* =========================
+   NAVBAR / HEADER
+   ========================= */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(209, 213, 219, 0.7);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 3.5rem;
+}
+
+.brand {
+  font-weight: 800;
+  font-size: 1.1rem;
+  color: var(--accent-strong);
+  letter-spacing: 0.03em;
+}
+
+/* main nav */
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.95rem;
+}
+
+.nav a,
+.dropbtn {
+  position: relative;
+  color: #0f172a;
+  font-weight: 600;
+  padding: 0.4rem 0.6rem;
+  border-radius: 999px;
+  text-decoration: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+/* hover */
+.nav a:hover,
+.dropbtn:hover {
+  background: rgba(148, 163, 184, 0.16);
+}
+
+/* current page */
+.nav a[aria-current="page"],
+.dropbtn[aria-current="page"] {
+  background: rgba(2, 132, 199, 0.12);
+  color: var(--accent-blue);
+}
+
+/* dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: calc(100% + 0.4rem);
+  left: 0;
+  min-width: 210px;
+  background: #ffffff;
+  border-radius: 0.75rem;
+  border: 1px solid var(--border-soft);
+  box-shadow: var(--shadow-soft);
+  padding: 0.4rem 0;
+  z-index: 40;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 0.55rem 0.9rem;
+  color: #0f172a;
+  font-weight: 500;
+}
+
+.dropdown-content a:hover {
+  background: #e5f3ff;
+  color: var(--accent-blue);
+}
+
+/* show dropdown on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* mobile nav basic stacking */
+@media (max-width: 720px) {
+  .navbar {
+    flex-wrap: wrap;
+    row-gap: 0.75rem;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+/* =========================
+   HERO / TOUR HERO
+   ========================= */
+
+.tour-hero {
+  background: linear-gradient(
+    to bottom,
+    var(--bg-hero-top),
+    var(--bg-hero-bottom)
+  );
+  padding: 3rem 0 3.25rem;
+}
+
+.tour-hero .container {
+  text-align: center;
+  max-width: 900px;
+}
+
+.tour-hero h1 {
+  font-size: clamp(2.1rem, 3.2vw, 2.7rem);
+  margin: 0.2rem 0 0.8rem;
+}
+
+.lead {
+  font-size: 1rem;
+  color: var(--text-main);
+  max-width: 740px;
+  margin: 0 auto;
+}
+
+.eyebrow {
+  font-size: 0.8rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-top: 1.25rem;
+}
+
+.hero-meta span {
+  background: var(--bg-chip);
+  color: #0f172a;
+  border-radius: 999px;
+  padding: 0.4rem 0.85rem;
+  font-size: 0.8rem;
+  border: 1px solid rgba(148, 163, 184, 0.6);
+}
+
+/* =========================
+   BUTTONS
+   ========================= */
+
+.btn {
+  display: inline-block;
+  padding: 0.7rem 1.4rem;
+  border-radius: 999px;
+  border: none;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  background: var(--accent);
+  color: #022c22;
+  box-shadow: 0 10px 24px rgba(5, 150, 105, 0.35);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+}
+
+.btn:hover {
+  background: var(--accent-strong);
+  box-shadow: 0 14px 30px rgba(5, 150, 105, 0.45);
+  transform: translateY(-1px);
+}
+
+.btn.secondary {
+  background: transparent;
+  color: #0f172a;
+  border: 1px solid rgba(148, 163, 184, 0.8);
+  box-shadow: none;
+}
+
+.btn.secondary:hover {
+  background: #e5f3ff;
+}
+
+/* small button variant */
+.btn.small {
+  padding: 0.5rem 1rem;
+  font-size: 0.85rem;
+}
+
+/* =========================
+   GRIDS & CARDS
+   ========================= */
+
+.card-grid,
+.tour-grid,
+.gallery-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.card-grid,
+.tour-grid {
+  grid-template-columns: 1fr;
+}
+
+/* generic card */
+.card {
+  background: var(--bg-card);
+  border-radius: var(--radius-md);
+  padding: 1.05rem 1.15rem;
+  border: 1px solid rgba(148, 163, 184, 0.55);
+  box-shadow: var(--shadow-soft);
+}
+
+/* tour cards with image */
+.tour-card {
+  background: var(--bg-card);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 1px solid rgba(148, 163, 184, 0.65);
+  box-shadow: var(--shadow-soft);
+  display: flex;
+  flex-direction: column;
+}
+
+.tour-card img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+}
+
+.tour-card h3 {
+  font-size: 1.05rem;
+  margin: 0.9rem 1rem 0.4rem;
+}
+
+.tour-card p {
+  font-size: 0.9rem;
+  margin: 0 1rem 0.9rem;
+  color: var(--text-muted);
+}
+
+/* gallery grid */
+.gallery-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.gallery-grid img {
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-soft);
+}
+
+/* responsive grid columns */
+@media (min-width: 640px) {
+  .card-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .tour-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 960px) {
+  .tour-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .gallery-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+/* =========================
+   CONTENT SECTIONS
+   ========================= */
+
+.tour-content .container {
+  max-width: 980px;
+}
+
+.tour-layout {
+  display: grid;
+  gap: 2rem;
+}
+
+.tour-main {
+  min-width: 0;
+}
+
+.tour-sidebar {
+  min-width: 0;
+}
+
+.tour-sidebar .card + .card {
+  margin-top: 1rem;
+}
+
+/* 2-column layout on wider screens */
+@media (min-width: 880px) {
+  .tour-layout {
+    grid-template-columns: 3fr 2fr;
+  }
+}
+
+/* price card */
+.price-card {
+  background: var(--bg-section);
+  padding: 2rem 0;
+}
+
+.price-card .price-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.price-card li {
+  margin-bottom: 0.4rem;
+}
+
+/* tables (transfers, etc) */
+.price-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-size: 0.9rem;
+}
+
+.price-table th,
+.price-table td {
+  padding: 0.6rem 0.8rem;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.45);
+}
+
+.price-table th {
+  text-align: left;
+  background: #e5f3ff;
+}
+
+/* =========================
+   FINAL CTA & FOOTER
+   ========================= */
+
+.final-cta {
+  padding: 2.5rem 0 3rem;
+  background: linear-gradient(135deg, #0f172a, #022c22);
+  color: var(--text-light);
+  text-align: center;
+}
+
+.final-cta h2 {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.final-cta p {
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+/* simple footer if you use one later */
+.site-footer {
+  padding: 1.5rem 0;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  text-align: center;
+}
 
