@@ -793,7 +793,70 @@ section h3 {
 }
 
 /* little footer note under grid */
-.price-note {
+.price-note/* ================================
+   FIX: EXCURSIONS DROPDOWN MENU
+   ================================ */
+
+.navbar {
+  position: relative;
+  z-index: 1000; /* keeps menu above content */
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropbtn {
+  display: inline-block;
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* Dropdown Panel */
+.dropdown-content {
+  position: absolute;
+  top: 100%;               /* attaches directly under parent */
+  left: 0;
+  min-width: 210px;
+  background: #0f172a;     /* deep eco-samana blue */
+  border-radius: 0.6rem;
+  overflow: hidden;
+  padding: 0.5rem 0;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.35);
+  border: 1px solid rgba(255,255,255,0.08);
+
+  /* Hide by default */
+  display: block;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(8px);
+  transition: all 0.18s ease-out;
+  z-index: 9999;          /* stays above EVERYTHING */
+}
+
+/* Dropdown Links */
+.dropdown-content a {
+  display: block;
+  padding: 0.55rem 1rem;
+  color: #e5e7eb; /* light text */
+  font-size: 0.95rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.dropdown-content a:hover {
+  background: rgba(255,255,255,0.12);
+  color: #ffffff;
+}
+ {
   font-size: 0.85rem;
   color: var(--text-muted);
   margin-top: 1.25rem;
