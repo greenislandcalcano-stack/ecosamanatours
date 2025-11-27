@@ -472,4 +472,44 @@ section {
   color: var(--text-muted);
   text-align: center;
 }
+/* === IMAGE SIZE TWEAKS === */
+
+/* About page main image (and similar) */
+.hero-image {
+  max-width: 420px;
+  max-height: 320px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 1rem;
+  box-shadow: 0 14px 30px rgba(15, 23, 42, 0.35);
+  object-fit: cover;
+}
+
+/* "Meet your lead guide" picture */
+.media {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.media-img {
+  max-width: 220px;
+  border-radius: 999px;
+  box-shadow: 0 12px 26px rgba(15, 23, 42, 0.4);
+}
+
+.media-body {
+  flex: 1 1 220px;
+}
+
+/* Gallery and other grid images stay neat */
+.grid img,
+.gallery-grid img {
+  border-radius: 0.9rem;
+  object-fit: cover;
+}
 
