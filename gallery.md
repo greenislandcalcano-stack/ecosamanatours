@@ -89,6 +89,26 @@ image: /assets/images/docking-samana-3.jpg
     "{{ '/assets/images/catamaran-samana-01.jpg' | relative_url }}",
     "{{ '/assets/images/whale-watching-01.jpg' | relative_url }}",
     "{{ '/assets/images/waterfall-el-limon-01.jpg' | relative_url }}"
+  "{{ '/assets/images/galleria/heart-of-samana.jpg' | relative_url }}"
+  "{{ '/assets/images/galleria/samana-catholic-church.jpg' | relative_url }}"
+"{{ '/assets/images/galleria/samana-rural-boating.jpg' | relative_url }}"
+  "{{ '/assets/images/galleria/Samana rural dock1.jpg' | relative_url }}"
+  "{{ '/assets/images/galleria/samana-view.jpg' | relative_url }}"
+  "{{ '/assets/images/galleria/samana-whale-monument.jpg' | relative_url }}"
+  "{{ '/assets/images/galleria/samana-ranch-el-limon.jpg' | relative_url }}"
+   "{{ '/assets/images/galleria/buggy-limon12.jpg' | relative_url }}"
+   "{{ '/assets/images/galleria/blue-2-limon.png' | relative_url }}"
+  "{{ '/assets/images/galleria/samana-church.jpg' | relative_url }}"
+  "{{ '/assets/images/beach-canas2.jpg.jpg' | relative_url }}"
+   "{{ '/assets/images/cabin-moron.jpg' | relative_url }}"
+   "{{ '/assets/images/closeup cola de ballena1.jpg' | relative_url }}"
+ "{{ '/assets/images/docking-samana-1.jpg' | relative_url }}"
+   "{{ '/assets/images/coladeballena.jpg' | relative_url }}"
+ "{{ '/assets/images/el-limon-guided-tour.png' | relative_url }}"
+  "{{ '/assets/images/elvis-posing2.jpg' | relative_url }}"
+  "{{ '/assets/images/elvis-with-captain.jpg' | relative_url }}"
+  "{{ '/assets/images/fictious-map.png' | relative_url }}"
+  "{{ '/assets/images/haitises-sandcave.jpg' | relative_url }}"
   ],
   "touristType": "Eco Tourism",
   "address": {
