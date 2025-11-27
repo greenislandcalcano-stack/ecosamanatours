@@ -1686,3 +1686,23 @@ nav a[aria-current="page"],
   color: #047857 !important; /* eco green */
   font-weight: 700;
 }
+/* FIX DROPDOWN BACKGROUND */
+.dropdown-content {
+  background: #ffffff !important;     /* white background */
+  border: 1px solid #d1d5db;          /* soft gray border */
+  border-radius: 0.5rem;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* FIX DROPDOWN LINKS COLOR */
+.dropdown-content a {
+  color: #0f172a !important;          /* dark text */
+  font-weight: 500;
+  padding: 0.7rem 1rem;
+}
+
+/* Hover effect */
+.dropdown-content a:hover {
+  background: #f1f5f9 !important;     /* soft light gray */
+  color: #0284c7 !important;          /* eco-blue hover */
+}
