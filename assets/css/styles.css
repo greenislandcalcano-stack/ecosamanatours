@@ -934,3 +934,81 @@ section h3 {
 .price-badge {
   top: -0.55rem;
 }
+/* ================================
+   EXCURSIONS DROPDOWN – STABLE HOVER
+   ================================ */
+
+/* Make sure the navbar is a stable anchor for the dropdown */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar {
+  position: relative;
+  z-index: 1000;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+/* Dropdown container */
+.nav .dropdown {
+  position: relative;
+}
+
+/* The "Excursions ▾" trigger */
+.nav .dropbtn {
+  display: inline-block;
+  padding: 0.4rem 0.75rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Dropdown panel – hidden by default */
+.nav .dropdown-content {
+  position: absolute;
+  top: 100%;               /* attaches directly below the button */
+  left: 0;
+  min-width: 220px;
+  background: #020617;     /* deep navy */
+  border-radius: 0.75rem;
+  padding: 0.4rem 0;
+  box-shadow: 0 14px 30px rgba(15, 23, 42, 0.6);
+  border: 1px solid rgba(148, 163, 184, 0.4);
+
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(6px);
+  transition: all 0.16s ease-out;
+  z-index: 9999;           /* stays above hero/video/etc */
+}
+
+/* Keep it open while hovering over button OR panel */
+.nav .dropdown:hover .dropdown-content,
+.nav .dropdown:focus-within .dropdown-content {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* Links inside the dropdown */
+.nav .dropdown-content a {
+  display: block;
+  padding: 0.55rem 1rem;
+  font-size: 0.94rem;
+  color: #e5e7eb;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.nav .dropdown-content a:hover {
+  background: rgba(148, 163, 184, 0.25);
+  color: #ffffff;
+}
