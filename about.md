@@ -53,7 +53,7 @@ At **Eco-Samaná**, we believe travel should protect what it touches. We design 
 <div class="media">
   <img class="media-img" src="{{ '/assets/images/Elvis-Calcano.jpg' | relative_url }}" alt="Elvis Calcaño" loading="lazy">
   <div class="media-body">
-    <p><strong>Elvis Calcaño</strong> is a certified naturalist and captain with thousands of safe miles across Samaná Bay. He trains local youth in seamanship and reef etiquette.</p>
+    <p><strong>Elvis Calcaño</strong> is a certified naturalist with thousands of safe miles across Samaná Bay. He trains local youth in tourguiding and ecologic etiquette.</p>
     <p><a class="btn" href="{{ '/contact/' | relative_url }}">Plan your trip</a></p>
   </div>
 </div>
