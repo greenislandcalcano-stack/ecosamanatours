@@ -557,3 +557,88 @@ section h3 {
   color: #022c22;
 }
 
+/* ====== CURVED CARIBBEAN HERO ====== */
+
+.hero-curves {
+  position: relative;
+  overflow: hidden;
+  padding: 3.5rem 0 4.5rem;
+  color: #022c22;
+  background: linear-gradient(to bottom, #e0f7ff, #c7f9ff);
+}
+
+/* Inner content layout */
+.hero-curves .hero-inner {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+/* Big title */
+.hero-curves h1 {
+  font-size: clamp(2.4rem, 3.4vw, 2.9rem);
+  margin-bottom: 0.75rem;
+}
+
+/* Lead text */
+.hero-curves .lead {
+  font-size: 1rem;
+  max-width: 720px;
+  margin: 0 auto 1.5rem;
+}
+
+/* Layered curved “waves” at the bottom */
+.hero-curves::before,
+.hero-curves::after {
+  content: "";
+  position: absolute;
+  left: -10%;
+  right: -10%;
+  height: 260px;
+  border-radius: 50% 50% 0 0;
+  transform: translateY(35%);
+}
+
+/* top curve (light sand) */
+.hero-curves::before {
+  bottom: -120px;
+  background: radial-gradient(circle at 10% 0, #fef3c7 0, #fde68a 40%, #f59e0b 85%);
+}
+
+/* deeper curve (sea / shadow) */
+.hero-curves::after {
+  bottom: -180px;
+  background: radial-gradient(circle at 90% 0, #0f172a 0, #0369a1 40%, #0ea5e9 85%);
+  opacity: 0.9;
+}
+
+/* little circular “swirls” on the left */
+.hero-curves .hero-inner::before {
+  content: "";
+  position: absolute;
+  left: -80px;
+  top: 10px;
+  width: 220px;
+  height: 220px;
+  background:
+    radial-gradient(circle at 30% 30%, rgba(255,255,255,0.8) 0 5px, transparent 6px),
+    radial-gradient(circle at 70% 40%, rgba(255,255,255,0.7) 0 4px, transparent 5px),
+    radial-gradient(circle at 45% 75%, rgba(255,255,255,0.6) 0 3px, transparent 4px);
+  opacity: 0.9;
+}
+
+/* make sure small screens don't get overwhelmed */
+@media (max-width: 600px) {
+  .hero-curves {
+    padding: 2.5rem 0 3.5rem;
+  }
+  .hero-curves::before,
+  .hero-curves::after {
+    height: 190px;
+  }
+  .hero-curves .hero-inner::before {
+    left: -100px;
+    top: -10px;
+    transform: scale(0.8);
+  }
+}
