@@ -1184,3 +1184,49 @@ main,
 .dropdown-content a:hover {
   background: #d5fff4;
 }
+/* ==========================================
+   BRIGHTENED DROPDOWN — FIX VISIBILITY
+   ========================================== */
+
+.dropdown-content {
+  background: #ffffff !important;
+  border: 1px solid rgba(0, 150, 180, 0.25) !important;
+  border-radius: 0 0 12px 12px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+  padding: 0.5rem 0;
+  opacity: 1;
+  backdrop-filter: blur(6px);
+}
+
+.dropdown-content a {
+  color: #024b50 !important; /* strong readable aqua */
+  padding: 10px 16px;
+  display: block;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.dropdown-content a:hover {
+  background: #eafdff !important; /* light aqua highlight */
+  color: #017f84 !important;
+}
+
+/* Fix hover disappearance issues */
+.dropdown:hover .dropdown-content {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+}
+
+.dropdown {
+  position: relative;
+  z-index: 9999; /* ensures dropdown stays above content */
+}
+
+.dropdown-content {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 220px;
+  z-index: 9999;
+}
