@@ -1098,3 +1098,51 @@ main,
   border-radius: 0 0 50% 50% / 0 0 18% 18%;
   z-index: -1;
 }
+/* =========================
+   HEADER — AQUA BREEZE STYLE
+   ========================= */
+
+.site-header {
+  background: linear-gradient(
+    to bottom,
+    #e9fcff 0%,
+    #dff9ff 70%,
+    #d3f4ff 100%
+  );
+  border-bottom: 1px solid rgba(0, 120, 150, 0.15);
+  box-shadow: 0 4px 16px rgba(0, 80, 110, 0.08);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+/* Navigation spacing and link style */
+.nav a,
+.nav .dropbtn {
+  color: #024b50 !important;
+  font-weight: 600;
+  padding: 0.7rem 1rem;
+}
+
+/* Hover effect */
+.nav a:hover,
+.nav .dropbtn:hover {
+  color: #017f84 !important;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 8px;
+}
+
+/* Dropdown fix + styling */
+.dropdown-content {
+  background: #f4feff;
+  border: 1px solid rgba(0, 140, 160, 0.3);
+  border-radius: 0 0 12px 12px;
+}
+
+.dropdown-content a {
+  color: #014648 !important;
+}
+
+.dropdown-content a:hover {
+  background: #e3fcff;
+}
