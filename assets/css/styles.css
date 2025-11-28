@@ -1146,3 +1146,41 @@ main,
 .dropdown-content a:hover {
   background: #e3fcff;
 }
+/* HEADER — TROPICAL GRADIENT */
+
+.site-header {
+  background: linear-gradient(
+    135deg,
+    #b2f7ff 0%,
+    #8ff5e8 40%,
+    #fff6d6 100%
+  );
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.nav a,
+.nav .dropbtn {
+  color: #003d40 !important;
+  font-weight: 600;
+  padding: 0.75rem 1rem;
+}
+
+.nav a:hover,
+.nav .dropbtn:hover {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  color: #026d6a !important;
+}
+
+.dropdown-content {
+  background: #e7fffb;
+  border: 1px solid rgba(0, 80, 90, 0.2);
+}
+
+.dropdown-content a:hover {
+  background: #d5fff4;
+}
