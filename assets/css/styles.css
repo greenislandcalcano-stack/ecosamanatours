@@ -1012,3 +1012,89 @@ section h3 {
   background: rgba(148, 163, 184, 0.25);
   color: #ffffff;
 }
+/* =========================
+   HOME – ECO-SAMANÁ TEAM
+   ========================= */
+
+.home-team {
+  padding: 3rem 1.5rem 2.5rem;
+}
+
+.home-team .container {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.home-team h2 {
+  font-size: clamp(1.9rem, 3vw, 2.3rem);
+  margin-bottom: 1.5rem;
+}
+
+.home-team .hero-image {
+  max-width: 620px;
+  width: 100%;
+  border-radius: 1.5rem;
+  display: block;
+  margin: 0 auto 1.25rem;
+  box-shadow: 0 22px 40px rgba(15, 23, 42, 0.35);
+}
+
+.home-team p {
+  max-width: 720px;
+  margin: 0.6rem auto;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.home-team p a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.home-team p a:hover {
+  text-decoration: underline;
+}
+/* =========================
+   MAGIC BACKGROUND BANDS
+   ========================= */
+
+/* Fondo general tipo cielo–mar–arena */
+body {
+  background:
+    radial-gradient(circle at 0% 0%, #c7f9ff 0, #c7f9ff 18%, transparent 19%),
+    radial-gradient(circle at 100% 0%, #a5f3fc 0, #a5f3fc 20%, transparent 21%),
+    linear-gradient(
+      to bottom,
+      #e0f7ff 0%,
+      #f5fcff 35%,
+      #fff9ec 75%,
+      #ffe7c2 100%
+    );
+  background-attachment: fixed;
+}
+
+/* Para que el contenido se siga leyendo bien sobre ese fondo */
+main,
+.page-content,
+.tour-content,
+.gallery-wrap {
+  background: transparent;
+}
+
+/* Opcional: una banda un poco más marcada detrás de la sección del equipo */
+.home-team {
+  position: relative;
+}
+
+.home-team::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  margin-inline: -5vw;
+  background:
+    linear-gradient(135deg, rgba(56, 189, 248, 0.18), rgba(52, 211, 153, 0.18)),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 248, 231, 0.4));
+  border-radius: 0 0 50% 50% / 0 0 18% 18%;
+  z-index: -1;
+}
