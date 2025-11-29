@@ -12,4 +12,56 @@
   {{ content }}
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ page.title }}</title>
+
+  <!-- Inyección de CSS directo desde la página hija -->
+  {{ page.css }}
+
+  <style>
+    /* Reset para evitar estilos del layout público */
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #000; /* base oscura */
+      color: #fff;
+      height: 100%;
+      width: 100%;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    /* Evita que el tema público afecte */
+    .site-header,
+    header,
+    nav,
+    .navbar,
+    .page-content,
+    .wrapper,
+    .main-header,
+    footer,
+    .site-footer,
+    #header,
+    #footer {
+      display: none !important;
+    }
+
+    /* Hace que el contenido admin use el 100% */
+    body > * {
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+  </style>
+
+</head>
+<body>
+
+  <!-- Aquí se inserta el dashboard -->
+  {{ content }}
+
+</body>
+</html>
 
