@@ -5,6 +5,11 @@ permalink: /admin/dashboard/
 
 css: |
   <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+    }
+
     .dashboard-shell {
       display: grid;
       grid-template-columns: 260px 1fr;
@@ -13,7 +18,6 @@ css: |
       color: #fff;
     }
 
-    /* SIDEBAR */
     .sidebar {
       background: #0f172a;
       padding: 20px;
@@ -93,7 +97,6 @@ css: |
       font-size: 11px;
     }
 
-    /* MAIN PANEL */
     .main-panel {
       padding: 30px 40px;
       overflow-y: auto;
@@ -112,7 +115,6 @@ css: |
       font-size: 14px;
     }
 
-    /* STATS CARDS */
     .analytics-grid {
       margin-top: 30px;
       display: grid;
@@ -149,59 +151,11 @@ css: |
     .negative { color: #f87171; }
     .neutral { color: #94a3b8; }
 
-    /* GRAPH PLACEHOLDER */
     .graph-section {
       margin-top: 40px;
     }
-
-    .graph-placeholder {
-      background: #0f172a;
-      padding: 40px;
-      border-radius: 12px;
-      text-align: center;
-      border: 1px solid rgba(255,255,255,0.06);
-      color: #64748b;
-      font-size: 16px;
-    }
   </style>
 ---
-<div id="admin-lock" style="display:flex;align-items:center;justify-content:center;height:100vh;background:#020617;color:#e5e7eb;font-family:system-ui;">
-  <div style="background:#0f172a;padding:24px 28px;border-radius:12px;max-width:320px;width:90%;text-align:center;border:1px solid rgba(148,163,184,0.4);">
-    <h2 style="margin-top:0;margin-bottom:10px;font-size:20px;">Eco-Samaná Admin</h2>
-    <p style="margin:0 0 16px;font-size:14px;opacity:.8;">Introduce la clave para entrar al panel.</p>
-    <input id="admin-pass" type="password" placeholder="Admin key"
-           style="width:100%;padding:8px 10px;border-radius:8px;border:1px solid #334155;background:#020617;color:#e5e7eb;margin-bottom:12px;">
-    <button onclick="unlockAdmin()"
-            style="width:100%;padding:8px 10px;border-radius:999px;border:none;background:#22c55e;color:#022c22;font-weight:600;cursor:pointer;">
-      Entrar
-    </button>
-    <p id="admin-error" style="margin-top:10px;font-size:13px;color:#f97373;display:none;">Clave incorrecta.</p>
-  </div>
-</div>
-
-<script>
-  // ⚠️ Cambia esta clave por algo solo tuyo
-  const ADMIN_KEY = 'Elvis1969$!';
-
-  function unlockAdmin() {
-    const input = document.getElementById('admin-pass').value.trim();
-    const error = document.getElementById('admin-error');
-
-    if (input === ADMIN_KEY) {
-      document.getElementById('admin-lock').style.display = 'none';
-      const panel = document.querySelector('.dashboard-shell');
-      if (panel) panel.style.display = 'grid';
-    } else {
-      error.style.display = 'block';
-    }
-  }
-
-  // Ocultar dashboard hasta que se desbloquee
-  document.addEventListener('DOMContentLoaded', () => {
-    const panel = document.querySelector('.dashboard-shell');
-    if (panel) panel.style.display = 'none';
-  });
-</script>
 
 <div class="dashboard-shell">
 
@@ -247,7 +201,7 @@ css: |
 
     <section class="analytics-grid">
 
-      <!-- CARD: conversion -->
+      <!-- CARD: conversión -->
       <div class="stats-card">
         <h4>Tasa de conversión</h4>
         <div class="stat-value">4.3%</div>
@@ -268,34 +222,35 @@ css: |
         <div class="stat-change neutral">=</div>
       </div>
 
-      <!-- CARD: mensajes -->
+      <!-- CARD: leads -->
       <div class="stats-card">
         <h4>Leads generados</h4>
         <div class="stat-value">178</div>
         <div class="stat-change positive">+12 nuevos</div>
       </div>
 
-   <section class="graph-section">
-  <h3>Actividad semanal</h3>
+    </section>
 
-  <div class="graph-wrapper" 
-       style="border:1px solid rgba(255,255,255,0.08);
-              border-radius:12px;
-              overflow:hidden;
-              margin-top:20px;">
-    
-    <iframe 
-      width="100%" 
-      height="600"
-      src="https://lookerstudio.google.com/embed/reporting/2a279ad7-9116-4d79-b4a6-e9800aa7b16e/page/tEThF"
-      frameborder="0"
-      style="border:0; width:100%; height:600px;"
-      allowfullscreen
-      sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox">
-    </iframe>
+    <!-- ACTIVIDAD SEMANAL CON LOOKER STUDIO -->
+    <section class="graph-section">
+      <h3>Actividad semanal</h3>
 
-  </div>
-</section>
+      <div class="graph-wrapper"
+           style="border:1px solid rgba(255,255,255,0.08);
+                  border-radius:12px;
+                  overflow:hidden;
+                  margin-top:20px;">
+        <iframe
+          width="100%"
+          height="450"
+          src="https://lookerstudio.google.com/embed/reporting/2a279ad7-9116-4d79-b4a6-e9800aa7b16e/page/tEThF"
+          frameborder="0"
+          style="border:0; width:100%; height:450px;"
+          allowfullscreen
+          sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox">
+        </iframe>
+      </div>
+    </section>
 
   </main>
 
