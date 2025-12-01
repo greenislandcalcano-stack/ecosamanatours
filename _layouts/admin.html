@@ -1,25 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }}</title>
-
-  {{ page.css }}
-</head>
-
-<body>
-  {{ content }}
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="es">
-<head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{{ page.title }}</title>
 
-  <!-- Inyección de CSS directo desde la página hija -->
+  <!-- CSS que venga desde la página hija -->
   {{ page.css }}
 
   <style>
@@ -34,7 +20,7 @@
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
 
-    /* Evita que el tema público afecte */
+    /* Oculta header/footer del tema público por si acaso */
     .site-header,
     header,
     nav,
@@ -47,21 +33,21 @@
     #header,
     #footer {
       display: none !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      height: 0 !important;
     }
 
-    /* Hace que el contenido admin use el 100% */
+    /* Hace que el contenido admin use todo el espacio */
     body > * {
       margin: 0 !important;
       padding: 0 !important;
     }
   </style>
-
 </head>
-<body>
 
+<body>
   <!-- Aquí se inserta el dashboard -->
   {{ content }}
-
 </body>
 </html>
-
