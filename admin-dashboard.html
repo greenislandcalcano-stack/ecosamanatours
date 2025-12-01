@@ -8,4 +8,128 @@ css: |
     /* TODO: aquí va TODO el CSS del dashboard */
   </style>
 ---
+<div class="dashboard-shell">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="logo-circle">ES</div>
+      <h2>Eco-Samaná</h2>
+      <p>Control de Interacciones</p>
+    </div>
+
+    <nav class="menu">
+      <a href="#" class="menu-item active">
+        <span>📊</span> Dashboard general
+      </a>
+      <a href="#" class="menu-item">
+        <span>🌐</span> Tráfico & SEO
+      </a>
+      <a href="#" class="menu-item">
+        <span>🛶</span> Tours & reservas
+      </a>
+      <a href="#" class="menu-item">
+        <span>🔥</span> Mapa de calor
+      </a>
+      <a href="#" class="menu-item">
+        <span>💬</span> Leads & mensajes
+      </a>
+
+      <h4 class="section-title">Integraciones</h4>
+
+      <a href="#" class="menu-item">
+        <span>📈</span> Google Analytics 4
+      </a>
+      <a href="#" class="menu-item">
+        <span>🔍</span> Search Console
+      </a>
+    </nav>
+  </aside>
+
+  <!-- MAIN PANEL -->
+  <main class="main-panel">
+
+    <!-- HEADER -->
+    <header class="panel-header">
+      <h1>Panel principal de Eco-Samaná</h1>
+      <p class="subtitle">Interacciones del sitio, rendimiento y actividad en vivo.</p>
+
+      <div class="datetime">
+        <span id="date"></span> – <span id="time"></span>
+      </div>
+    </header>
+
+    <!-- STATS GRID -->
+    <section class="stats-grid">
+
+      <div class="stat-card">
+        <h3>Visitantes hoy</h3>
+        <p class="stat-number">182</p>
+        <small class="trend positive">▲ +4.3%</small>
+      </div>
+
+      <div class="stat-card">
+        <h3>Páginas vistas</h3>
+        <p class="stat-number">1,274</p>
+        <small class="trend positive">▲ +9.8%</small>
+      </div>
+
+      <div class="stat-card">
+        <h3>Reservas iniciadas</h3>
+        <p class="stat-number">32</p>
+        <small class="trend neutral">• estable</small>
+      </div>
+
+      <div class="stat-card">
+        <h3>Mensajes recibidos</h3>
+        <p class="stat-number">12</p>
+        <small class="trend negative">▼ −2 hoy</small>
+      </div>
+
+    </section>
+
+    <!-- TWO COLUMN SECTION -->
+    <section class="dual-grid">
+
+      <!-- Recent activity -->
+      <div class="panel-box">
+        <h2>Actividad reciente</h2>
+
+        <ul class="activity-list">
+          <li>👀 Alguien visitó <strong>/excursions/el-limon</strong></li>
+          <li>📨 Nuevo mensaje de formulario</li>
+          <li>🛶 2 reservas en proceso</li>
+          <li>🌐 Entrada desde Google (search “Samana waterfalls tour”)</li>
+        </ul>
+      </div>
+
+      <!-- Devices chart placeholder -->
+      <div class="panel-box">
+        <h2>Dispositivos más usados</h2>
+
+        <div class="chart-placeholder">
+          <p>📱 62% móvil</p>
+          <p>💻 35% desktop</p>
+          <p>📟 3% tablet</p>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+</div>
+
+<script>
+/* Reloj en vivo */
+function updateDateTime() {
+  const d = new Date();
+  document.getElementById("date").textContent =
+    d.toLocaleDateString("es-ES", { weekday: "long", day: "numeric", month: "long" });
+  document.getElementById("time").textContent =
+    d.toLocaleTimeString("es-ES", { hour: "2-digit", minute: "2-digit" });
+}
+setInterval(updateDateTime, 1000);
+updateDateTime();
+</script>
 
