@@ -8,128 +8,164 @@ css: |
     /* TODO: aquí va TODO el CSS del dashboard */
   </style>
 ---
-<div class="dashboard-shell">
+css: |
+  <style>
+    .dashboard-shell {
+      display: grid;
+      grid-template-columns: 260px 1fr;
+      height: 100vh;
+      background: #0d0d0d;
+      color: #fff;
+    }
 
-  <!-- SIDEBAR -->
-  <aside class="sidebar">
-    <div class="brand">
-      <div class="logo-circle">ES</div>
-      <h2>Eco-Samaná</h2>
-      <p>Control de Interacciones</p>
-    </div>
+    /* SIDEBAR */
+    .sidebar {
+      background: #0f172a;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      overflow-y: auto;
+      border-right: 1px solid rgba(255,255,255,0.06);
+    }
 
-    <nav class="menu">
-      <a href="#" class="menu-item active">
-        <span>📊</span> Dashboard general
-      </a>
-      <a href="#" class="menu-item">
-        <span>🌐</span> Tráfico & SEO
-      </a>
-      <a href="#" class="menu-item">
-        <span>🛶</span> Tours & reservas
-      </a>
-      <a href="#" class="menu-item">
-        <span>🔥</span> Mapa de calor
-      </a>
-      <a href="#" class="menu-item">
-        <span>💬</span> Leads & mensajes
-      </a>
+    .logo-circle {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: #22c55e;
+      color: #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 20px;
+      margin-right: 10px;
+    }
 
-      <h4 class="section-title">Integraciones</h4>
+    .sidebar-header {
+      display: flex;
+      align-items: center;
+    }
 
-      <a href="#" class="menu-item">
-        <span>📈</span> Google Analytics 4
-      </a>
-      <a href="#" class="menu-item">
-        <span>🔍</span> Search Console
-      </a>
-    </nav>
-  </aside>
+    .sidebar-title h1 {
+      margin: 0;
+      font-size: 18px;
+      font-weight: 700;
+    }
 
-  <!-- MAIN PANEL -->
-  <main class="main-panel">
+    .sidebar-title p {
+      margin: 0;
+      opacity: 0.7;
+      font-size: 13px;
+      line-height: 16px;
+    }
 
-    <!-- HEADER -->
-    <header class="panel-header">
-      <h1>Panel principal de Eco-Samaná</h1>
-      <p class="subtitle">Interacciones del sitio, rendimiento y actividad en vivo.</p>
+    .sidebar-nav h3 {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      font-size: 13px;
+      opacity: 0.6;
+      text-transform: uppercase;
+    }
 
-      <div class="datetime">
-        <span id="date"></span> – <span id="time"></span>
-      </div>
-    </header>
+    .nav-link {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 8px;
+      border-radius: 8px;
+      font-size: 15px;
+      cursor: pointer;
+      color: #fff;
+      text-decoration: none;
+      opacity: 0.9;
+      transition: 0.2s;
+    }
 
-    <!-- STATS GRID -->
-    <section class="stats-grid">
+    .nav-link:hover {
+      background: rgba(255,255,255,0.06);
+    }
 
-      <div class="stat-card">
-        <h3>Visitantes hoy</h3>
-        <p class="stat-number">182</p>
-        <small class="trend positive">▲ +4.3%</small>
-      </div>
+    .nav-link.active {
+      background: rgba(34,197,94,0.15);
+      border-left: 3px solid #22c55e;
+    }
 
-      <div class="stat-card">
-        <h3>Páginas vistas</h3>
-        <p class="stat-number">1,274</p>
-        <small class="trend positive">▲ +9.8%</small>
-      </div>
+    .nav-link small {
+      margin-left: auto;
+      opacity: 0.6;
+      font-size: 11px;
+    }
 
-      <div class="stat-card">
-        <h3>Reservas iniciadas</h3>
-        <p class="stat-number">32</p>
-        <small class="trend neutral">• estable</small>
-      </div>
+    /* MAIN PANEL */
+    .main-panel {
+      padding: 30px 40px;
+      overflow-y: auto;
+      background: #020617;
+    }
 
-      <div class="stat-card">
-        <h3>Mensajes recibidos</h3>
-        <p class="stat-number">12</p>
-        <small class="trend negative">▼ −2 hoy</small>
-      </div>
+    .panel-header h2 {
+      margin: 0;
+      font-size: 28px;
+      font-weight: 700;
+    }
 
-    </section>
+    .panel-subtitle {
+      margin-top: 5px;
+      opacity: 0.7;
+      font-size: 14px;
+    }
 
-    <!-- TWO COLUMN SECTION -->
-    <section class="dual-grid">
+    /* STATS CARDS */
+    .analytics-grid {
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
 
-      <!-- Recent activity -->
-      <div class="panel-box">
-        <h2>Actividad reciente</h2>
+    .stats-card {
+      background: #1e293b;
+      padding: 18px;
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      border: 1px solid rgba(255,255,255,0.04);
+    }
 
-        <ul class="activity-list">
-          <li>👀 Alguien visitó <strong>/excursions/el-limon</strong></li>
-          <li>📨 Nuevo mensaje de formulario</li>
-          <li>🛶 2 reservas en proceso</li>
-          <li>🌐 Entrada desde Google (search “Samana waterfalls tour”)</li>
-        </ul>
-      </div>
+    .stats-card h4 {
+      margin: 0;
+      font-size: 14px;
+      opacity: 0.7;
+    }
 
-      <!-- Devices chart placeholder -->
-      <div class="panel-box">
-        <h2>Dispositivos más usados</h2>
+    .stat-value {
+      font-size: 32px;
+      font-weight: bold;
+    }
 
-        <div class="chart-placeholder">
-          <p>📱 62% móvil</p>
-          <p>💻 35% desktop</p>
-          <p>📟 3% tablet</p>
-        </div>
-      </div>
+    .stat-change {
+      font-size: 14px;
+    }
 
-    </section>
+    .positive { color: #4ade80; }
+    .negative { color: #f87171; }
+    .neutral { color: #94a3b8; }
 
-  </main>
+    /* GRAPH PLACEHOLDER */
+    .graph-section {
+      margin-top: 40px;
+    }
 
-</div>
-
-<script>
-/* Reloj en vivo */
-function updateDateTime() {
-  const d = new Date();
-  document.getElementById("date").textContent =
-    d.toLocaleDateString("es-ES", { weekday: "long", day: "numeric", month: "long" });
-  document.getElementById("time").textContent =
-    d.toLocaleTimeString("es-ES", { hour: "2-digit", minute: "2-digit" });
-}
-setInterval(updateDateTime, 1000);
-updateDateTime();
-</script>
-
+    .graph-placeholder {
+      background: #0f172a;
+      padding: 40px;
+      border-radius: 12px;
+      text-align: center;
+      border: 1px solid rgba(255,255,255,0.06);
+      color: #64748b;
+      font-size: 16px;
+    }
+  </style>
