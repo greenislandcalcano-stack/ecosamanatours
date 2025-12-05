@@ -12,7 +12,7 @@
          {% if page.url == '/about/' %}aria-current="page"{% endif %}>
         About
       </a>
-
+<a href="{{ '/events/' | relative_url }}">Events</a>
       <a href="{{ '/gallery/' | relative_url }}"
          {% if page.url == '/gallery/' %}aria-current="page"{% endif %}>
         Gallery
@@ -38,8 +38,6 @@
           <a href="{{ '/eco-buggies.html' | relative_url }}">Eco-Buggies &amp; Beach Adventure</a>
           <a href="{{ '/caves-and-boating.html' | relative_url }}">Caves &amp; Boating Tour</a>
         </div>
-        <a href="{{ '/events/' | relative_url }}">Events</a>
-
       </div>
       <!-- END EXCURSIONS DROPDOWN -->
 
