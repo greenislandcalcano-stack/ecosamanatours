@@ -75,7 +75,7 @@ permalink: /blog/whale-watching-samana-ultimate-guide/
 
 <a id="eng-experience"></a>
 
-<div class="post-subtitle-eng">🐋 Whale Watching in Samaná: A Once-in-a-Lifetime Experience</div>
+<div class="post-subtitle-eng">Whale Watching in Samaná: A Once-in-a-Lifetime Experience</div>
 
 <img src="/assets/images/humpbacks-breach.jpg" alt="Humpback whale breaching in Samaná Bay" class="post-image">
 
@@ -97,7 +97,7 @@ If you're traveling to the Dominican Republic in 2025, whale watching here is no
 
 <a id="eng-details"></a>
 
-<div class="post-subtitle-eng">🌊 Why Samaná Is One of the Best Whale Destinations on Earth</div>
+<div class="post-subtitle-eng">Why Samaná Is One of the Best Whale Destinations on Earth</div>
 
 <img src="/assets/images/humpbacks-bay-samana.jpg" alt="Humpback whales swimming in Samana Bay" class="post-image">
 
@@ -111,7 +111,7 @@ Behaviors you may witness include giant breaches, tail slaps, spy-hopping, rolli
 
 ---
 
-<div class="post-subtitle-eng">📅 Whale Season 2025</div>
+<div class="post-subtitle-eng">Whale Season 2025</div>
 
 <img src="/assets/images/humpback-tail-cascades.jpg" alt="Humpback whale tail in Samana" class="post-image">
 
@@ -128,7 +128,7 @@ March = perfect photography conditions
 
 ---
 
-<div class="post-subtitle-eng">💵 Tour Prices</div>
+<div class="post-subtitle-eng">Tour Prices</div>
 
 <p class="post-text">
 Standard: $55–$69 per adult  
@@ -138,7 +138,7 @@ Private Tours: $350–$900
 
 ---
 
-<div class="post-subtitle-eng">🛥 What to Expect</div>
+<div class="post-subtitle-eng">What to Expect</div>
 
 <img src="/assets/images/humpbacs-boating.jpg" alt="Whale tour boat in Samana" class="post-image">
 
@@ -148,7 +148,7 @@ Tours include a safety briefing, navigation, sanctuary entry, and observation fr
 
 ---
 
-<div class="post-subtitle-eng">📸 Photography Tips</div>
+<div class="post-subtitle-eng">Photography Tips</div>
 
 <img src="/assets/images/closeup cola de ballena1.jpg" alt="Closeup whale tail Samana" class="post-image">
 
@@ -158,7 +158,7 @@ Use 1/1000 shutter speed, burst mode, a 70–300mm lens, and polarized sunglasse
 
 ---
 
-<div class="post-subtitle-eng">🌟 Why Choose Eco–Samaná Adventures</div>
+<div class="post-subtitle-eng">Why Choose Eco–Samaná Adventures</div>
 
 <img src="/assets/images/docking-samana-3.jpg" alt="Tour dock in Samana" class="post-image">
 
@@ -174,7 +174,7 @@ Small groups, educational guides, eco-friendly practices, and stunning panoramic
 
 <a id="es-experiencia"></a>
 
-<div class="post-subtitle-es">🐋 Una Experiencia que Te Cambia la Vida</div>
+<div class="post-subtitle-es">Una Experiencia que Te Cambia la Vida</div>
 
 <img src="/assets/images/cabeza de ballena y sombrero de coco.jpg" alt="Cabeza de ballena en Samana" class="post-image">
 
@@ -191,7 +191,7 @@ Más de <strong>1,500 ballenas jorobadas</strong> llegan cada año a estas aguas
 
 <a id="es-detalles"></a>
 
-<div class="post-subtitle-es">🌊 Por Qué Samaná Es Única</div>
+<div class="post-subtitle-es">Por Qué Samaná Es Única</div>
 
 <img src="/assets/images/cola y lomito de ballena.jpg" alt="Ballena en Samana" class="post-image">
 
@@ -201,7 +201,7 @@ Vas a ver saltos, golpes de cola, crías jugando, machos compitiendo, y si tiene
 
 ---
 
-<div class="post-subtitle-es">📅 Temporada 2025</div>
+<div class="post-subtitle-es">Temporada 2025</div>
 
 <img src="/assets/images/coladeballena.jpg" alt="Cola de ballena en Samaná" class="post-image">
 
@@ -222,7 +222,7 @@ Privado: $350–$900
 
 ---
 
-<div class="post-subtitle-es">🛥 Qué Esperar</div>
+<div class="post-subtitle-es">Qué Esperar</div>
 
 <img src="/assets/images/coladeballena1.jpg" alt="Ballena sumergiéndose en Samana" class="post-image">
 
@@ -232,7 +232,7 @@ Incluye navegación, entrada al santuario y observación segura — aunque mucha
 
 ---
 
-<div class="post-subtitle-es">📸 Consejos de Fotografía</div>
+<div class="post-subtitle-es">Consejos de Fotografía</div>
 
 <img src="/assets/images/elvis-posing2.jpg" alt="Elvis posando en Samaná" class="post-image">
 
