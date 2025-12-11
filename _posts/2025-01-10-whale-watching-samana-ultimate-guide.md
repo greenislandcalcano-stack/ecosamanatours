@@ -67,9 +67,11 @@ permalink: /blog/whale-watching-samana-ultimate-guide/
 
 ---
 
-# 🇺🇸 <div class="post-title-eng">ENGLISH VERSION — Whale Watching in Samaná: The Ultimate 2025 Guide</div>
+<h1 class="post-title-eng">
+  🇺🇸 ENGLISH VERSION — Whale Watching in Samaná: The Ultimate 2025 Guide
+</h1>
 
----
+...
 
 <a id="eng-experience"></a>
 
@@ -165,9 +167,9 @@ Small groups, educational guides, eco-friendly practices, and stunning panoramic
 </p>
 
 ---
-
-# 🇩🇴 <div class="post-title-es">VERSIÓN EN ESPAÑOL — Avistamiento de Ballenas en Samaná: Guía Definitiva 2025</div>
-
+<h1 class="post-title-es">
+  🇩🇴 VERSIÓN EN ESPAÑOL — Avistamiento de Ballenas en Samaná: Guía Definitiva 2025
+</h1>
 ---
 
 <a id="es-experiencia"></a>
