@@ -5,12 +5,23 @@ description: "A breathtaking bilingual guide to whale watching in Samaná, Domin
 image: "/assets/images/humpbacks-breach.jpg"
 categories: blog
 tags: [samana, whale watching, dominican republic, ecotourism, adventures, 2025]
+permalink: /blog/whale-watching-samana-ultimate-guide/
+---
+
+**INDEX / ÍNDICE**
+
+- [🇺🇸 English – Whale Watching Experience](#eng-experience)
+- [🇺🇸 English – Season, Prices & What to Expect](#eng-details)
+- [🇩🇴 Español – Experiencia de Avistamiento](#es-experiencia)
+- [🇩🇴 Español – Temporada, Precios y Consejos](#es-detalles)
+
 ---
 
 # 🇺🇸 <span style="color:#1a4fff;">ENGLISH VERSION — Whale Watching in Samaná: The Ultimate 2025 Guide</span>
 
 ---
 
+<a id="eng-experience"></a>
 ## <span style="color:#1a4fff;">🐋 Whale Watching in Samaná: A Once-in-a-Lifetime Experience</span>
 
 ![Humpback whale breaching in Samaná Bay](/assets/images/humpbacks-breach.jpg)
@@ -27,7 +38,9 @@ This guide will show you exactly why.
 
 ---
 
+<a id="eng-details"></a>
 ## <span style="color:#1a4fff;">🌊 Why Samaná Is One of the Best Whale Destinations on Earth</span>
+
 
 ![Humpback whales swimming in Samaná Bay](/assets/images/humpbacks-bay-samana.jpg)
 
@@ -48,7 +61,9 @@ Visitors commonly witness:
 
 ---
 
-## <span style="color:#1a4fff;">📅 Whale Season 2025</span>
+<a id="es-detalles"></a>
+## <span style="color:#1ea93c;">📅 Temporada 2025</span>
+
 
 ![Humpback tail with sun reflections in Samaná](/assets/images/humpback-tail-cascades.jpg)
 
@@ -138,7 +153,9 @@ It’s a memory that stays with you forever.
 
 ---
 
+<a id="es-experiencia"></a>
 ## <span style="color:#1ea93c;">🐋 Avistamiento de Ballenas en Samaná: Una Experiencia que Te Cambia la Vida</span>
+
 
 ![Cabeza de ballena y sombrero de coco en Samaná](/assets/images/cabeza de ballena y sombrero de coco.jpg)
 
