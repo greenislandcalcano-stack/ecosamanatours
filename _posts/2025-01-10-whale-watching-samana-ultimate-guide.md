@@ -8,251 +8,243 @@ tags: [samana, whale watching, dominican republic, ecotourism, adventures, 2025]
 permalink: /blog/whale-watching-samana-ultimate-guide/
 ---
 
-**INDEX / ÍNDICE**
-
-- [🇺🇸 English – Whale Watching Experience](#eng-experience)
-- [🇺🇸 English – Season, Prices & What to Expect](#eng-details)
-- [🇩🇴 Español – Experiencia de Avistamiento](#es-experiencia)
-- [🇩🇴 Español – Temporada, Precios y Consejos](#es-detalles)
+<style>
+  .post-text {
+    font-size: 22px;
+    line-height: 1.7;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #1a1a1a;
+  }
+  .post-title-eng {
+    color: #1a4fff;
+    font-size: 34px;
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 25px;
+    font-weight: bold;
+  }
+  .post-title-es {
+    color: #1ea93c;
+    font-size: 34px;
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 25px;
+    font-weight: bold;
+  }
+  .post-subtitle-eng {
+    color: #1a4fff;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  .post-subtitle-es {
+    color: #1ea93c;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  .post-image {
+    display: block;
+    margin: 20px auto;
+    border-radius: 12px;
+    max-width: 100%;
+  }
+</style>
 
 ---
 
-# 🇺🇸 <span style="color:#1a4fff;">ENGLISH VERSION — Whale Watching in Samaná: The Ultimate 2025 Guide</span>
+# **INDEX / ÍNDICE**
+
+💙 [English – Whale Watching Experience](#eng-experience)  
+💙 [English – Season, Prices & What to Expect](#eng-details)  
+💚 [Español – Experiencia de Avistamiento](#es-experiencia)  
+💚 [Español – Temporada, Precios y Consejos](#es-detalles)
+
+---
+
+# 🇺🇸 <div class="post-title-eng">ENGLISH VERSION — Whale Watching in Samaná: The Ultimate 2025 Guide</div>
 
 ---
 
 <a id="eng-experience"></a>
-## <span style="color:#1a4fff;">🐋 Whale Watching in Samaná: A Once-in-a-Lifetime Experience</span>
 
-![Humpback whale breaching in Samaná Bay](/assets/images/humpbacks-breach.jpg)
+<div class="post-subtitle-eng">🐋 Whale Watching in Samaná: A Once-in-a-Lifetime Experience</div>
 
+<img src="/assets/images/humpbacks-breach.jpg" alt="Humpback whale breaching in Samaná Bay" class="post-image">
+
+<p class="post-text">
 There are places you visit…  
-And then there's **Samaná** — a place that visits *you back*, long after you've gone.
+And then there's <strong>Samaná</strong> — a place that visits <em>you back</em>, long after you've gone.
+</p>
 
-From January to March, the serene turquoise waters of Samaná Bay transform into the **largest love-stage of the North Atlantic humpback whales**, where more than **1,500 giants of the sea** arrive to mate, give birth, and raise their adorable newborn calves.
+<p class="post-text">
+From January to March, the warm turquoise waters of Samaná Bay transform into the <strong>largest love-stage of the North Atlantic humpback whales</strong>, where over 1,500 giants arrive to mate, give birth, and raise their newborn calves.
+</p>
 
-If you're heading to the Dominican Republic in 2025, whale watching in Samaná is not just a tour —  
-**it’s a soul-touching, heart-stirring, mind-expanding experience.**
-
-This guide will show you exactly why.
+<p class="post-text">
+If you're traveling to the Dominican Republic in 2025, whale watching here is not just a tour —  
+<strong>it’s a soul-touching, heart-stirring, mind-expanding experience.</strong>
+</p>
 
 ---
 
 <a id="eng-details"></a>
-## <span style="color:#1a4fff;">🌊 Why Samaná Is One of the Best Whale Destinations on Earth</span>
 
+<div class="post-subtitle-eng">🌊 Why Samaná Is One of the Best Whale Destinations on Earth</div>
 
-![Humpback whales swimming in Samaná Bay](/assets/images/humpbacks-bay-samana.jpg)
+<img src="/assets/images/humpbacks-bay-samana.jpg" alt="Humpback whales swimming in Samana Bay" class="post-image">
 
-Samaná Bay is internationally recognized as:
+<p class="post-text">
+Samaná Bay is internationally recognized as a protected sanctuary where humpbacks arrive exclusively to give birth.
+</p>
 
-### ⭐ Protected Marine Sanctuary  
-One of the only places in the world where humpbacks arrive *exclusively* to give birth.
-
-### ⭐ Frequent High-Energy Whale Behavior  
-
-Visitors commonly witness:
-
-- Full-body breaches  
-- Tail slaps  
-- Spy-hopping  
-- Male competition rituals  
-- Calves practicing tiny jumps  
+<p class="post-text">
+Behaviors you may witness include giant breaches, tail slaps, spy-hopping, rolling calves, and synchronized dives.
+</p>
 
 ---
 
-<a id="es-detalles"></a>
-## <span style="color:#1ea93c;">📅 Temporada 2025</span>
+<div class="post-subtitle-eng">📅 Whale Season 2025</div>
 
+<img src="/assets/images/humpback-tail-cascades.jpg" alt="Humpback whale tail in Samana" class="post-image">
 
-![Humpback tail with sun reflections in Samaná](/assets/images/humpback-tail-cascades.jpg)
+<p class="post-text">
+<strong>January 15 – March 30, 2025</strong><br>
+Peak: <strong>February 1 – March 10</strong>
+</p>
 
-- **January 15 – March 30, 2025**  
-- Peak: **February 1 – March 10**
-
+<p class="post-text">
 January = energetic males  
-February = baby whales everywhere  
-March = calmer whales, amazing sunlight  
+February = newborn calves  
+March = perfect photography conditions  
+</p>
 
 ---
 
-## <span style="color:#1a4fff;">💵 Prices for 2025</span>
+<div class="post-subtitle-eng">💵 Tour Prices</div>
 
-**Standard Tours**  
-- $55–$69 adults  
-- $30–$45 children  
-
-**Premium Small Groups**  
-- $89–$120 adults  
-
-**Private Tours**  
-- $350–$900 per boat  
+<p class="post-text">
+Standard: $55–$69 per adult  
+Small Groups: $89–$120  
+Private Tours: $350–$900  
+</p>
 
 ---
 
-## <span style="color:#1a4fff;">🛥 What to Expect</span>
+<div class="post-subtitle-eng">🛥 What to Expect</div>
 
-![Tour boat approaching whale area in Samaná](/assets/images/humpbacs-boating.jpg)
+<img src="/assets/images/humpbacs-boating.jpg" alt="Whale tour boat in Samana" class="post-image">
 
-Your trip includes:
-
-- A friendly safety briefing  
-- A warm Caribbean breeze  
-- Entry into the Marine Sanctuary  
-- Observing whales at 100–200m (legal distance)  
-
-But here's the secret:  
-**Humpbacks are curious. They often approach the boats on their own.**
-
-You may witness:
-
-- A mother lifting her calf  
-- A sudden breach  
-- Whales gliding under the boat  
-- Synchronized dives  
+<p class="post-text">
+Tours include a safety briefing, navigation, sanctuary entry, and observation from 100–200 meters — though whales often approach voluntarily.
+</p>
 
 ---
 
-## <span style="color:#1a4fff;">📸 Photography Tips</span>
+<div class="post-subtitle-eng">📸 Photography Tips</div>
 
-![Closeup whale tail in Samaná](/assets/images/closeup cola de ballena1.jpg)
+<img src="/assets/images/closeup cola de ballena1.jpg" alt="Closeup whale tail Samana" class="post-image">
 
-- Use **1/1000** shutter speed  
-- Burst mode  
-- 70–300mm lens  
-- Polarized sunglasses  
-
----
-
-## <span style="color:#1a4fff;">🌟 Why Choose Eco–Samaná Adventures</span>
-
-![Tour dock in Samaná](/assets/images/docking-samana-3.jpg)
-
-We offer an experience that is:
-
-- More intimate  
-- More educational  
-- More eco-friendly  
-- More panoramic  
-- More welcoming  
-
-You won't feel like a tourist — you’ll feel like family.
+<p class="post-text">
+Use 1/1000 shutter speed, burst mode, a 70–300mm lens, and polarized sunglasses.
+</p>
 
 ---
 
-## <span style="color:#1a4fff;">❤️ Final Thoughts</span>
+<div class="post-subtitle-eng">🌟 Why Choose Eco–Samaná Adventures</div>
 
-Whale watching in Samaná is not just a tour.  
-It’s a memory that stays with you forever.
+<img src="/assets/images/docking-samana-3.jpg" alt="Tour dock in Samana" class="post-image">
+
+<p class="post-text">
+Small groups, educational guides, eco-friendly practices, and stunning panoramic routes.
+</p>
 
 ---
 
----
-
-# 🇩🇴 <span style="color:#1ea93c;">VERSIÓN EN ESPAÑOL — Avistamiento de Ballenas en Samaná: Guía Definitiva 2025</span>
+# 🇩🇴 <div class="post-title-es">VERSIÓN EN ESPAÑOL — Avistamiento de Ballenas en Samaná: Guía Definitiva 2025</div>
 
 ---
 
 <a id="es-experiencia"></a>
-## <span style="color:#1ea93c;">🐋 Avistamiento de Ballenas en Samaná: Una Experiencia que Te Cambia la Vida</span>
 
+<div class="post-subtitle-es">🐋 Una Experiencia que Te Cambia la Vida</div>
 
-![Cabeza de ballena y sombrero de coco en Samaná](/assets/images/cabeza de ballena y sombrero de coco.jpg)
+<img src="/assets/images/cabeza de ballena y sombrero de coco.jpg" alt="Cabeza de ballena en Samana" class="post-image">
 
+<p class="post-text">
 Hay lugares que uno visita…  
-Y luego está **Samaná**, un lugar que se queda contigo.
+Y luego está <strong>Samaná</strong>, un lugar que se queda contigo para siempre.
+</p>
 
-Entre enero y marzo, más de **1,500 ballenas jorobadas** llegan para reproducirse, parir y criar a sus crías en las aguas cálidas y tranquilas de la bahía.
-
-Si vienes a la República Dominicana en 2025, este tour no puede faltar en tu vida.
-
----
-
-## <span style="color:#1ea93c;">🌊 Por Qué Samaná Es un Lugar Único</span>
-
-![Cola y lomito de ballena en Samaná](/assets/images/cola y lomito de ballena.jpg)
-
-### ⭐ Santuario Protegido  
-Un espacio seguro donde las ballenas vienen solo a parir.
-
-### ⭐ Conductas Impresionantes  
-Puedes ver:
-
-- Saltos gigantes  
-- Golpes de cola  
-- Crías jugando  
-- Machos compitiendo  
-- Canto de ballena  
+<p class="post-text">
+Más de <strong>1,500 ballenas jorobadas</strong> llegan cada año a estas aguas cálidas para parir, criar y mostrar comportamientos impresionantes.
+</p>
 
 ---
 
-## <span style="color:#1ea93c;">📅 Temporada 2025</span>
+<a id="es-detalles"></a>
 
-![Cola de ballena en aguas de Samaná](/assets/images/coladeballena.jpg)
+<div class="post-subtitle-es">🌊 Por Qué Samaná Es Única</div>
 
-- **15 de enero – 30 de marzo**  
-- Pico: **1 de febrero – 10 de marzo**
+<img src="/assets/images/cola y lomito de ballena.jpg" alt="Ballena en Samana" class="post-image">
 
----
-
-## <span style="color:#1ea93c;">💵 Precios</span>
-
-**Estándar**  
-- $55–$69 adultos  
-- $30–$45 niños  
-
-**Premium**  
-- $89–$120 adultos  
-
-**Privado**  
-- $350–$900 por bote  
+<p class="post-text">
+Vas a ver saltos, golpes de cola, crías jugando, machos compitiendo, y si tienes suerte… canto de ballena.
+</p>
 
 ---
 
-## <span style="color:#1ea93c;">🛥 Qué Puedes Esperar</span>
+<div class="post-subtitle-es">📅 Temporada 2025</div>
 
-![Ballena sumergiéndose en Samaná](/assets/images/coladeballena1.jpg)
+<img src="/assets/images/coladeballena.jpg" alt="Cola de ballena en Samaná" class="post-image">
 
-Incluye:
-
-- Charla de seguridad  
-- Navegación  
-- Entrada al Santuario  
-- Observación desde distancia regulada  
-
-Pero muchas veces…
-
-**las ballenas deciden acercarse a ti.**
+<p class="post-text">
+Temporada: <strong>15 de enero – 30 de marzo</strong>  
+Pico: <strong>1 de febrero – 10 de marzo</strong>
+</p>
 
 ---
 
-## <span style="color:#1ea93c;">📸 Consejos de Fotografía</span>
+<div class="post-subtitle-es">💵 Precios</div>
 
-![Elvis posando en Samaná antes del tour](/assets/images/elvis-posing2.jpg)
-
-- Velocidad **1/1000**  
-- Modo ráfaga  
-- Zoom largo  
-- Gafas polarizadas  
-
----
-
-## <span style="color:#1ea93c;">🌟 Por Qué Elegir Eco–Samaná Adventures</span>
-
-![Tour en bote en Samaná con ballenas al fondo](/assets/images/humpbacks-bay-samana.jpg)
-
-- Grupos pequeños  
-- Guías expertos  
-- Rutas panorámicas  
-- Experiencia humana y cálida  
+<p class="post-text">
+Estándar: $55–$69  
+Premium: $89–$120  
+Privado: $350–$900  
+</p>
 
 ---
 
-## <span style="color:#1ea93c;">❤️ Conclusión</span>
+<div class="post-subtitle-es">🛥 Qué Esperar</div>
 
-El avistamiento de ballenas en Samaná no es solo un tour.  
-Es una experiencia que toca tu corazón.
+<img src="/assets/images/coladeballena1.jpg" alt="Ballena sumergiéndose en Samana" class="post-image">
 
-Cuando una ballena de 40 toneladas salta frente a ti, tu mundo cambia.
+<p class="post-text">
+Incluye navegación, entrada al santuario y observación segura — aunque muchas veces las ballenas se acercan solitas.
+</p>
+
+---
+
+<div class="post-subtitle-es">📸 Consejos de Fotografía</div>
+
+<img src="/assets/images/elvis-posing2.jpg" alt="Elvis posando en Samaná" class="post-image">
+
+<p class="post-text">
+Velocidad 1/1000, zoom largo y gafas polarizadas para una experiencia perfecta.
+</p>
+
+---
+
+<div class="post-subtitle-es">❤️ Conclusión</div>
+
+<p class="post-text">
+El avistamiento de ballenas en Samaná no es un paseo…  
+Es una experiencia que transforma tu corazón.
+</p>
 
 ---
