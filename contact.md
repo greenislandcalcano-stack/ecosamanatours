@@ -96,14 +96,7 @@ description: "Contact Eco-Samaná Adventures for tour reservations, questions ab
 </section>
 
 <!-- Sticky WhatsApp button -->
-<a
-  class="wa-sticky"
-  href="https://wa.me/15046572553?text=Hello%20Eco-Samana%20Adventures!%20I%E2%80%99d%20like%20to%20book%20a%20tour%20in%20Samana."
-  target="_blank"
-  rel="noopener"
-  id="whatsappSticky"
-  aria-label="Chat with us on WhatsApp"
->
+<a class="wa-sticky" href="https://wa.me/15046572553?text=Hello%20Eco-Samana%20Adventures%21%20I%E2%80%99d%20like%20to%20book%20a%20tour%20in%20Samana." target="_blank" rel="noopener" id="whatsappSticky" aria-label="Chat with us on WhatsApp">
   <span class="wa-sticky-icon" aria-hidden="true">💬</span>
   <span class="wa-sticky-text">WhatsApp</span>
 </a>
