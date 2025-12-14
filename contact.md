@@ -245,9 +245,3 @@ document.getElementById("contactForm")?.addEventListener("submit", () => {
   trackGA("contact_form_submit", { page: "contact" });
 });
 </script>
-
-
-.contact-info h2 {
-  margin-top: 0;
-}
-</style>
