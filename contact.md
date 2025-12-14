@@ -89,7 +89,7 @@ description: "Contact Eco-Samaná Adventures for tour reservations, questions ab
       <div class="season-box">
         <p class="season-title">🐋 Whale Watching Season</p>
         <p class="muted">January – March</p>
-        <p class="muted">Tours available year-round</p>
+        <p class="muted">Tours available season-round</p>
       </div>
     </aside>
   </div>
