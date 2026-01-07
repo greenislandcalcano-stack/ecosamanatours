@@ -1230,3 +1230,20 @@ main,
   min-width: 220px;
   z-index: 9999;
 }
+.event-payment {
+  margin-top: 2rem;
+}
+.payment-box {
+  background: #f4fbfd;
+  border-left: 4px solid #2fa4a9;
+  padding: 1.2rem;
+  border-radius: 8px;
+}
+.payment-box p {
+  margin: 0.4rem 0;
+}
+.payment-box .note {
+  margin-top: 0.8rem;
+  font-size: 0.95rem;
+  color: #333;
+}
