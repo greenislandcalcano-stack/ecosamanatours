@@ -50,7 +50,25 @@ Use the quick navigation below:
     These photos show the “hidden Samaná” we take travelers to — quiet, dreamy, postcard-perfect.
   </p>
   {% endif %}
+<section class="tour-gallery">
 
+<h2 class="tour-gallery-title">Cayo Levantado Experience</h2>
+
+<div class="tour-gallery-grid">
+
+<img src="/assets/images/cayo-levantado-drone.jpg" alt="Cayo Levantado aerial view Samana">
+
+<img src="/assets/images/cayo-levantado-beach.jpg" alt="Cayo Levantado white sand beach">
+
+<img src="/assets/images/cayo-levantado-palms.jpg" alt="Palm trees Cayo Levantado beach">
+
+<img src="/assets/images/cayo-levantado-samana-bay.jpg" alt="Samana bay view from Cayo Levantado">
+
+<img src="/assets/images/cayo-levantado-paradise.jpg" alt="Cayo Levantado tropical paradise">
+
+</div>
+
+</section>
   {% if section.id == "boats-catamarans" %}
   <p class="section-desc">
     Our boats explore Samaná Bay, Los Haitises National Park, Cayo Levantado, and remote islands.  
