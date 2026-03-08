@@ -1276,3 +1276,34 @@ main,
   text-decoration: none;
   font-weight: bold;
 }
+.tour-gallery{
+padding:60px 20px;
+max-width:1200px;
+margin:auto;
+}
+
+.tour-gallery-title{
+text-align:center;
+font-size:2rem;
+margin-bottom:40px;
+color:#0b3a45;
+}
+
+.tour-gallery-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.tour-gallery-grid img{
+width:100%;
+height:260px;
+object-fit:cover;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+transition:transform .3s ease;
+}
+
+.tour-gallery-grid img:hover{
+transform:scale(1.05);
+}
