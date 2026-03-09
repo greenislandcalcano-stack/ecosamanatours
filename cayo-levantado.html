@@ -1,255 +1,356 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Cayo Levantado Day Pass | EcoSamana Adventures</title>
+  <title>Cayo Levantado Day Pass | EcoSamana Adventures</title>
+  <meta name="description" content="Enjoy a tropical escape to Cayo Levantado (Bacardi Island) in Samana Bay. White sand beaches, turquoise water, and a relaxing Caribbean experience with EcoSamana Adventures.">
 
-<meta name="description" content="Enjoy a tropical escape to Cayo Levantado (Bacardi Island) in Samana Bay. White sand beaches, turquoise water and a relaxing Caribbean experience with EcoSamana Adventures.">
+  <link rel="stylesheet" href="/css/style.css">
 
-<link rel="stylesheet" href="/css/style.css">
+  <style>
+    body{
+      margin:0;
+      background:
+        radial-gradient(circle at 10% 28%, rgba(126, 229, 234, 0.55) 0, rgba(126, 229, 234, 0.55) 14%, transparent 15%),
+        radial-gradient(circle at 88% 30%, rgba(126, 229, 234, 0.50) 0, rgba(126, 229, 234, 0.50) 14%, transparent 15%),
+        linear-gradient(180deg, #f7f8f2 0%, #f2ebd7 100%);
+      color:#062f28;
+    }
 
-<style>
+    .tour-hero{
+      max-width:1100px;
+      margin:42px auto 18px;
+      padding:0 20px;
+      text-align:center;
+      background:none;
+      height:auto;
+      display:block;
+      color:#062f28;
+      position:relative;
+    }
 
-/* HERO */
+    .tour-hero::before{
+      display:none;
+    }
 
-.tour-hero{
-height:70vh;
-background:url("/assets/images/cayo-levantado-drone.jpg") center/cover no-repeat;
-display:flex;
-align-items:center;
-justify-content:center;
-text-align:center;
-color:white;
-position:relative;
-}
+    .tour-hero-content{
+      max-width:900px;
+      margin:0 auto;
+      padding:0;
+    }
 
-.tour-hero::before{
-content:"";
-position:absolute;
-inset:0;
-background:rgba(0,0,0,0.45);
-}
+    .tour-hero h1{
+      font-size:3.2rem;
+      line-height:1.15;
+      margin:0 0 18px;
+      font-weight:700;
+      color:#052e27;
+    }
 
-.tour-hero-content{
-position:relative;
-max-width:700px;
-padding:20px;
-}
+    .tour-hero p{
+      max-width:860px;
+      margin:0 auto 26px;
+      font-size:1.15rem;
+      line-height:1.6;
+      color:#26453f;
+    }
 
-.tour-hero h1{
-font-size:3rem;
-margin-bottom:15px;
-}
+    .tour-section{
+      max-width:1100px;
+      margin:0 auto 60px;
+      padding:0 20px;
+    }
 
-.tour-hero p{
-font-size:1.2rem;
-line-height:1.6;
-}
+    .tour-grid{
+      display:block;
+      padding:72px 60px 60px;
+      background:linear-gradient(180deg, rgba(232,243,247,0.92) 0%, rgba(241,236,191,0.88) 100%);
+      text-align:center;
+      border-radius:0;
+    }
 
-/* TOUR INFO */
+    .tour-grid > div:first-child{
+      max-width:900px;
+      margin:0 auto;
+    }
 
-.tour-section{
-max-width:1100px;
-margin:auto;
-padding:60px 20px;
-}
+    .tour-grid > div:last-child{
+      max-width:900px;
+      margin:34px auto 0;
+    }
 
-.tour-grid{
-display:grid;
-grid-template-columns:1fr 1fr;
-gap:40px;
-align-items:center;
-}
+    .tour-grid img{
+      width:100%;
+      max-height:460px;
+      object-fit:cover;
+      border-radius:18px;
+      display:block;
+    }
 
-.tour-grid img{
-width:100%;
-border-radius:14px;
-}
+    .tour-kicker{
+      display:block;
+      margin-bottom:22px;
+      font-family:Arial, sans-serif;
+      font-size:.92rem;
+      letter-spacing:.22em;
+      text-transform:uppercase;
+      color:#6f7e7a;
+    }
 
-/* HIGHLIGHTS */
+    .tour-section h2{
+      margin:0 0 24px;
+      font-size:3.3rem;
+      line-height:1.18;
+      font-weight:700;
+      color:#052e27;
+    }
 
-.tour-highlights{
-display:flex;
-flex-wrap:wrap;
-gap:10px;
-margin-top:15px;
-}
+    .tour-section p{
+      max-width:860px;
+      margin:0 auto 18px;
+      font-size:1rem;
+      line-height:1.65;
+      color:#1f433c;
+    }
 
-.tour-highlights span{
-background:#e8f6f9;
-padding:8px 14px;
-border-radius:30px;
-font-size:.9rem;
-}
+    .tour-highlights{
+      display:flex;
+      justify-content:center;
+      flex-wrap:wrap;
+      gap:10px;
+      margin:28px 0 0;
+    }
 
-/* PRICE */
+    .tour-highlights span{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      background:#d6e2ee;
+      border:1px solid #a9bccd;
+      padding:10px 18px;
+      border-radius:999px;
+      font-size:.95rem;
+      color:#25363d;
+    }
 
-.tour-price{
-margin-top:25px;
-font-size:2rem;
-font-weight:bold;
-color:#0c6170;
-}
+    .tour-price{
+      margin-top:25px;
+      font-size:2rem;
+      font-weight:bold;
+      color:#0c6170;
+    }
 
-.btn-book{
-display:inline-block;
-margin-top:20px;
-background:#0c6170;
-color:white;
-padding:12px 22px;
-border-radius:40px;
-text-decoration:none;
-font-weight:bold;
-}
+    .tour-actions{
+      display:flex;
+      justify-content:center;
+      flex-wrap:wrap;
+      gap:14px;
+      margin-top:26px;
+    }
 
-/* GALLERY */
+    .btn--primary{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      padding:16px 30px;
+      border-radius:999px;
+      text-decoration:none;
+      font-family:Arial, sans-serif;
+      font-size:1rem;
+      font-weight:700;
+      background:#05a36b;
+      color:#062f28;
+      box-shadow:0 10px 24px rgba(5,163,107,.28);
+      transition:all .25s ease;
+    }
 
-.tour-gallery{
-padding:60px 20px;
-background:#f4fbfd;
-}
+    .btn--primary:hover{
+      transform:translateY(-2px);
+      box-shadow:0 14px 28px rgba(5,163,107,.34);
+    }
 
-.gallery-grid{
-max-width:1100px;
-margin:auto;
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:20px;
-}
+    .btn--outline{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      padding:16px 30px;
+      border-radius:999px;
+      text-decoration:none;
+      font-family:Arial, sans-serif;
+      font-size:1rem;
+      font-weight:700;
+      background:transparent;
+      color:#20352f;
+      border:1.5px solid rgba(50,80,72,.35);
+      transition:all .25s ease;
+    }
 
-.gallery-grid img{
-width:100%;
-height:260px;
-object-fit:cover;
-border-radius:12px;
-}
+    .btn--outline:hover{
+      background:rgba(255,255,255,.35);
+    }
 
-/* MOBILE */
+    .tour-gallery{
+      max-width:1100px;
+      margin:0 auto 80px;
+      padding:0 20px 60px;
+      background:none;
+    }
 
-@media(max-width:900px){
+    .gallery-grid{
+      max-width:1100px;
+      margin:auto;
+      display:grid;
+      grid-template-columns:repeat(3, 1fr);
+      gap:20px;
+    }
 
-.tour-grid{
-grid-template-columns:1fr;
-}
+    .gallery-grid img{
+      width:100%;
+      height:260px;
+      object-fit:cover;
+      border-radius:18px;
+      box-shadow:0 10px 28px rgba(0,0,0,.08);
+    }
 
-.tour-hero h1{
-font-size:2.2rem;
-}
+    @media(max-width:900px){
+      .tour-hero{
+        margin-top:28px;
+      }
 
-}
+      .tour-hero h1{
+        font-size:2.2rem;
+      }
 
-</style>
+      .tour-hero p{
+        font-size:1.02rem;
+      }
 
+      .tour-grid{
+        padding:46px 24px 28px;
+      }
+
+      .tour-section h2{
+        font-size:2.2rem;
+      }
+
+      .gallery-grid{
+        grid-template-columns:1fr;
+      }
+
+      .gallery-grid img{
+        height:240px;
+      }
+    }
+  </style>
 </head>
-
 
 <body>
 
-<header class="site-header">
-  <div class="container navbar">
-    <div class="brand">EcoSamana Adventures 🌿</div>
+  <header class="site-header">
+    <div class="container navbar">
+      <div class="brand">EcoSamana Adventures 🌿</div>
 
-    <nav class="nav" aria-label="Main">
-      <a href="{{ '/' | relative_url }}">Home</a>
-      <a href="{{ '/about/' | relative_url }}">About</a>
-      <a href="{{ '/gallery/' | relative_url }}">Gallery</a>
+      <nav class="nav" aria-label="Main">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/about/' | relative_url }}">About</a>
+        <a href="{{ '/gallery/' | relative_url }}">Gallery</a>
 
-      <div class="dropdown">
-        <a href="#" class="dropbtn">Excursions ▾</a>
-        <div class="dropdown-content">
-          <a href="{{ '/el-limon/' | relative_url }}">El Limón Waterfall</a>
-          <a href="{{ '/treasure-hunt/' | relative_url }}">Treasure Hunt &amp; Snorkeling</a>
-          <a href="cayo-levantado.html">Cayo Levantado</a>
-          <a href="{{ '/whales.html' | relative_url }}">Whale Watching</a>
-          <a href="{{ '/eco-buggies.html' | relative_url }}">Eco-Buggies &amp; Beach Adventure</a>
-          <a href="{{ '/caves-and-boating.html' | relative_url }}">Los Haitises Caves &amp; Boating Tour</a>
-          <a href="{{ '/snorkeling-samana/' | relative_url }}">Snorkeling in Samaná Bay</a>
+        <div class="dropdown">
+          <a href="#" class="dropbtn">Excursions ▾</a>
+          <div class="dropdown-content">
+            <a href="{{ '/el-limon/' | relative_url }}">El Limón Waterfall</a>
+            <a href="{{ '/treasure-hunt/' | relative_url }}">Treasure Hunt &amp; Snorkeling</a>
+            <a href="cayo-levantado.html">Cayo Levantado</a>
+            <a href="{{ '/whales.html' | relative_url }}">Whale Watching</a>
+            <a href="{{ '/eco-buggies.html' | relative_url }}">Eco-Buggies &amp; Beach Adventure</a>
+            <a href="{{ '/caves-and-boating.html' | relative_url }}">Los Haitises Caves &amp; Boating Tour</a>
+            <a href="{{ '/snorkeling-samana/' | relative_url }}">Snorkeling in Samaná Bay</a>
+          </div>
         </div>
-      </div>
 
-      <a href="{{ '/contact/' | relative_url }}">Contact</a>
+        <a href="{{ '/contact/' | relative_url }}">Contact</a>
 
-      <a class="btn btn--gold"
-         href="https://wa.me/15046572553?text=Hello%20EcoSamana%20Adventures!%20I%20want%20to%20book%20the%20Cayo%20Levantado%20Day%20Pass."
-         target="_blank" rel="noopener">
-        Book Now
-      </a>
-    </nav>
-  </div>
-</header>
-
-<section class="tour-hero">
-  <div class="tour-hero-content">
-    <h1>Cayo Levantado Day Pass</h1>
-    <p>
-      Discover one of the most beautiful islands in the Caribbean. Crystal clear waters,
-      white sand beaches, and the relaxed tropical atmosphere of Bacardi Island.
-    </p>
-  </div>
-</section>
-
-<section class="tour-section">
-  <div class="tour-grid">
-
-    <div>
-      <span class="tour-kicker">ISLAND ESCAPE</span>
-
-      <h2>Cayo Levantado Day Pass – Bacardi Island Experience</h2>
-
-      <p>
-        Spend the day on one of the most iconic islands in the Dominican Republic.
-        Located in the heart of Samaná Bay, Cayo Levantado offers turquoise waters,
-        white sand beaches, swaying palms, and a peaceful Caribbean setting.
-      </p>
-
-      <p>
-        This experience is perfect for travelers who want to relax, swim, take beautiful photos,
-        and enjoy an unforgettable island atmosphere just off the coast of Samaná.
-      </p>
-
-      <div class="tour-highlights">
-        <span>🏝 Paradise beach</span>
-        <span>🚤 Round-trip boat ride</span>
-        <span>🍽 Lunch included</span>
-        <span>📸 Great photo spots</span>
-      </div>
-
-      <div class="tour-price">From $65 USD</div>
-
-      <div class="tour-actions">
-        <a class="btn btn--primary"
+        <a class="btn btn--gold"
            href="https://wa.me/15046572553?text=Hello%20EcoSamana%20Adventures!%20I%20want%20to%20book%20the%20Cayo%20Levantado%20Day%20Pass."
            target="_blank" rel="noopener">
           Book Now
         </a>
+      </nav>
+    </div>
+  </header>
 
-        <a class="btn btn--outline"
-           href="https://wa.me/15046572553?text=Hello%20EcoSamana%20Adventures!%20Can%20you%20send%20me%20more%20information%20about%20the%20Cayo%20Levantado%20Day%20Pass?"
-           target="_blank" rel="noopener">
-          Chat on WhatsApp
-        </a>
+  <section class="tour-hero">
+    <div class="tour-hero-content">
+      <h1>Cayo Levantado Day Pass</h1>
+      <p>
+        Discover one of the most beautiful islands in the Caribbean. Crystal clear waters,
+        white sand beaches, and the relaxed tropical atmosphere of Bacardi Island.
+      </p>
+    </div>
+  </section>
+
+  <section class="tour-section">
+    <div class="tour-grid">
+
+      <div>
+        <span class="tour-kicker">ISLAND ESCAPE</span>
+
+        <h2>Cayo Levantado Day Pass – Bacardi Island Experience</h2>
+
+        <p>
+          Spend the day on one of the most iconic islands in the Dominican Republic.
+          Located in the heart of Samaná Bay, Cayo Levantado offers turquoise waters,
+          white sand beaches, swaying palms, and a peaceful Caribbean setting.
+        </p>
+
+        <p>
+          This experience is perfect for travelers who want to relax, swim, take beautiful photos,
+          and enjoy an unforgettable island atmosphere just off the coast of Samaná.
+        </p>
+
+        <div class="tour-highlights">
+          <span>🏝 Paradise beach</span>
+          <span>🚤 Round-trip boat ride</span>
+          <span>🍽 Lunch included</span>
+          <span>📸 Great photo spots</span>
+        </div>
+
+        <div class="tour-price">From $65 USD</div>
+
+        <div class="tour-actions">
+          <a class="btn btn--primary"
+             href="https://wa.me/15046572553?text=Hello%20EcoSamana%20Adventures!%20I%20want%20to%20book%20the%20Cayo%20Levantado%20Day%20Pass."
+             target="_blank" rel="noopener">
+            Book Now
+          </a>
+
+          <a class="btn btn--outline"
+             href="https://wa.me/15046572553?text=Hello%20EcoSamana%20Adventures!%20Can%20you%20send%20me%20more%20information%20about%20the%20Cayo%20Levantado%20Day%20Pass?"
+             target="_blank" rel="noopener">
+            Chat on WhatsApp
+          </a>
+        </div>
       </div>
+
+      <div>
+        <img src="/assets/images/cayo-levantado-beach.jpg" alt="Cayo Levantado beach Samaná">
+      </div>
+
     </div>
+  </section>
 
-    <div>
-      <img src="/assets/images/cayo-levantado-beach.jpg" alt="Cayo Levantado beach Samaná">
+  <section class="tour-gallery">
+    <div class="gallery-grid">
+      <img src="/assets/images/cayo-levantado-drone.jpg" alt="Cayo Levantado aerial view">
+      <img src="/assets/images/cayo-levantado-beach.jpg" alt="Cayo Levantado beach">
+      <img src="/assets/images/cayo-levantado-palms.jpg" alt="Palm trees at Cayo Levantado">
+      <img src="/assets/images/cayo-levantado-samana-bay.jpg" alt="Samaná Bay view">
+      <img src="/assets/images/cayo-levantado-paradise.jpg" alt="Cayo Levantado tropical island">
+      <img src="/assets/images/cayo-levantado-beach.jpg" alt="Relaxing beach at Cayo Levantado">
     </div>
-
-  </div>
-</section>
-
-<section class="tour-gallery">
-  <div class="gallery-grid">
-    <img src="/assets/images/cayo-levantado-drone.jpg" alt="Cayo Levantado aerial view">
-    <img src="/assets/images/cayo-levantado-beach.jpg" alt="Cayo Levantado beach">
-    <img src="/assets/images/cayo-levantado-palms.jpg" alt="Palm trees at Cayo Levantado">
-    <img src="/assets/images/cayo-levantado-samana-bay.jpg" alt="Samaná Bay view">
-    <img src="/assets/images/cayo-levantado-paradise.jpg" alt="Cayo Levantado tropical island">
-    <img src="/assets/images/cayo-levantado-beach.jpg" alt="Relaxing beach at Cayo Levantado">
-  </div>
-</section>
+  </section>
 
 </body>
+</html>
