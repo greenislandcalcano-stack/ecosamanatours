@@ -148,102 +148,108 @@ font-size:2.2rem;
 
 <body>
 
-<!-- HERO -->
+<header class="site-header">
+  <div class="container navbar">
+    <div class="brand">EcoSamana Adventures 🌿</div>
+
+    <nav class="nav" aria-label="Main">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/about/' | relative_url }}">About</a>
+      <a href="{{ '/gallery/' | relative_url }}">Gallery</a>
+
+      <div class="dropdown">
+        <a href="#" class="dropbtn">Excursions ▾</a>
+        <div class="dropdown-content">
+          <a href="{{ '/el-limon/' | relative_url }}">El Limón Waterfall</a>
+          <a href="{{ '/treasure-hunt/' | relative_url }}">Treasure Hunt &amp; Snorkeling</a>
+          <a href="cayo-levantado.html">Cayo Levantado</a>
+          <a href="{{ '/whales.html' | relative_url }}">Whale Watching</a>
+          <a href="{{ '/eco-buggies.html' | relative_url }}">Eco-Buggies &amp; Beach Adventure</a>
+          <a href="{{ '/caves-and-boating.html' | relative_url }}">Los Haitises Caves &amp; Boating Tour</a>
+          <a href="{{ '/snorkeling-samana/' | relative_url }}">Snorkeling in Samaná Bay</a>
+        </div>
+      </div>
+
+      <a href="{{ '/contact/' | relative_url }}">Contact</a>
+
+      <a class="btn btn--gold"
+         href="https://wa.me/15046572553?text=Hello%20EcoSamana%20Adventures!%20I%20want%20to%20book%20the%20Cayo%20Levantado%20Day%20Pass."
+         target="_blank" rel="noopener">
+        Book Now
+      </a>
+    </nav>
+  </div>
+</header>
 
 <section class="tour-hero">
-
-<div class="tour-hero-content">
-
-<h1>Cayo Levantado Day Pass</h1>
-
-<p>
-Discover one of the most beautiful islands in the Caribbean.
-Crystal clear waters, white sand beaches and the relaxed tropical
-atmosphere of Bacardi Island.
-</p>
-
-</div>
-
+  <div class="tour-hero-content">
+    <h1>Cayo Levantado Day Pass</h1>
+    <p>
+      Discover one of the most beautiful islands in the Caribbean. Crystal clear waters,
+      white sand beaches, and the relaxed tropical atmosphere of Bacardi Island.
+    </p>
+  </div>
 </section>
-
-
-<!-- TOUR DESCRIPTION -->
 
 <section class="tour-section">
+  <div class="tour-grid">
 
-<div class="tour-grid">
+    <div>
+      <span class="tour-kicker">ISLAND ESCAPE</span>
 
-<div>
+      <h2>Cayo Levantado Day Pass – Bacardi Island Experience</h2>
 
-<h2>A Tropical Escape in Samana Bay</h2>
+      <p>
+        Spend the day on one of the most iconic islands in the Dominican Republic.
+        Located in the heart of Samaná Bay, Cayo Levantado offers turquoise waters,
+        white sand beaches, swaying palms, and a peaceful Caribbean setting.
+      </p>
 
-<p>
-Cayo Levantado, also known as Bacardi Island, is one of the most
-iconic destinations in the Dominican Republic. Located in the
-beautiful Samana Bay, this small paradise offers calm turquoise
-waters, palm trees, and soft white sand beaches.
-</p>
+      <p>
+        This experience is perfect for travelers who want to relax, swim, take beautiful photos,
+        and enjoy an unforgettable island atmosphere just off the coast of Samaná.
+      </p>
 
-<p>
-This day pass allows you to relax, swim, take incredible photos
-and enjoy the peaceful Caribbean atmosphere.
-</p>
+      <div class="tour-highlights">
+        <span>🏝 Paradise beach</span>
+        <span>🚤 Round-trip boat ride</span>
+        <span>🍽 Lunch included</span>
+        <span>📸 Great photo spots</span>
+      </div>
 
-<div class="tour-highlights">
+      <div class="tour-price">From $65 USD</div>
 
-<span>🏝 Paradise Beach</span>
-<span>🚤 Boat Transportation</span>
-<span>🍽 Lunch Included</span>
-<span>🌊 Swimming & Relaxation</span>
+      <div class="tour-actions">
+        <a class="btn btn--primary"
+           href="https://wa.me/15046572553?text=Hello%20EcoSamana%20Adventures!%20I%20want%20to%20book%20the%20Cayo%20Levantado%20Day%20Pass."
+           target="_blank" rel="noopener">
+          Book Now
+        </a>
 
-</div>
+        <a class="btn btn--outline"
+           href="https://wa.me/15046572553?text=Hello%20EcoSamana%20Adventures!%20Can%20you%20send%20me%20more%20information%20about%20the%20Cayo%20Levantado%20Day%20Pass?"
+           target="_blank" rel="noopener">
+          Chat on WhatsApp
+        </a>
+      </div>
+    </div>
 
-<div class="tour-price">
+    <div>
+      <img src="/assets/images/cayo-levantado-beach.jpg" alt="Cayo Levantado beach Samaná">
+    </div>
 
-From $65 USD
-
-</div>
-
-<a class="btn btn--gold"
-href="https://wa.me/15046572553?text=Hello%20EcoSamana%20Adventures!%20I%20want%20to%20book%20a%20tour."
-target="_blank" rel="noopener">
-Book Now
-</a>
-
-</div>
-
-<div>
-
-<img src="/assets/images/cayo-levantado-beach.jpg"
-alt="Cayo Levantado beach Samana">
-
-</div>
-
-</div>
-
+  </div>
 </section>
-
-
-<!-- GALLERY -->
 
 <section class="tour-gallery">
-
-<div class="gallery-grid">
-
-<img src="/assets/images/cayo-levantado-drone.jpg" alt="Cayo Levantado aerial">
-
-<img src="/assets/images/cayo-levantado-beach.jpg" alt="Cayo Levantado beach">
-
-<img src="/assets/images/cayo-levantado-palms.jpg" alt="Palm trees beach">
-
-<img src="/assets/images/cayo-levantado-samana-bay.jpg" alt="Samana bay view">
-
-<img src="/assets/images/cayo-levantado-paradise.jpg" alt="Tropical island view">
-
-</div>
-
+  <div class="gallery-grid">
+    <img src="/assets/images/cayo-levantado-drone.jpg" alt="Cayo Levantado aerial view">
+    <img src="/assets/images/cayo-levantado-beach.jpg" alt="Cayo Levantado beach">
+    <img src="/assets/images/cayo-levantado-palms.jpg" alt="Palm trees at Cayo Levantado">
+    <img src="/assets/images/cayo-levantado-samana-bay.jpg" alt="Samaná Bay view">
+    <img src="/assets/images/cayo-levantado-paradise.jpg" alt="Cayo Levantado tropical island">
+    <img src="/assets/images/cayo-levantado-beach.jpg" alt="Relaxing beach at Cayo Levantado">
+  </div>
 </section>
 
-
 </body>
-</html>
