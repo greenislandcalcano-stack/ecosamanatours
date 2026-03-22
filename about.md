@@ -4,8 +4,6 @@ title: "About EcoSamana Adventures"
 permalink: /about/
 description: "Learn about EcoSamana Adventures, a local family project in Santa Bárbara de Samaná offering eco-friendly tours, whale watching, waterfalls, and hidden beach experiences."
 ---
-
-
 <!-- Hero / lead -->
 <p class="text-center">
   <img class="hero-image"
