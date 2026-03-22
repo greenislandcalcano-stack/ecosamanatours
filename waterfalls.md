@@ -6,8 +6,6 @@ description: "Discover the best waterfalls in Samaná including El Limón. Guide
 image: /assets/images/hero/waterfall.jpg
 ---
 
-# Waterfalls & Nature in Samaná
-
 Explore the lush landscapes of Samaná through guided waterfall adventures, scenic trails, and refreshing river experiences.
 
 ## El Limón Waterfall
