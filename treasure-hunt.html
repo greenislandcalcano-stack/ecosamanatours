@@ -35,19 +35,63 @@ image: /assets/images/pirate-hero.jpg
   }
 
   .tour-hero .intro-fun {
-    max-width: 920px;
-    margin: 1.25rem auto 0;
-    font-size: 1.05rem;
-    line-height: 1.8;
-    color: #f8fafc;
-    background: rgba(15, 23, 42, 0.45);
-    padding: 1.25rem 1.4rem;
-    border-radius: 18px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.18);
+    position: relative;
+    max-width: 1080px;
+    margin: 1.8rem auto 0;
+    min-height: 430px;
+    padding: 4.8rem 8rem 4.2rem;
+    background: url('/assets/images/parchment-pirate.png') center/contain no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
-  .tour-hero .intro-fun strong {
-    color: #ffffff;
+  .tour-hero .intro-fun .parchment-text {
+    max-width: 760px;
+    text-align: center;
+    color: #3b2414;
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.75;
+    font-size: 1.15rem;
+    text-shadow: 0 1px 0 rgba(255, 248, 220, 0.35);
+  }
+
+  .tour-hero .intro-fun .parchment-text p {
+    margin: 0 0 1.25rem;
+  }
+
+  .tour-hero .intro-fun .parchment-text p:last-child {
+    margin-bottom: 0;
+  }
+
+  .tour-hero .intro-fun .parchment-text strong {
+    color: #2b170b;
+  }
+
+  @media (max-width: 900px) {
+    .tour-hero .intro-fun {
+      max-width: 100%;
+      min-height: auto;
+      padding: 3rem 2.2rem;
+      background-size: 100% 100%;
+    }
+
+    .tour-hero .intro-fun .parchment-text {
+      font-size: 1rem;
+      line-height: 1.65;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .tour-hero .intro-fun {
+      padding: 2.2rem 1.2rem;
+      border-radius: 18px;
+      background-size: cover;
+    }
+
+    .tour-hero .intro-fun .parchment-text {
+      font-size: 0.96rem;
+    }
   }
 </style>
 
@@ -76,24 +120,26 @@ image: /assets/images/pirate-hero.jpg
     </div>
 
     <div class="intro-fun">
-      <p>
-        Ahoy, explorers — forget ordinary boat rides. This is your chance to set sail on a
-        real adventure where the sea keeps secrets, the coastline hides clues, and the treasure
-        does not give itself up without a little laughter, teamwork, and pirate spirit.
-      </p>
-      <p>
-        Your mission begins the moment you board. Cruise through the sparkling waters of
-        <strong>Samaná Bay</strong>, snorkel in calm tropical spots filled with colorful marine life,
-        then follow the trail toward a hidden pirate reward waiting somewhere ashore.
-        Along the way, expect fun surprises, scenic views, and just enough mischief to keep
-        the whole crew smiling.
-      </p>
-      <p>
-        It’s the perfect mix of <strong>snorkeling, beach fun, family teamwork, and unforgettable memories</strong>.
-        Safe, guided, exciting, and wonderfully different from the usual excursion —
-        because with <strong>EcoSamana Adventures</strong>, you do not just visit the bay...
-        <strong>you become part of the story.</strong>
-      </p>
+      <div class="parchment-text">
+        <p>
+          <strong>Ahoy, explorers</strong> — forget ordinary boat rides. This is your chance to set sail on a
+          real adventure where the sea keeps secrets, the coastline hides clues, and the treasure
+          does not give itself up without a little laughter, teamwork, and pirate spirit.
+        </p>
+        <p>
+          Your mission begins the moment you board. Cruise through the sparkling waters of
+          <strong>Samaná Bay</strong>, snorkel in calm tropical spots filled with colorful marine life,
+          then follow the trail toward a hidden pirate reward waiting somewhere ashore.
+          Along the way, expect fun surprises, scenic views, and just enough mischief to keep
+          the whole crew smiling.
+        </p>
+        <p>
+          It’s the perfect mix of <strong>snorkeling, beach fun, family teamwork, and unforgettable memories</strong>.
+          Safe, guided, exciting, and wonderfully different from the usual excursion —
+          because with <strong>EcoSamana Adventures</strong>, you do not just visit the bay...
+          <strong>you become part of the story.</strong>
+        </p>
+      </div>
     </div>
   </div>
 </section>
