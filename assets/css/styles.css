@@ -1745,4 +1745,17 @@ body{
   display: block;
   width: 100%;
   height: auto;
+.tour-hero .intro-fun {
+  max-width: 920px;
+  margin: 1.8rem auto 0;
+  padding: 1.4rem 1.5rem;
+  border-radius: 18px;
+
+  background: rgba(255, 255, 255, 0.85); /* light instead of dark */
+  color: #0f172a;
+
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+
+  backdrop-filter: blur(6px);
 }
