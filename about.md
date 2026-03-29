@@ -57,7 +57,22 @@ and leave every place better than we found it.
   </figure>
 </div>
 
-## Meet your lead guide
+
+## Why travelers choose EcoSamana
+
+- Small groups and personalized experiences  
+- Local knowledge and authentic routes  
+- Eco-friendly practices and conservation focus  
+- Friendly, safe, and professional guidance  
+
+<section class="samana-history-section">
+  <div class="history-overlay"></div>
+
+  <div class="container">
+    <div class="history-intro reveal-up">
+      <p class="history-eyebrow">Our Roots • Culture • Adventure • Samaná Peninsula</p>
+      <h2>🌿 The Story of Samaná</h2>
+      ## Meet your lead guide
 
 <div class="media">
   <img class="media-img"
@@ -77,20 +92,6 @@ and leave every place better than we found it.
   </div>
 </div>
 
-## Why travelers choose EcoSamana
-
-- Small groups and personalized experiences  
-- Local knowledge and authentic routes  
-- Eco-friendly practices and conservation focus  
-- Friendly, safe, and professional guidance  
-
-<section class="samana-history-section">
-  <div class="history-overlay"></div>
-
-  <div class="container">
-    <div class="history-intro reveal-up">
-      <p class="history-eyebrow">Our Roots • Culture • Adventure • Samaná Peninsula</p>
-      <h2>🌿 The Story of Samaná</h2>
       <p class="history-lead">
         Welcome to Samaná — a peninsula of hidden waterfalls, colorful villages, old ports,
         seafaring stories, and unforgettable landscapes. At EcoSamana Adventures, we love sharing
