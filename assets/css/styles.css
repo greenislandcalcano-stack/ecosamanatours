@@ -2462,3 +2462,134 @@ body{
 .dropdown:hover .dropdown-menu {
   display: block;
 }
+.site-header {
+  background: linear-gradient(90deg, #98e2e6 0%, #cfe7c2 100%);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.navbar-grid {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 18px 20px;
+  display: grid;
+  grid-template-columns: 220px 1fr 140px;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "brand main book"
+    "brand tours book";
+  align-items: center;
+  column-gap: 24px;
+  row-gap: 10px;
+}
+
+.brand {
+  grid-area: brand;
+  text-decoration: none;
+  color: #0a4a53;
+  font-weight: 800;
+  font-size: 1.1rem;
+  line-height: 1.35;
+  display: inline-block;
+}
+
+.nav-main {
+  grid-area: main;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 12px;
+}
+
+.nav-main a {
+  text-decoration: none;
+  color: #0b4652;
+  font-weight: 700;
+  padding: 8px 12px;
+  border-radius: 10px;
+  transition: all 0.25s ease;
+}
+
+.nav-main a:hover {
+  background: rgba(255,255,255,0.18);
+}
+
+.nav-main a.active {
+  background: rgba(255,255,255,0.28);
+  color: #0a5b60;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.22);
+}
+
+.nav-tours {
+  grid-area: tours;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 10px;
+}
+
+.nav-label {
+  font-weight: 800;
+  color: #0b4652;
+  margin-right: 6px;
+}
+
+.nav-tours a {
+  text-decoration: none;
+  color: #144a52;
+  font-weight: 600;
+  font-size: 0.96rem;
+  padding: 4px 0;
+  border-bottom: 2px solid transparent;
+  transition: all 0.25s ease;
+}
+
+.nav-tours a:hover {
+  color: #0a6f74;
+  border-bottom-color: rgba(10, 111, 116, 0.35);
+}
+
+.nav-tours a.active-tour {
+  color: #0b7e79;
+  font-weight: 800;
+  border-bottom-color: #0b7e79;
+}
+
+.nav-book {
+  grid-area: book;
+  justify-self: end;
+  align-self: center;
+  text-decoration: none;
+  font-weight: 800;
+  padding: 16px 20px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.btn--gold {
+  background: #e2b845;
+  color: #17353a;
+  box-shadow: 0 12px 24px rgba(226, 184, 69, 0.28);
+}
+
+@media (max-width: 1100px) {
+  .navbar-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+      "brand"
+      "main"
+      "tours"
+      "book";
+    text-align: center;
+  }
+
+  .brand,
+  .nav-book {
+    justify-self: center;
+  }
+
+  .nav-main,
+  .nav-tours {
+    justify-content: center;
+  }
+}
