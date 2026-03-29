@@ -2369,3 +2369,43 @@ body{
   margin: 0;
   color: #32565d;
 }
+.nav-tab {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 16px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #0a3f49;
+  background: rgba(255, 255, 255, 0.14);
+  border: 1px solid transparent;
+  transition: all 0.28s ease;
+  white-space: nowrap;
+  position: relative;
+}
+
+.nav-tab:hover {
+  background: rgba(255, 255, 255, 0.28);
+  transform: translateY(-1px);
+}
+
+.nav-tab.active {
+  color: #ffffff !important;
+  background: linear-gradient(135deg, #149d96, #0b7e79);
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  box-shadow:
+    0 10px 24px rgba(20, 157, 150, 0.35),
+    0 0 0 3px rgba(20, 157, 150, 0.16);
+}
+
+.nav-tab.active::after {
+  content: "";
+  position: absolute;
+  left: 18%;
+  right: 18%;
+  bottom: 5px;
+  height: 2px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.9);
+}
