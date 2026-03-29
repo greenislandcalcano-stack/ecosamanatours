@@ -93,7 +93,7 @@ and leave every place better than we found it.
 </div>
 
       <p class="history-lead">
-        Welcome to Samaná — a peninsula of hidden waterfalls, colorful villages, old ports,
+        Hi, family! Welcome to Samaná! — a peninsula of hidden waterfalls, colorful villages, old ports,
         seafaring stories, and unforgettable landscapes. At EcoSamana Adventures, we love sharing
         not only the beauty of this paradise, but also the story of the people and places that make it so special.
       </p>
