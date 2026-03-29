@@ -1831,3 +1831,238 @@ body{
     height: 100vh;
   }
 }
+.samana-history-section {
+  position: relative;
+  padding: 90px 20px;
+  background:
+    linear-gradient(rgba(8, 48, 59, 0.78), rgba(8, 48, 59, 0.86)),
+    url('/assets/images/hero/samana-bay.jpg') center/cover no-repeat;
+  overflow: hidden;
+}
+
+.samana-history-section .container {
+  position: relative;
+  z-index: 2;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.history-overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at top right, rgba(255, 215, 140, 0.10), transparent 30%),
+    radial-gradient(circle at bottom left, rgba(255, 255, 255, 0.07), transparent 25%);
+  pointer-events: none;
+}
+
+.history-intro {
+  text-align: center;
+  max-width: 850px;
+  margin: 0 auto 36px;
+  color: #fffdf6;
+}
+
+.history-eyebrow {
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #ffd58a;
+  margin-bottom: 12px;
+}
+
+.history-intro h2 {
+  margin: 0 0 14px;
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  line-height: 1.1;
+  color: #ffffff;
+}
+
+.history-lead {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: rgba(255, 250, 240, 0.94);
+}
+
+.history-parchment {
+  position: relative;
+  max-width: 950px;
+  margin: 0 auto 42px;
+  padding: 34px 30px;
+  background:
+    linear-gradient(rgba(247, 235, 205, 0.96), rgba(238, 224, 189, 0.94));
+  border: 2px solid rgba(121, 85, 36, 0.28);
+  border-radius: 22px;
+  box-shadow:
+    0 16px 40px rgba(0, 0, 0, 0.22),
+    inset 0 0 35px rgba(122, 86, 39, 0.08);
+  color: #4c371f;
+}
+
+.history-parchment::before,
+.history-parchment::after {
+  content: "";
+  position: absolute;
+  inset: 10px;
+  border: 1px dashed rgba(125, 87, 39, 0.22);
+  border-radius: 18px;
+  pointer-events: none;
+}
+
+.parchment-badge {
+  display: inline-block;
+  background: rgba(120, 83, 33, 0.10);
+  color: #6e4b1d;
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-size: 0.92rem;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.history-parchment h3 {
+  margin: 0 0 14px;
+  font-size: 1.8rem;
+  color: #5b3d15;
+}
+
+.history-parchment p {
+  margin: 0 0 14px;
+  line-height: 1.8;
+  font-size: 1.04rem;
+}
+
+.history-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 24px;
+  margin-top: 18px;
+}
+
+.history-card {
+  grid-column: span 6;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(3px);
+  border-radius: 22px;
+  padding: 28px 24px;
+  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.history-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 22px 42px rgba(0, 0, 0, 0.22);
+}
+
+.history-icon {
+  width: 62px;
+  height: 62px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #0e7c86, #18a9a8);
+  color: white;
+  box-shadow: 0 10px 20px rgba(14, 124, 134, 0.25);
+  margin-bottom: 16px;
+}
+
+.history-card h3 {
+  margin: 0 0 12px;
+  font-size: 1.5rem;
+  color: #0b4652;
+}
+
+.history-card p {
+  margin: 0 0 12px;
+  line-height: 1.75;
+  color: #31474c;
+  font-size: 1rem;
+}
+
+.fun-fact-card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.95), rgba(242,250,250,0.96));
+}
+
+.history-facts {
+  margin: 8px 0 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.history-facts li {
+  margin-bottom: 12px;
+  line-height: 1.7;
+  color: #31474c;
+  padding-left: 0;
+}
+
+.closing-parchment {
+  margin-top: 34px;
+  text-align: center;
+}
+
+.closing-line {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #6d4716;
+  margin-top: 8px;
+}
+
+/* reveal animation */
+.reveal-up {
+  opacity: 0;
+  transform: translateY(34px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.reveal-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* responsive */
+@media (max-width: 900px) {
+  .history-card {
+    grid-column: span 12;
+  }
+
+  .history-parchment {
+    padding: 28px 22px;
+  }
+
+  .history-intro h2 {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .samana-history-section {
+    padding: 72px 16px;
+  }
+
+  .history-card {
+    padding: 24px 20px;
+  }
+
+  .history-icon {
+    width: 56px;
+    height: 56px;
+    font-size: 1.55rem;
+  }
+
+  .history-card h3,
+  .history-parchment h3 {
+    font-size: 1.35rem;
+  }
+
+  .history-lead,
+  .history-card p,
+  .history-parchment p {
+    font-size: 0.98rem;
+  }
+}
