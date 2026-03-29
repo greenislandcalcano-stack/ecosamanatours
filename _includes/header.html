@@ -4,15 +4,15 @@
 
     <nav class="nav" aria-label="Main">
 
-      <a href="/">Home</a>
-      <a href="/about/">About</a>
-      <a href="/gallery/">Gallery</a>
-      <a href="/things-to-do-samana/">Things To Do</a>
+      <a href="/" class="{% if page.url == '/' %}active{% endif %}">Home</a>
+      <a href="/about/" class="{% if page.url contains '/about' %}active{% endif %}">About</a>
+      <a href="/gallery/" class="{% if page.url contains '/gallery' %}active{% endif %}">Gallery</a>
+      <a href="/things-to-do-samana/" class="{% if page.url contains '/things-to-do' %}active{% endif %}">Things To Do</a>
 
       <div class="dropdown">
-        <a href="#" class="dropbtn">Excursions ▾</a>
+        <a href="/excursions/" class="{% if page.url contains '/excursions' %}active{% endif %}">Excursions</a>
 
-        <div class="dropdown-content">
+        <a href="/contact/" class="{% if page.url contains '/contact' %}active{% endif %}">Contact</a>
           <a href="/waterfalls/">El Limón Waterfall</a>
           <a href="/treasure-hunt/">Treasure Hunt & Snorkeling</a>
           <a href="/cayo-levantado.html">Cayo Levantado</a>
