@@ -1,42 +1,28 @@
 <header class="site-header">
-  <div class="container navbar">
+  <div class="container navbar-grid">
 
     <a href="/" class="brand">EcoSamana Adventures 🌿</a>
 
-    <nav class="nav" aria-label="Main">
-
+    <nav class="nav-main" aria-label="Main navigation">
       <a href="/" class="{% if page.url == '/' %}active{% endif %}">Home</a>
-
       <a href="/about/" class="{% if page.url contains '/about' %}active{% endif %}">About</a>
-
       <a href="/gallery/" class="{% if page.url contains '/gallery' %}active{% endif %}">Gallery</a>
-
-      <a href="/things-to-do-samana/" class="{% if page.url contains '/things-to-do' %}active{% endif %}">
-        Things To Do
-      </a>
-
-      <div class="dropdown">
-        <a href="/excursions/"
-           class="{% if page.url contains '/excursions' or page.url contains '/waterfalls' or page.url contains '/treasure-hunt' or page.url contains '/cayo-levantado' or page.url contains '/whale-watching' or page.url contains '/eco-buggies' or page.url contains '/caves-and-boating' or page.url contains '/snorkeling-samana' %}active{% endif %}">
-          Excursions ▾
-        </a>
-
-        <div class="dropdown-menu">
-          <a href="/waterfalls/">El Limón Waterfall</a>
-          <a href="/treasure-hunt/">Treasure Hunt & Snorkeling</a>
-          <a href="/cayo-levantado.html">Cayo Levantado</a>
-          <a href="/whale-watching/">Whale Watching</a>
-          <a href="/eco-buggies.html">Eco-Buggies & Beach Adventure</a>
-          <a href="/caves-and-boating.html">Los Haitises Caves & Boating Tour</a>
-          <a href="/snorkeling-samana.html">Snorkeling in Samaná Bay</a>
-        </div>
-      </div>
-
+      <a href="/things-to-do-samana/" class="{% if page.url contains '/things-to-do' %}active{% endif %}">Things To Do</a>
       <a href="/contact/" class="{% if page.url contains '/contact' %}active{% endif %}">Contact</a>
-
     </nav>
 
-    <a class="btn btn--gold"
+    <nav class="nav-tours" aria-label="Excursions">
+      <span class="nav-label">Excursions</span>
+      <a href="/waterfalls/" class="{% if page.url contains '/waterfalls' %}active-tour{% endif %}">El Limón Waterfall</a>
+      <a href="/treasure-hunt/" class="{% if page.url contains '/treasure-hunt' %}active-tour{% endif %}">Treasure Hunt</a>
+      <a href="/cayo-levantado.html" class="{% if page.url contains '/cayo-levantado' %}active-tour{% endif %}">Cayo Levantado</a>
+      <a href="/whale-watching/" class="{% if page.url contains '/whale-watching' %}active-tour{% endif %}">Whale Watching</a>
+      <a href="/eco-buggies.html" class="{% if page.url contains '/eco-buggies' %}active-tour{% endif %}">Eco-Buggies</a>
+      <a href="/caves-and-boating.html" class="{% if page.url contains '/caves-and-boating' %}active-tour{% endif %}">Los Haitises</a>
+      <a href="/snorkeling-samana.html" class="{% if page.url contains '/snorkeling-samana' %}active-tour{% endif %}">Snorkeling</a>
+    </nav>
+
+    <a class="btn btn--gold nav-book"
        href="https://wa.me/15046572553?text=Hello%20EcoSamana%20Adventures!%20I%20want%20to%20book%20an%20excursion."
        target="_blank"
        rel="noopener">
