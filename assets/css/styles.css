@@ -2163,3 +2163,39 @@ body{
   }
 }
    
+/* NAV LINKS BASE */
+.site-header nav a {
+  position: relative;
+  padding: 10px 14px;
+  border-radius: 999px;
+  transition: all 0.3s ease;
+}
+
+/* HOVER EFFECT */
+.site-header nav a:hover {
+  background: rgba(255, 255, 255, 0.18);
+  color: #083d47;
+}
+
+/* ACTIVE LINK — THE MAGIC ✨ */
+.site-header nav a.active {
+  background: linear-gradient(135deg, #18a9a8, #0e7c86);
+  color: white !important;
+  font-weight: 600;
+
+  box-shadow:
+    0 6px 18px rgba(14, 124, 134, 0.35),
+    0 0 12px rgba(24, 169, 168, 0.45);
+}
+
+/* SOFT GLOW PULSE (optional but beautiful) */
+.site-header nav a.active::after {
+  content: "";
+  position: absolute;
+  inset: -4px;
+  border-radius: 999px;
+  background: rgba(24, 169, 168, 0.25);
+  z-index: -1;
+  filter: blur(10px);
+  opacity: 0.6;
+}
