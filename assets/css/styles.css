@@ -2593,3 +2593,157 @@ body{
     justify-content: center;
   }
 }
+.site-header {
+  background: linear-gradient(90deg, #98e2e6 0%, #cfe7c2 100%);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.navbar-grid {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 14px 20px 16px;
+  display: grid;
+  grid-template-columns: 240px 1fr 150px;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "brand main book"
+    "brand tours book";
+  column-gap: 24px;
+  row-gap: 10px;
+  align-items: center;
+}
+
+.brand {
+  grid-area: brand;
+  text-decoration: none;
+  color: #0a4a53;
+  font-weight: 800;
+  font-size: 1.05rem;
+  line-height: 1.35;
+  display: inline-block;
+}
+
+.nav-main {
+  grid-area: main;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.nav-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 9px 14px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.32);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  color: #083f48;
+  font-weight: 800;
+  font-size: 0.98rem;
+  line-height: 1;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+  transition: all 0.25s ease;
+}
+
+.nav-chip:hover {
+  background: rgba(255, 255, 255, 0.52);
+  transform: translateY(-1px);
+}
+
+.nav-chip.active {
+  background: linear-gradient(135deg, #119d96, #0c7c78);
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 10px 20px rgba(17, 157, 150, 0.28);
+}
+
+.nav-tours {
+  grid-area: tours;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.nav-group-label {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 10px;
+  background: rgba(8, 63, 72, 0.10);
+  color: #0a4953;
+  font-weight: 800;
+  font-size: 0.92rem;
+  letter-spacing: 0.02em;
+  margin-right: 4px;
+}
+
+.tour-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 7px 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.22);
+  border: 1px solid rgba(8, 63, 72, 0.10);
+  color: #0b4f59;
+  font-weight: 700;
+  font-size: 0.93rem;
+  line-height: 1;
+  transition: all 0.25s ease;
+}
+
+.tour-chip:hover {
+  background: rgba(255, 255, 255, 0.42);
+  color: #083f48;
+}
+
+.tour-chip.active-tour {
+  background: rgba(12, 124, 120, 0.16);
+  color: #0b6d69;
+  border-color: rgba(12, 124, 120, 0.35);
+  font-weight: 800;
+}
+
+.nav-book {
+  grid-area: book;
+  justify-self: end;
+  text-decoration: none;
+  font-weight: 800;
+  padding: 16px 22px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.btn--gold {
+  background: #e2b845;
+  color: #17353a;
+  box-shadow: 0 12px 24px rgba(226, 184, 69, 0.28);
+}
+
+@media (max-width: 1100px) {
+  .navbar-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+      "brand"
+      "main"
+      "tours"
+      "book";
+    text-align: center;
+  }
+
+  .brand,
+  .nav-book {
+    justify-self: center;
+  }
+
+  .nav-main,
+  .nav-tours {
+    justify-content: center;
+  }
+}
