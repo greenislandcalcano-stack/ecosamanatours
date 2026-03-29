@@ -1,25 +1,26 @@
 <header class="site-header">
-  <div class="container navbar-grid">
+  <div class="container navbar-glossy">
 
     <a href="/" class="brand">EcoSamana Adventures 🌿</a>
 
     <nav class="nav-main" aria-label="Main navigation">
-      <a href="/" class="nav-chip {% if page.url == '/' %}active{% endif %}">Home</a>
-      <a href="/about/" class="nav-chip {% if page.url contains '/about' %}active{% endif %}">About</a>
-      <a href="/gallery/" class="nav-chip {% if page.url contains '/gallery' %}active{% endif %}">Gallery</a>
-      <a href="/things-to-do-samana/" class="nav-chip {% if page.url contains '/things-to-do' %}active{% endif %}">Things To Do</a>
-      <a href="/contact/" class="nav-chip {% if page.url contains '/contact' %}active{% endif %}">Contact</a>
+      <a href="/" class="nav-tab {% if page.url == '/' %}active{% endif %}">Home</a>
+      <a href="/about/" class="nav-tab {% if page.url contains '/about' %}active{% endif %}">About</a>
+      <a href="/gallery/" class="nav-tab {% if page.url contains '/gallery' %}active{% endif %}">Gallery</a>
+      <a href="/things-to-do-samana/" class="nav-tab {% if page.url contains '/things-to-do' %}active{% endif %}">Things To Do</a>
+      <a href="/contact/" class="nav-tab {% if page.url contains '/contact' %}active{% endif %}">Contact</a>
     </nav>
 
     <nav class="nav-tours" aria-label="Excursions">
-      <span class="nav-group-label">Excursions</span>
-      <a href="/waterfalls/" class="tour-chip {% if page.url contains '/waterfalls' %}active-tour{% endif %}">El Limón Waterfall</a>
-      <a href="/treasure-hunt/" class="tour-chip {% if page.url contains '/treasure-hunt' %}active-tour{% endif %}">Treasure Hunt</a>
-      <a href="/cayo-levantado.html" class="tour-chip {% if page.url contains '/cayo-levantado' %}active-tour{% endif %}">Cayo Levantado</a>
-      <a href="/whale-watching/" class="tour-chip {% if page.url contains '/whale-watching' %}active-tour{% endif %}">Whale Watching</a>
-      <a href="/eco-buggies.html" class="tour-chip {% if page.url contains '/eco-buggies' %}active-tour{% endif %}">Eco-Buggies</a>
-      <a href="/caves-and-boating.html" class="tour-chip {% if page.url contains '/caves-and-boating' %}active-tour{% endif %}">Los Haitises</a>
-      <a href="/snorkeling-samana.html" class="tour-chip {% if page.url contains '/snorkeling-samana' %}active-tour{% endif %}">Snorkeling</a>
+      <span class="nav-group-title">Excursions</span>
+
+      <a href="/waterfalls/" class="tour-tab {% if page.url contains '/waterfalls' %}active-tour{% endif %}">El Limón</a>
+      <a href="/treasure-hunt/" class="tour-tab {% if page.url contains '/treasure-hunt' %}active-tour{% endif %}">Treasure Hunt</a>
+      <a href="/cayo-levantado.html" class="tour-tab {% if page.url contains '/cayo-levantado' %}active-tour{% endif %}">Cayo Levantado</a>
+      <a href="/whale-watching/" class="tour-tab {% if page.url contains '/whale-watching' %}active-tour{% endif %}">Whale Watching</a>
+      <a href="/eco-buggies.html" class="tour-tab {% if page.url contains '/eco-buggies' %}active-tour{% endif %}">Eco-Buggies</a>
+      <a href="/caves-and-boating.html" class="tour-tab {% if page.url contains '/caves-and-boating' %}active-tour{% endif %}">Los Haitises</a>
+      <a href="/snorkeling-samana.html" class="tour-tab {% if page.url contains '/snorkeling-samana' %}active-tour{% endif %}">Snorkeling</a>
     </nav>
 
     <a class="btn btn--gold nav-book"
