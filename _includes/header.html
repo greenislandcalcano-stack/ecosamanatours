@@ -1,28 +1,23 @@
 <header class="site-header">
   <div class="container navbar">
+
     <a href="/" class="brand">EcoSamana Adventures 🌿</a>
 
-    <div class="page-heading-wrap">
-  <p class="page-badge">EcoSamana Experience</p>
-  <h1>Pirate Treasure Hunt – Hidden Coves & Island Adventure</h1>
-  <p class="page-intro">
-    Turn your day at sea into a real-life pirate story along the Samaná Bay coastline.
-  </p>
-</div>
     <nav class="nav" aria-label="Main">
-      <a href="/" class="nav-tab {% if page.url == '/' %}active{% endif %}">Home</a>
 
-      <a href="/about/" class="nav-tab {% if page.url contains '/about' %}active{% endif %}">About</a>
+      <a href="/" class="{% if page.url == '/' %}active{% endif %}">Home</a>
 
-      <a href="/gallery/" class="nav-tab {% if page.url contains '/gallery' %}active{% endif %}">Gallery</a>
+      <a href="/about/" class="{% if page.url contains '/about' %}active{% endif %}">About</a>
 
-      <a href="/things-to-do-samana/" class="nav-tab {% if page.url contains '/things-to-do' %}active{% endif %}">
+      <a href="/gallery/" class="{% if page.url contains '/gallery' %}active{% endif %}">Gallery</a>
+
+      <a href="/things-to-do-samana/" class="{% if page.url contains '/things-to-do' %}active{% endif %}">
         Things To Do
       </a>
 
       <div class="dropdown">
-        <a href="#"
-           class="nav-tab {% if page.url contains '/excursions' or page.url contains '/waterfalls' or page.url contains '/treasure-hunt' or page.url contains '/cayo-levantado' or page.url contains '/whale-watching' or page.url contains '/eco-buggies' or page.url contains '/caves-and-boating' or page.url contains '/snorkeling-samana' %}active{% endif %}">
+        <a href="/excursions/"
+           class="{% if page.url contains '/excursions' or page.url contains '/waterfalls' or page.url contains '/treasure-hunt' or page.url contains '/cayo-levantado' or page.url contains '/whale-watching' or page.url contains '/eco-buggies' or page.url contains '/caves-and-boating' or page.url contains '/snorkeling-samana' %}active{% endif %}">
           Excursions ▾
         </a>
 
@@ -37,14 +32,16 @@
         </div>
       </div>
 
-      <a href="/contact/" class="nav-tab {% if page.url contains '/contact' %}active{% endif %}">Contact</a>
+      <a href="/contact/" class="{% if page.url contains '/contact' %}active{% endif %}">Contact</a>
+
     </nav>
 
-    <a class="btn btn--gold nav-book"
+    <a class="btn btn--gold"
        href="https://wa.me/15046572553?text=Hello%20EcoSamana%20Adventures!%20I%20want%20to%20book%20an%20excursion."
        target="_blank"
        rel="noopener">
       Book Now
     </a>
+
   </div>
 </header>
