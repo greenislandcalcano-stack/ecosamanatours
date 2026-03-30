@@ -5,36 +5,27 @@ permalink: /things-to-do/
 description: "Discover the best things to do in Samaná: whale watching, El Limón Waterfall, Cayo Levantado, Los Haitises, snorkeling and more."
 ---
 <section class="guide-section">
-  <div class="container guide-wrap reveal-up">
+  <div class="container">
 
-    <div class="guide-card">
-<div class="guide-image">
-  <img src="/assets/images/elvis-posing.jpg" alt="EcoSamana Tour Guide">
-</div>
+    <div class="guide-postcard reveal-up">
+
+      <div class="guide-photo">
+        <img src="/assets/images/elvis-posing.jpg" alt="Elvis – EcoSamana Tour Guide">
       </div>
 
-      <div class="guide-content">
-        <p class="guide-eyebrow">Your Local Expert</p>
-        <h2>👤 Meet Your Tour Guide</h2>
+      <div class="guide-info">
+        <p class="guide-eyebrow">Your Local Guide</p>
+        <h3>👤 Elvis</h3>
 
-        <p class="guide-text">
-          Welcome to Samaná — and welcome to a journey guided by someone who truly knows it.
-          At EcoSamana Adventures, your experience is led by a local guide passionate about
-          nature, culture, and unforgettable moments.
+        <p class="guide-desc">
+          Born and raised in Samaná, Elvis brings local knowledge, energy, and passion to every adventure.
+          From hidden waterfalls to secret beaches, you’re in the best hands.
         </p>
 
-        <p class="guide-text">
-          From hidden waterfalls to secret beaches and rich history, every story, every trail,
-          and every wave you explore comes with meaning, connection, and authenticity.
-        </p>
-
-        <div class="guide-cta">
-          <a class="btn"
-             href="https://wa.me/15046572553?text=Hi!%20I%E2%80%99d%20like%20to%20book%20a%20tour%20with%20EcoSamana.">
-            Book with Your Guide
-          </a>
-        </div>
-
+        <a class="guide-link"
+           href="https://wa.me/15046572553?text=Hi!%20I%E2%80%99d%20like%20to%20book%20a%20tour%20with%20you.">
+          Book with your guide →
+        </a>
       </div>
 
     </div>
