@@ -1,0 +1,165 @@
+---
+layout: page
+title: "Top Things to Do in Samaná"
+permalink: /things-to-do/
+description: "Discover the best things to do in Samaná: whale watching, El Limón Waterfall, Cayo Levantado, Los Haitises, snorkeling and more."
+---
+
+
+<section class="video-hero">
+  <div class="video-hero-inner">
+    <iframe
+      src="https://www.youtube.com/embed/V3Fm8Nj0Hek?autoplay=1&mute=1&rel=0"
+      title="EcoSamana Adventures – Things To Do in Samaná"
+      frameborder="0"
+      allow="autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+
+    <div class="video-overlay">
+      <h1>Things To Do in Samaná</h1>
+      <p>Waterfalls, whales, snorkeling, and unforgettable adventures with EcoSamana.</p>
+
+      <a class="btn"
+         href="https://wa.me/15046572553?text=Hi!%20I%E2%80%99d%20like%20to%20explore%20tours%20in%20Saman%C3%A1.">
+        Explore Tours
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="tour-hero hero-curves">
+  <div class="container hero-inner">
+    <p class="eyebrow">EcoSamana Travel Guide</p>
+    <h1>Top Things to Do in Samaná, Dominican Republic</h1>
+
+    <p class="lead">
+      From humpback whale watching and jungle waterfalls to island escapes and snorkeling adventures,
+      Samaná is one of the most beautiful and unforgettable destinations in the Dominican Republic.
+      Explore the best experiences with EcoSamana Adventures.
+    </p>
+
+    <div class="hero-meta">
+      <span>🌴 Nature & Adventure</span>
+      <span>🐋 Seasonal Whale Watching</span>
+      <span>🏝 Beaches, Waterfalls & Islands</span>
+    </div>
+
+    <div class="hero-ctas">
+      <a class="btn"
+         href="https://wa.me/15046572553?text=Hi!%20I%E2%80%99d%20like%20to%20book%20a%20tour%20with%20EcoSamana.">
+        Book a Tour
+      </a>
+
+      <a class="btn secondary"
+         href="https://wa.me/15046572553?text=Hi!%20I%E2%80%99d%20like%20to%20know%20the%20best%20things%20to%20do%20in%20Saman%C3%A1.">
+        Chat on WhatsApp
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="container mt-3">
+  <div class="intro-card center" style="max-width: 980px; margin: 0 auto;">
+    <h2>Why Visit Samaná?</h2>
+    <p>
+      Samaná is where tropical mountains meet the sea. It is famous for whale watching,
+      rainforest excursions, hidden beaches, waterfalls, caves, and eco-friendly adventures.
+      Whether you are traveling as a couple, with family, or with friends, there is no shortage
+      of extraordinary things to do here.
+    </p>
+  </div>
+</section>
+
+<section class="container mt-3">
+  <h2 class="center">Best Things to Do in Samaná</h2>
+
+  <div class="tour-gallery-grid">
+    <figure>
+      <img src="/assets/images/humpbacs-boating.jpg" alt="Whale watching in Samaná Bay">
+      <figcaption>Whale Watching</figcaption>
+    </figure>
+
+    <figure>
+      <img src="/assets/images/waterfall-el-limon-01.jpg" alt="El Limón Waterfall">
+      <figcaption>El Limón Waterfall</figcaption>
+    </figure>
+
+    <figure>
+      <img src="/assets/images/cayo-levantado-drone.jpg" alt="Cayo Levantado">
+      <figcaption>Cayo Levantado</figcaption>
+    </figure>
+
+    <figure>
+      <img src="/assets/images/haitises-cays.JPG" alt="Los Haitises">
+      <figcaption>Los Haitises National Park</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="tour-content">
+  <div class="container">
+    <article class="tour-main" style="max-width: 980px; margin: 0 auto;">
+
+      <!-- WHALES -->
+      <section class="activity-block">
+        <h2>1. Go Whale Watching</h2>
+        <p>Experience one of the Caribbean’s greatest natural spectacles in Samaná Bay.</p>
+
+        <div class="hero-ctas">
+          <a class="btn" href="/whale-watching/">Explore Whale Watching</a>
+        </div>
+      </section>
+
+      <!-- EL LIMON -->
+      <section class="activity-block">
+        <h2>2. Visit El Limón Waterfall</h2>
+
+        <div class="hero-ctas">
+          <a class="btn" href="/waterfalls/">Book El Limón Tour</a>
+        </div>
+      </section>
+
+      <!-- CAYO -->
+      <section class="activity-block">
+        <h2>3. Relax at Cayo Levantado</h2>
+
+        <div class="hero-ctas">
+          <a class="btn" href="/cayo-levantado.html">Discover Cayo Levantado</a>
+        </div>
+      </section>
+
+      <!-- HAITISES -->
+      <section class="activity-block">
+        <h2>4. Explore Los Haitises</h2>
+
+        <div class="hero-ctas">
+          <a class="btn" href="/caves-and-boating.html">Explore Los Haitises</a>
+        </div>
+      </section>
+
+      <!-- SNORKEL -->
+      <section class="activity-block">
+        <h2>5. Go Snorkeling</h2>
+
+        <div class="hero-ctas">
+          <a class="btn" href="/snorkeling-samana/">Book Snorkeling Tour</a>
+        </div>
+      </section>
+
+    </article>
+  </div>
+</section>
+
+<section class="tour-bottom-cta">
+  <div class="container">
+    <h2>Ready to Explore the Best of Samaná?</h2>
+
+    <div class="hero-ctas" style="justify-content:center;">
+      <a class="btn"
+         href="https://wa.me/15046572553?text=Hi!%20I%E2%80%99d%20like%20help%20booking%20the%20best%20tour%20in%20Saman%C3%A1.">
+        Book Now
+      </a>
+    </div>
+  </div>
+</section>
