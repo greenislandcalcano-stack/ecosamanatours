@@ -10,7 +10,7 @@ description: "Discover the best things to do in Saman√°: whale watching, El Lim√
     <div class="guide-card">
 
       <div class="guide-image">
-        <img src="/assets/images/your-guide.jpg" alt="EcoSamana Tour Guide">
+        <img src="/assets/images/elvis-guide.jpg"> alt="EcoSamana Tour Guide">
       </div>
 
       <div class="guide-content">
