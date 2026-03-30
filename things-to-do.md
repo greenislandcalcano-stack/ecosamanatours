@@ -4,6 +4,43 @@ title: "Top Things to Do in Samaná"
 permalink: /things-to-do/
 description: "Discover the best things to do in Samaná: whale watching, El Limón Waterfall, Cayo Levantado, Los Haitises, snorkeling and more."
 ---
+<section class="guide-section">
+  <div class="container guide-wrap reveal-up">
+
+    <div class="guide-card">
+
+      <div class="guide-image">
+        <img src="/assets/images/your-guide.jpg" alt="EcoSamana Tour Guide">
+      </div>
+
+      <div class="guide-content">
+        <p class="guide-eyebrow">Your Local Expert</p>
+        <h2>👤 Meet Your Tour Guide</h2>
+
+        <p class="guide-text">
+          Welcome to Samaná — and welcome to a journey guided by someone who truly knows it.
+          At EcoSamana Adventures, your experience is led by a local guide passionate about
+          nature, culture, and unforgettable moments.
+        </p>
+
+        <p class="guide-text">
+          From hidden waterfalls to secret beaches and rich history, every story, every trail,
+          and every wave you explore comes with meaning, connection, and authenticity.
+        </p>
+
+        <div class="guide-cta">
+          <a class="btn"
+             href="https://wa.me/15046572553?text=Hi!%20I%E2%80%99d%20like%20to%20book%20a%20tour%20with%20EcoSamana.">
+            Book with Your Guide
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
 
 <section class="samana-history-section">
   <div class="history-overlay"></div>
