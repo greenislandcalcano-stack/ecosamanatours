@@ -49,10 +49,16 @@ description: "Contact Eco-Samaná Adventures for tour reservations, questions ab
       >
         <input type="hidden" name="_subject" value="New inquiry from Eco-Samaná website">
 
-        <div class="field">
-          <label for="email">Your email*</label>
-          <input id="email" type="email" name="email" required autocomplete="email" placeholder="info@eco-samana.com">
-        </div>
+<div class="field">
+  <label for="email">Your email*</label>
+  <input 
+    id="email" 
+    type="email" 
+    name="email" 
+    required 
+    autocomplete="email" 
+    placeholder="your@email.com">
+</div>
 
         <div class="field">
           <label for="message">Your message*</label>
