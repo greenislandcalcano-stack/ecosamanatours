@@ -51,7 +51,7 @@ description: "Contact Eco-Samaná Adventures for tour reservations, questions ab
 
         <div class="field">
           <label for="email">Your email*</label>
-          <input id="email" type="email" name="email" required autocomplete="email" placeholder="your@email.com">
+          <input id="email" type="email" name="email" required autocomplete="email" placeholder="info@eco-samana.com">
         </div>
 
         <div class="field">
@@ -71,7 +71,7 @@ description: "Contact Eco-Samaná Adventures for tour reservations, questions ab
 
       <p class="contact-line">
         <strong>Email:</strong>
-        <a href="mailto:ecosamanadventures@gmail.com?subject=Eco-Saman%C3%A1%20Tour%20Inquiry">ecosamanadventures@gmail.com</a>
+        <a href="mailto:info@eco-samana.com?subject=Eco-Saman%C3%A1%20Tour%20Inquiry">info@eco-samana.com</a>
       </p>
 
       <p class="contact-line">
