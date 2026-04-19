@@ -49,16 +49,16 @@ description: "Contact Eco-Samaná Adventures for tour reservations, questions ab
       >
         <input type="hidden" name="_subject" value="New inquiry from Eco-Samaná website">
 
-<div class="field">
-  <label for="email">Your email*</label>
-  <input 
-    id="email" 
-    type="email" 
-    name="email" 
-    required 
-    autocomplete="email" 
-    placeholder="your@email.com">
-</div>
+        <div class="field">
+          <label for="email">Your email*</label>
+          <input 
+            id="email" 
+            type="email" 
+            name="email" 
+            required 
+            autocomplete="email" 
+            placeholder="your@email.com">
+        </div>
 
         <div class="field">
           <label for="message">Your message*</label>
@@ -90,7 +90,23 @@ description: "Contact Eco-Samaná Adventures for tour reservations, questions ab
         >+1 (504) 657-2553</a>
       </p>
 
-      <p class="contact-line"><strong>Location:</strong> Samaná, Dominican Republic</p>
+      <!-- UPDATED ADDRESS -->
+      <p class="contact-line">
+        <strong>Visit Our Office:</strong><br>
+        Plaza & Hotel<br>
+        Carretera Sánchez–Samaná Km 1, Unit 3<br>
+        Sánchez 32000, Samaná<br>
+        Dominican Republic
+      </p>
+
+      <!-- GOOGLE MAP -->
+      <iframe 
+        src="https://www.google.com/maps?q=Plaza+Hotel+Carretera+Sanchez+Samana+Km+1+Unit+3+Sanchez+32000&output=embed"
+        width="100%" 
+        height="250" 
+        style="border:0; margin-top:10px;" 
+        loading="lazy">
+      </iframe>
 
       <div class="season-box">
         <p class="season-title">🐋 Whale Watching Season</p>
@@ -108,7 +124,6 @@ description: "Contact Eco-Samaná Adventures for tour reservations, questions ab
 </a>
 
 <style>
-/* Layout */
 .contact-hero{ text-align:center; padding: 0.75rem 0 0; }
 .contact-layout{
   display:grid;
@@ -118,7 +133,6 @@ description: "Contact Eco-Samaná Adventures for tour reservations, questions ab
 }
 @media (max-width: 768px){ .contact-layout{ grid-template-columns: 1fr; } }
 
-/* WhatsApp primary button */
 .btn-whatsapp{
   display:inline-flex;
   align-items:center;
@@ -134,23 +148,9 @@ description: "Contact Eco-Samaná Adventures for tour reservations, questions ab
   box-shadow: 0 14px 30px rgba(37,211,102,.25);
   border: 1px solid rgba(0,0,0,.12);
 }
-.btn-whatsapp:focus{ outline:3px solid rgba(37,211,102,.55); outline-offset:3px; }
-
-.wa-dot{
-  width:10px; height:10px; border-radius:999px;
-  background: rgba(0,0,0,.25);
-  box-shadow: 0 0 0 0 rgba(37,211,102,.6);
-  animation: pulse 1.8s infinite;
-}
-@keyframes pulse{
-  0%{ box-shadow: 0 0 0 0 rgba(37,211,102,.55); }
-  70%{ box-shadow: 0 0 0 14px rgba(37,211,102,0); }
-  100%{ box-shadow: 0 0 0 0 rgba(37,211,102,0); }
-}
 
 .contact-note{ margin:.7rem 0 1rem; opacity:.9; }
 
-/* Trust bullets */
 .trust-grid{
   display:grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -159,7 +159,6 @@ description: "Contact Eco-Samaná Adventures for tour reservations, questions ab
   margin: 0 auto 1rem;
   text-align:left;
 }
-@media (max-width: 640px){ .trust-grid{ grid-template-columns: 1fr; } }
 .trust-item{
   border:1px solid rgba(0,0,0,.08);
   background: rgba(0,0,0,.03);
@@ -167,80 +166,34 @@ description: "Contact Eco-Samaná Adventures for tour reservations, questions ab
   border-radius: 12px;
 }
 
-/* Cards */
 .contact-card, .contact-info{
   border:1px solid rgba(0,0,0,.08);
   background: rgba(0,0,0,.02);
   border-radius: 14px;
   padding: 1rem;
 }
-.muted{ opacity:.8; margin:.25rem 0 .75rem; }
-.fineprint{ font-size:.9rem; opacity:.8; margin: .5rem 0 0; }
+.muted{ opacity:.8; }
+.fineprint{ font-size:.9rem; opacity:.8; }
 
-/* Form styling (keeps your current vibe) */
 .contact-form .field{ margin-bottom: 1rem; }
-.contact-form label{ display:block; font-weight: 600; margin-bottom: .25rem; }
 .contact-form input,
 .contact-form textarea{
   width:100%;
   padding:.6rem .65rem;
   border-radius:.6rem;
   border:1px solid #d4d4d4;
-  font: inherit;
 }
-.contact-form button.btn{ margin-top: .25rem; }
 
-/* Right column */
-.contact-line{ margin: .5rem 0; }
-.season-box{
-  margin-top: 1rem;
-  padding: .85rem;
-  border-radius: 12px;
-  border: 1px dashed rgba(0,0,0,.18);
-  background: rgba(37,211,102,.06);
-}
-.season-title{ margin:0 0 .2rem; font-weight:800; }
-
-/* Sticky WhatsApp */
 .wa-sticky{
   position: fixed;
   right: 16px;
   bottom: 16px;
   z-index: 9999;
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
   padding: 12px 14px;
   border-radius: 999px;
   background: linear-gradient(180deg, #25D366, #1fb65a);
   color: #08210f;
   text-decoration: none;
   font-weight: 900;
-  box-shadow: 0 16px 34px rgba(37,211,102,.28);
-  border: 1px solid rgba(0,0,0,.12);
 }
-.wa-sticky:focus{ outline:3px solid rgba(37,211,102,.55); outline-offset:3px; }
-.wa-sticky-icon{ font-size: 18px; }
-.wa-sticky-text{ font-size: 16px; }
-@media (max-width: 640px){ .wa-sticky-text{ display:none; } }
 </style>
-
-<script>
-/* GA4 events (only if gtag exists) */
-function trackGA(eventName, params){
-  try{ if (typeof gtag === "function") gtag("event", eventName, params || {}); }catch(e){}
-}
-
-document.getElementById("whatsappPrimary")?.addEventListener("click", () => {
-  trackGA("whatsapp_click", { placement: "contact_primary" });
-});
-document.getElementById("whatsappSecondary")?.addEventListener("click", () => {
-  trackGA("whatsapp_click", { placement: "contact_secondary" });
-});
-document.getElementById("whatsappSticky")?.addEventListener("click", () => {
-  trackGA("whatsapp_click", { placement: "sticky_button" });
-});
-document.getElementById("contactForm")?.addEventListener("submit", () => {
-  trackGA("contact_form_submit", { page: "contact" });
-});
-</script>
