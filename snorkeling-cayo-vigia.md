@@ -1,0 +1,232 @@
+---
+layout: page
+title: "Snorkeling in Samaná Bay – Cayo Vigía Reef Adventure"
+permalink: /snorkeling-cayo-vigia/
+description: "Snorkeling in Samaná Bay near Cayo Vigía: calm waters, reef fish, and a family-friendly boat tour with EcoSamana Adventures."
+keywords: "snorkeling samana, snorkeling tour samana bay, cayo vigia snorkeling, family snorkeling samana, snorkeling dominican republic samana"
+image: /assets/images/snorkeling-hero.jpg
+---
+
+<style>
+  .tour-gallery-grid figure {
+    background: #111827;
+  }
+
+  .tour-gallery-grid figcaption {
+    color: #ffffff;
+    font-weight: 600;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.9);
+    padding: 0.5rem 0.75rem;
+    text-align: center;
+  }
+
+  .tour-content .itinerary strong {
+    color: #111827;
+    font-weight: 700;
+  }
+
+  .tour-content .itinerary strong::after {
+    content: " ";
+  }
+</style>
+
+<section class="tour-hero">
+  <div class="container">
+    <p class="eyebrow">Family-Friendly Ocean Adventure</p>
+    <h1>Snorkeling in Samaná Bay – Cayo Vigía Reef Adventure</h1>
+
+    <p class="lead">
+      Explore calm, clear water in Samaná Bay with an easy boat ride to reef areas near Cayo Vigía.
+      Perfect for beginners, families, and anyone who wants a beautiful underwater moment — safely and responsibly.
+    </p>
+
+    <div class="hero-meta">
+      <span>⏱ Half-day (3–4 hours)</span>
+      <span>👨‍👩‍👧 Ideal for families &amp; beginners</span>
+      <span>🤿 Snorkeling gear included</span>
+    </div>
+
+    <div class="hero-ctas">
+      <a class="btn" href="{{ '/book?tour=snorkeling-samana' | relative_url }}">Book Now</a>
+      <a class="btn secondary" href="https://wa.me/15046572553?text=Hi!%20I'd%20like%20to%20book%20the%20Snorkeling%20Tour%20in%20Samana%20Bay%20(Cayo%20Vigia).">
+        Chat on WhatsApp
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="container mt-3">
+  <h2 class="center">Video Highlights</h2>
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube.com/embed/19JSsa_QgZ4"
+      title="Snorkeling in Samaná Bay – EcoSamana Adventures"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</section>
+
+<section class="tour-content">
+  <div class="container tour-layout">
+    <article class="tour-main">
+      <h2>Overview</h2>
+      <p>
+        If you’re searching for <strong>snorkeling in Samaná</strong> with calm water and an easy pace, this is the one.
+        We head into <strong>Samaná Bay</strong> toward reef areas near <strong>Cayo Vigía</strong>, where visibility is often best in the morning.
+        Your guide helps with gear fitting, safety instructions, and simple techniques for first-time snorkelers.
+      </p>
+
+      <p>
+        This tour is designed for families, couples, and small groups — a relaxed ocean experience with beautiful colors,
+        reef fish, and photo moments. We follow responsible practices to protect marine life and coral.
+      </p>
+
+      <h2>Itinerary (Typical)</h2>
+      <ol class="itinerary">
+        <li><strong>Pickup &amp; boarding</strong> at Samaná pier or selected hotel docks in Santa Bárbara de Samaná.</li>
+        <li><strong>Boat ride across the bay</strong> with coastal views and island scenery.</li>
+        <li><strong>Gear &amp; safety briefing</strong> (mask fit, breathing tips, buoyancy, and reef-safe rules).</li>
+        <li><strong>Snorkeling session</strong> in calm water near reef areas (perfect for beginners).</li>
+        <li><strong>Relax &amp; photo time</strong> on the boat, with water and soft drinks.</li>
+        <li><strong>Return to Samaná</strong> with optional second stop depending on conditions and group comfort.</li>
+      </ol>
+
+      <h2>What’s Included</h2>
+      <ul>
+        <li>Boat and certified crew.</li>
+        <li>Snorkeling gear (mask, snorkel, life jacket).</li>
+        <li>Guide support for beginners and families.</li>
+        <li>Soft drinks and water on board.</li>
+        <li>Hotel pickup and drop-off from selected areas (on request).</li>
+      </ul>
+
+      <h2>Good to Know</h2>
+      <ul>
+        <li><strong>Best time:</strong> Morning hours often have the calmest water.</li>
+        <li><strong>Skill level:</strong> Beginner-friendly — life jackets available.</li>
+        <li><strong>Reef care:</strong> No touching coral; reef-safe sunscreen recommended.</li>
+      </ul>
+    </article>
+
+    <aside class="tour-sidebar">
+      <div class="card key-info">
+        <h3>Key Info</h3>
+        <ul>
+          <li><strong>Duration:</strong> 3–4 hours</li>
+          <li><strong>Activity level:</strong> Easy · beginner-friendly</li>
+          <li><strong>Highlights:</strong> Reef fish, calm water, bay views</li>
+          <li><strong>Departure:</strong> Samaná pier / selected hotels</li>
+        </ul>
+      </div>
+
+      <div class="card bring">
+        <h3>What to Bring</h3>
+        <ul>
+          <li>Bathing clothes and towel.</li>
+          <li>Reef-safe sunscreen and hat.</li>
+          <li>Water shoes or sandals.</li>
+          <li>Waterproof phone case or camera.</li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<section class="tour-pricing">
+  <div class="container">
+    <div class="tour-pricing-header">
+      <h2>Prices</h2>
+      <p>
+        Choose the option that best fits your group. All tours include certified guides, life jackets,
+        and responsible underwater practices.
+      </p>
+    </div>
+
+    <div class="price-grid">
+      <div class="price-box">
+        <h3>Shared Boat</h3>
+        <div class="price">
+          From US$ 45 <span>/ adult</span>
+        </div>
+        <p>Great for couples, solo travelers, and small families joining other guests.</p>
+        <ul>
+          <li>From US$ 45 per adult · US$ 30 per child</li>
+          <li>Approx. 3–4 hours total</li>
+          <li>Morning &amp; afternoon departures</li>
+        </ul>
+      </div>
+
+      <div class="price-box price-box--highlight">
+        <span class="price-badge">Most Popular</span>
+        <h3>Private Snorkel Boat</h3>
+        <div class="price">
+          From US$ 350 <span>/ boat</span>
+        </div>
+        <p>Perfect for families or friends who want a private experience and flexible timing.</p>
+        <ul>
+          <li>Up to 8–10 people</li>
+          <li>Flexible departure time</li>
+          <li>More guide attention</li>
+        </ul>
+      </div>
+
+      <div class="price-box">
+        <h3>Groups &amp; Agencies</h3>
+        <div class="price">
+          Custom quote
+        </div>
+        <p>For agencies, school groups, and custom itineraries with special requirements.</p>
+        <ul>
+          <li>Group rates available</li>
+          <li>Multi-boat options</li>
+          <li>Extra services on request</li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="price-note">
+      <em>
+        Final price depends on group size, departure time, and sea conditions.
+        Contact us for a tailored quote.
+      </em>
+    </p>
+  </div>
+</section>
+
+<section class="tour-gallery">
+  <h2>Snorkeling Highlights in Samaná</h2>
+  <p class="tour-gallery-intro">
+    Calm bay water, reef fish, and easy entry — a relaxed snorkeling tour designed for comfort and safety.
+  </p>
+
+  <div class="tour-gallery-grid">
+    <figure>
+      <img src="{{ '/assets/images/snorkeling-001.jpg' | relative_url }}" alt="family snorkeling tour in samana bay">
+      <figcaption>Family-friendly snorkeling in calm water</figcaption>
+    </figure>
+    <figure>
+      <img src="{{ '/assets/images/snorkeling-reef.jpg' | relative_url }}" alt="samana bay snorkeling tour">
+      <figcaption>Coral reef and underwater snorkeling tour</figcaption>
+    </figure>
+    <figure>
+      <img src="{{ '/assets/images/snorkeling-boat.jpg' | relative_url }}" alt="snorkeling boat tour departing from samana pier">
+      <figcaption>Boat ride with bay views</figcaption>
+    </figure>
+    <figure>
+      <img src="{{ '/assets/images/snorkeling-cove.jpg' | relative_url }}" alt="family friendly calm snorkeling cove in samana dominican republic">
+      <figcaption>Calm coves and clear water</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="tour-bottom-cta">
+  <div class="container">
+    <h2>Ready to snorkel Samaná Bay?</h2>
+    <p>
+      Book your Snorkeling Tour today and enjoy a calm, beautiful ocean experience with local guides.
+    </p>
+    <a class="btn" href="{{ '/book?tour=snorkeling-samana' | relative_url }}">Book Snorkeling Tour</a>
+  </div>
+</section>
