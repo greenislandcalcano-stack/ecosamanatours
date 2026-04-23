@@ -8,9 +8,133 @@
   <title>Cayo Levantado Day Pass | EcoSamana Adventures</title>
 
   <meta name="description"
-        content="Enjoy a tropical escape to Cayo Levantado (Bacardi Island) in Samana Bay. White sand beaches, turquoise water and a relaxing Caribbean experience with EcoSamana Adventures.">
+        content="Enjoy a relaxing day trip to Cayo Levantado in Samaná Bay with EcoSamana Adventures. Boat transfer, beach time, island views, and a tropical experience perfect for couples, families, and small groups.">
 
   <link rel="stylesheet" href="/assets/css/styles.css">
+
+  <style>
+    .tour-facts {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1rem;
+      margin: 2rem 0;
+    }
+
+    .tour-fact-card {
+      background: #f7faf9;
+      border: 1px solid #dbe7e2;
+      border-radius: 18px;
+      padding: 1rem 1.1rem;
+    }
+
+    .tour-fact-card strong {
+      display: block;
+      font-size: 0.95rem;
+      color: #153b2e;
+      margin-bottom: 0.35rem;
+    }
+
+    .tour-fact-card span {
+      color: #446357;
+      font-size: 0.97rem;
+      line-height: 1.5;
+    }
+
+    .tour-info-section {
+      padding: 4rem 1.5rem;
+    }
+
+    .tour-info-wrap {
+      max-width: 1150px;
+      margin: 0 auto;
+    }
+
+    .tour-info-wrap h2 {
+      margin-bottom: 1rem;
+    }
+
+    .tour-info-wrap h3 {
+      margin: 2rem 0 0.75rem;
+    }
+
+    .tour-info-wrap p,
+    .tour-info-wrap li {
+      line-height: 1.75;
+      color: #26453a;
+      font-size: 1.02rem;
+    }
+
+    .tour-info-grid {
+      display: grid;
+      grid-template-columns: 1.3fr 0.9fr;
+      gap: 2rem;
+      align-items: start;
+    }
+
+    .tour-card {
+      background: #ffffff;
+      border: 1px solid #dfe9e4;
+      border-radius: 22px;
+      padding: 1.5rem;
+      box-shadow: 0 10px 30px rgba(16, 48, 37, 0.05);
+    }
+
+    .tour-card ul {
+      margin: 0;
+      padding-left: 1.2rem;
+    }
+
+    .tour-card li {
+      margin-bottom: 0.6rem;
+    }
+
+    .tour-note {
+      background: #f6efe0;
+      border: 1px solid #ead7a7;
+      border-radius: 18px;
+      padding: 1rem 1.1rem;
+      margin-top: 1.25rem;
+      color: #5f4b16;
+    }
+
+    .tour-faq {
+      margin-top: 1rem;
+    }
+
+    .tour-faq-item {
+      background: #fff;
+      border: 1px solid #dfe9e4;
+      border-radius: 18px;
+      padding: 1.1rem 1.2rem;
+      margin-bottom: 1rem;
+    }
+
+    .tour-faq-item h3 {
+      margin: 0 0 0.45rem;
+      font-size: 1.05rem;
+    }
+
+    .tour-cta-band {
+      background: linear-gradient(135deg, #eaf7f3, #f8f3df);
+      padding: 4rem 1.5rem;
+    }
+
+    .tour-cta-band .tour-info-wrap {
+      text-align: center;
+      max-width: 860px;
+    }
+
+    .tour-cta-band .tour-actions {
+      justify-content: center;
+      margin-top: 1.5rem;
+    }
+
+    @media (max-width: 900px) {
+      .tour-info-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -21,7 +145,6 @@
     <div class="brand">EcoSamana Adventures 🌿</div>
 
     <nav class="nav" aria-label="Main">
-
       <a href="/">Home</a>
       <a href="/about/">About</a>
       <a href="/gallery/">Gallery</a>
@@ -31,12 +154,12 @@
 
         <div class="dropdown-content">
           <a href="/el-limon/">El Limón Waterfall</a>
-          <a href="/treasure-hunt/">Treasure Hunt & Snorkeling</a>
+          <a href="/treasure-hunt/">Treasure Hunt &amp; Snorkeling</a>
           <a href="/cayo-levantado.html">Cayo Levantado</a>
           <a href="/whales.html">Whale Watching</a>
-          <a href="/eco-buggies.html">Eco-Buggies & Beach Adventure</a>
-          <a href="/caves-and-boating.html">Los Haitises Caves & Boating Tour</a>
-          <a href="/snorkeling-samana.html">Snorkeling in Samaná Bay</a>
+          <a href="/eco-buggies.html">Eco-Buggies &amp; Beach Adventure</a>
+          <a href="/caves-and-boating.html">Los Haitises Caves &amp; Boating Tour</a>
+          <a href="/snorkeling-cayo-vigia/">Snorkeling in Samaná Bay</a>
         </div>
       </div>
 
@@ -47,64 +170,69 @@
          target="_blank" rel="noopener">
         Book Now
       </a>
-
     </nav>
   </div>
 </header>
 
-
 <section class="tour-hero">
   <div class="tour-hero-content">
-
     <h1>Cayo Levantado Day Pass</h1>
 
     <p>
-      Discover one of the most beautiful islands in the Caribbean.
-      Crystal clear waters, white sand beaches and the relaxed tropical
-      atmosphere of Bacardi Island.
+      A relaxed island getaway in the heart of Samaná Bay with boat transfer, beach time,
+      tropical scenery, and the laid-back Caribbean atmosphere that makes Cayo Levantado one of the region’s most loved escapes.
     </p>
-
   </div>
 </section>
 
-
 <section class="tour-section">
-
   <div class="tour-grid">
-
     <div>
-
       <span class="tour-kicker">ISLAND ESCAPE</span>
 
-      <h2>Cayo Levantado Day Pass – Bacardi Island Experience</h2>
+      <h2>Cayo Levantado Day Pass – Relaxed Beach Time in Samaná Bay</h2>
 
       <p>
-        Spend the day on one of the most iconic islands in the Dominican Republic.
-        Located in the heart of Samaná Bay, Cayo Levantado offers turquoise waters,
-        white sand beaches, swaying palms, and a peaceful Caribbean setting.
+        Cayo Levantado, also known by many visitors as Bacardi Island, is one of the best-known island spots in Samaná Bay.
+        This experience is designed for travelers who want a simple, beautiful day on the water without long transfers or a rushed schedule.
       </p>
 
       <p>
-        This experience is perfect for travelers who want to relax, swim,
-        take beautiful photos and enjoy an unforgettable island atmosphere
-        just off the coast of Samaná.
+        After the boat ride from Samaná, you’ll have time to enjoy the beach, swim in calm turquoise water, walk the shoreline,
+        take photos, and enjoy the tropical setting at your own pace. It’s a great option for couples, families, and small groups
+        looking for an easy and scenic half-day or day experience.
       </p>
 
       <div class="tour-highlights">
-
-        <span>🏝 Paradise beach</span>
-        <span>🚤 Round-trip boat ride</span>
-        <span>🍽 Lunch included</span>
-        <span>📸 Great photo spots</span>
-
+        <span>🏝 White sand beach</span>
+        <span>🚤 Round-trip boat transfer</span>
+        <span>🌊 Calm bay waters</span>
+        <span>📸 Beautiful island views</span>
       </div>
 
-      <div class="tour-price">
-        From $65 USD
+      <div class="tour-facts">
+        <div class="tour-fact-card">
+          <strong>Price</strong>
+          <span>From US$65 per person</span>
+        </div>
+
+        <div class="tour-fact-card">
+          <strong>Private option</strong>
+          <span>From US$600 per boat up to 10 people</span>
+        </div>
+
+        <div class="tour-fact-card">
+          <strong>Departure</strong>
+          <span>Samaná town / coordinated meeting point</span>
+        </div>
+
+        <div class="tour-fact-card">
+          <strong>Ideal for</strong>
+          <span>Families, couples, and relaxed beach lovers</span>
+        </div>
       </div>
 
       <div class="tour-actions">
-
         <a class="btn btn--primary"
            href="https://wa.me/15046572553?text=Hello%20EcoSamana%20Adventures!%20I%20want%20to%20book%20the%20Cayo%20Levantado%20Day%20Pass."
            target="_blank" rel="noopener">
@@ -116,48 +244,180 @@
            target="_blank" rel="noopener">
           Chat on WhatsApp
         </a>
-
       </div>
-
     </div>
-
 
     <div>
       <img src="/assets/images/cayo-levantado-beach.jpg"
-           alt="Cayo Levantado beach Samana">
+           alt="Cayo Levantado beach in Samaná Bay">
     </div>
-
   </div>
-
 </section>
 
+<section class="tour-info-section">
+  <div class="tour-info-wrap">
+    <div class="tour-info-grid">
+      <div>
+        <h2>What the Experience Is Really Like</h2>
+
+        <p>
+          This is not a high-adrenaline excursion. It is a smooth and scenic island outing made for people who want to enjoy
+          the beauty of Samaná Bay in a more relaxed way.
+        </p>
+
+        <p>
+          The boat ride is short and pleasant, and once on the island, most guests spend their time swimming, resting under palm trees,
+          enjoying the sand, taking photos, and soaking in the tropical atmosphere. It’s one of the easiest excursions to enjoy if you want
+          something beautiful without a complicated itinerary.
+        </p>
+
+        <p>
+          Depending on the day and the season, the beach atmosphere may feel lively or peaceful, but the main appeal remains the same:
+          easy island access, clear water, beautiful views, and a classic Caribbean setting.
+        </p>
+
+        <h3>Why Guests Choose This Tour</h3>
+        <ul>
+          <li>Easy island escape from Samaná without a long travel day</li>
+          <li>Perfect for beach lovers who want time to relax</li>
+          <li>Great photo opportunities with tropical scenery</li>
+          <li>Suitable for families and travelers of mixed ages</li>
+          <li>Private boat option available for more flexibility</li>
+        </ul>
+
+        <h3>Typical Plan</h3>
+        <ul>
+          <li><strong>Meeting &amp; check-in</strong> in Samaná</li>
+          <li><strong>Boat transfer</strong> across the bay to Cayo Levantado</li>
+          <li><strong>Free time on the island</strong> to swim, relax, and enjoy the beach</li>
+          <li><strong>Lunch or meal time</strong> depending on package and coordination</li>
+          <li><strong>Return boat transfer</strong> back to Samaná</li>
+        </ul>
+
+        <div class="tour-note">
+          Exact departure time, return time, and package details can vary slightly depending on season, weather, and availability.
+          We confirm logistics directly with each booking.
+        </div>
+      </div>
+
+      <aside>
+        <div class="tour-card">
+          <h3>Good to Know</h3>
+          <ul>
+            <li><strong>Best for:</strong> Relaxed beach day travelers</li>
+            <li><strong>Water conditions:</strong> Usually calmer inside the bay</li>
+            <li><strong>What to bring:</strong> Swimwear, towel, sunscreen, sandals, phone or camera</li>
+            <li><strong>Recommended:</strong> Extra cash for drinks or personal expenses</li>
+            <li><strong>Children:</strong> Family-friendly option</li>
+          </ul>
+        </div>
+
+        <div class="tour-card" style="margin-top: 1.25rem;">
+          <h3>Included</h3>
+          <ul>
+            <li>Round-trip boat transfer</li>
+            <li>Access to Cayo Levantado beach area</li>
+            <li>Assistance from local team</li>
+            <li>Meal or lunch option depending on final package</li>
+          </ul>
+        </div>
+
+        <div class="tour-card" style="margin-top: 1.25rem;">
+          <h3>Not Included</h3>
+          <ul>
+            <li>Personal purchases on the island</li>
+            <li>Extra drinks unless specified</li>
+            <li>Professional photography</li>
+            <li>Transport to Samaná unless arranged separately</li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
 
 <section class="tour-gallery">
-
   <div class="gallery-grid">
-
     <img src="/assets/images/cayo-levantado-drone.jpg"
-         alt="Cayo Levantado aerial view">
-
+         alt="Aerial view of Cayo Levantado">
     <img src="/assets/images/cayo-levantado-beach.jpg"
-         alt="Cayo Levantado beach">
-
+         alt="Beach at Cayo Levantado">
     <img src="/assets/images/cayo-levantado-palms.jpg"
          alt="Palm trees at Cayo Levantado">
-
     <img src="/assets/images/cayo-levantado-samana-bay.jpg"
-         alt="Samaná Bay view">
-
+         alt="View of Samaná Bay from Cayo Levantado">
     <img src="/assets/images/cayo-levantado-paradise.jpg"
-         alt="Cayo Levantado tropical island">
-
+         alt="Tropical scenery on Cayo Levantado">
     <img src="/assets/images/cayo-levantado-beach.jpg"
-         alt="Relaxing beach at Cayo Levantado">
-
+         alt="Relaxing beach scene on Cayo Levantado">
   </div>
-
 </section>
 
+<section class="tour-info-section">
+  <div class="tour-info-wrap">
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="tour-faq">
+      <div class="tour-faq-item">
+        <h3>How long is the trip?</h3>
+        <p>
+          It depends on the package and timing, but most guests enjoy this as a half-day to day experience including boat transfer and beach time.
+        </p>
+      </div>
+
+      <div class="tour-faq-item">
+        <h3>Is this good for children and older guests?</h3>
+        <p>
+          Yes. This is one of the easier and more relaxed excursions in Samaná, which makes it a good choice for families and mixed-age groups.
+        </p>
+      </div>
+
+      <div class="tour-faq-item">
+        <h3>Is the island always quiet?</h3>
+        <p>
+          The atmosphere can vary depending on the day, season, and visitor volume. Some days feel peaceful and laid-back, while others are livelier.
+        </p>
+      </div>
+
+      <div class="tour-faq-item">
+        <h3>Can I book a private boat?</h3>
+        <p>
+          Yes. Private boat service is available from US$600 for groups up to 10 people, subject to availability.
+        </p>
+      </div>
+
+      <div class="tour-faq-item">
+        <h3>What if weather conditions change?</h3>
+        <p>
+          Boat operations depend on safe conditions in the bay. If weather affects the trip, we coordinate the best available solution directly with you.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="tour-cta-band">
+  <div class="tour-info-wrap">
+    <h2>Ready for a Beach Day in Cayo Levantado?</h2>
+    <p>
+      Message us directly and we’ll help you choose the best option for your group, preferred timing, and private or shared experience.
+    </p>
+
+    <div class="tour-actions">
+      <a class="btn btn--primary"
+         href="https://wa.me/15046572553?text=Hello%20EcoSamana%20Adventures!%20I%20want%20to%20book%20the%20Cayo%20Levantado%20Day%20Pass."
+         target="_blank" rel="noopener">
+        Reserve Now
+      </a>
+
+      <a class="btn btn--outline"
+         href="https://wa.me/15046572553?text=Hello%20EcoSamana%20Adventures!%20I%20have%20questions%20about%20the%20Cayo%20Levantado%20Day%20Pass."
+         target="_blank" rel="noopener">
+        Ask on WhatsApp
+      </a>
+    </div>
+  </div>
+</section>
 
 </body>
 </html>
