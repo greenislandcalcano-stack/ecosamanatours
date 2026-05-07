@@ -1,4 +1,4 @@
-/* =========================
+f/* =========================
    ECO-SAMANA GLOBAL THEME
    ========================= */
 
@@ -1716,7 +1716,6 @@ body{
     height:240px;
   }
 }
-</style>
 .video-wrapper {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
@@ -1745,6 +1744,7 @@ body{
   display: block;
   width: 100%;
   height: auto;
+}
 .tour-hero .intro-fun {
   max-width: 920px;
   margin: 1.8rem auto 0;
@@ -3143,6 +3143,52 @@ body {
 }
 
 /* Keep all normal content above the background */
+.site-header,
+header,
+main,
+section,
+footer,
+.container,
+.social-links {
+  position: relative;
+  z-index: 2;
+}
+/* GLOBAL TROPICAL VIDEO BACKGROUND — FINAL FIX */
+.global-video-bg {
+  position: fixed !important;
+  inset: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  z-index: -9999 !important;
+  overflow: hidden !important;
+  pointer-events: none !important;
+  background: #dffcff;
+}
+
+.global-video-bg video {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  opacity: 0.14;
+  filter: blur(1px) saturate(1.1);
+  transform: scale(1.08);
+}
+
+html,
+body {
+  min-height: 100%;
+  background: transparent !important;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -9998;
+  background: rgba(225, 255, 255, 0.68);
+  pointer-events: none;
+}
+
 .site-header,
 header,
 main,
