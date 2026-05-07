@@ -3199,3 +3199,34 @@ footer,
   position: relative;
   z-index: 2;
 }
+/* MOBILE FRIENDLY GLOBAL BACKGROUND */
+@media (max-width: 768px) {
+  .global-video-bg video {
+    display: none !important;
+  }
+
+  .global-video-bg {
+    background:
+      linear-gradient(rgba(225, 255, 255, 0.72), rgba(225, 255, 255, 0.72)),
+      url('/assets/envato/graphics/Tropical Beach with White Sand.jpg') center center / cover no-repeat !important;
+    z-index: -9999 !important;
+  }
+
+  body::before {
+    background: rgba(225, 255, 255, 0.55);
+  }
+
+  .hero,
+  .hero-curves,
+  .tour-hero {
+    background: rgba(224, 247, 255, 0.72) !important;
+  }
+
+  section,
+  .card,
+  .tour-card,
+  .price-box,
+  .page-heading-wrap {
+    backdrop-filter: blur(3px);
+  }
+}
