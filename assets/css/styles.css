@@ -3130,8 +3130,11 @@ body{
   width: 100% !important;
   height: 100% !important;
   object-fit: cover !important;
-  opacity: 0.16;
-  filter: blur(1px) saturate(1.1);
+
+  opacity: 0.32;
+
+  filter: blur(0.5px) saturate(1.25) brightness(1.05);
+
   transform: scale(1.08);
 }
 
