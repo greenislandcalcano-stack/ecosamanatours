@@ -3155,3 +3155,42 @@ main,
   position: relative;
   z-index: 1;
 }
+/* Global animated tropical background */
+.global-video-bg {
+  position: fixed !important;
+  inset: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  z-index: -999 !important;
+  overflow: hidden !important;
+  pointer-events: none !important;
+  background: #dffcff;
+}
+
+.global-video-bg video {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  opacity: 0.16;
+  filter: blur(1px) saturate(1.1);
+  transform: scale(1.08);
+}
+
+/* Make page itself transparent so the video can show */
+html,
+body {
+  background: transparent !important;
+  min-height: 100%;
+}
+
+/* Keep all normal content above the background */
+.site-header,
+header,
+main,
+section,
+footer,
+.container,
+.social-links {
+  position: relative;
+  z-index: 2;
+}
