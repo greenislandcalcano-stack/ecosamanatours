@@ -66,16 +66,17 @@
   </head>
 
   <body>
-    <div class="site-video-bg" aria-hidden="true">
-  <video autoplay muted loop playsinline>
-    <source src="/assets/envato/graphics/animated-tropical-beach-with-palm-trees-and-ocean-graphics.mp4" type="video/mp4">
-  </video>
-</div>
-    {% include header.html %}
+  <div class="global-video-bg" aria-hidden="true">
+    <video autoplay muted loop playsinline>
+      <source src="{{ '/assets/envato/graphics/animated-tropical-beach-with-palm-trees-and-ocean-graphics.mp4' | relative_url }}" type="video/mp4">
+    </video>
+  </div>
 
-    {{ content }}
+  {% include header.html %}
 
-    {% include footer.html %}
+  {{ content }}
+
+  {% include footer.html %}
 
     <div class="social-links">
       <a href="{{ site.social.twitter }}" target="_blank" aria-label="Twitter">
