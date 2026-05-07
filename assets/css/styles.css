@@ -3113,48 +3113,7 @@ body{
   position:relative;
   z-index:2;
 }
-/* Global slow-motion tropical background */
-.site-video-bg {
-  position: fixed;
-  inset: 0;
-  z-index: -10;
-  overflow: hidden;
-  background: #d8fbff;
-}
 
-.site-video-bg video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0.16;
-  filter: blur(1px) saturate(1.15);
-  transform: scale(1.08);
-  pointer-events: none;
-}
-
-/* Soft readability layer */
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: -9;
-  background: rgba(220, 255, 255, 0.62);
-  pointer-events: none;
-}
-
-/* Make page backgrounds let the video show through */
-body {
-  background: transparent !important;
-}
-
-main,
-.page,
-.site-main,
-.content,
-.container {
-  position: relative;
-  z-index: 1;
-}
 /* Global animated tropical background */
 .global-video-bg {
   position: fixed !important;
