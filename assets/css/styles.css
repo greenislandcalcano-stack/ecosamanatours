@@ -3259,3 +3259,35 @@ footer,
   }
 }
 }
+/* GLOBAL PAGE CENTERING FIX */
+main,
+.page,
+.page-content,
+.content,
+.container,
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Center text sections */
+section {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Better mobile spacing */
+body {
+  overflow-x: hidden;
+}
+
+/* Optional: center headings */
+h1,
+h2,
+h3,
+.hero-title,
+.section-title {
+  text-align: center;
+}
