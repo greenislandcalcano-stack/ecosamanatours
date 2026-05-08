@@ -3249,8 +3249,8 @@ footer,
     width: 100% !important;
     height: 100% !important;
     object-fit: cover !important;
-    opacity: 0.70 !important;
-    filter: saturate(1.25) brightness(1.08);
+    opacity: 0.60 !important;
+    filter: saturate(1.4) brightness(1.15);
     transform: scale(1.18);
   }
 
