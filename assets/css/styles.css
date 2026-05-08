@@ -3259,39 +3259,74 @@ footer,
   }
 }
 }
-/* GLOBAL PAGE CENTERING FIX */
-main,
-.page,
-.page-content,
-.content,
-.container,
-.wrapper {
+/* SAFE PAGE CENTERING — DOES NOT BREAK HEADER */
+main {
   width: 100%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Center text sections */
-section {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Better mobile spacing */
-body {
+  margin: 0 auto;
   overflow-x: hidden;
 }
 
-/* Optional: center headings */
-h1,
-h2,
-h3,
-.hero-title,
-.section-title {
+main > section,
+.page-content,
+.tour-content,
+.home-team,
+.tour-section,
+.tour-gallery,
+.cayo-levantado-feature {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Keep hero readable and centered */
+.hero,
+.hero-curves,
+.tour-hero {
+  max-width: none;
+  width: 100%;
   text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Prevent header dropdown from covering content awkwardly */
+.site-header {
+  z-index: 9999 !important;
+}
+
+.dropdown-menu,
+.dropdown-content {
+  z-index: 10000 !important;
+}
+
+/* Give page titles breathing room below sticky header */
+.tour-hero,
+.hero,
+.hero-curves {
+  padding-top: 70px;
 }
 section {
   padding-left: 20px;
   padding-right: 20px;
+}/* FIX IMAGES LOOKING CYLINDRICAL / PILL-SHAPED */
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Normal page images */
+.hero-image,
+.tour-card img,
+.gallery-grid img,
+.tour-gallery-grid img,
+.tour-block__image img {
+  border-radius: 18px !important;
+}
+
+/* Only use circles for true profile/avatar images */
+.media-img {
+  border-radius: 18px !important;
 }
