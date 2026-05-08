@@ -3467,3 +3467,26 @@ img {
     max-width: calc(100vw - 32px);
   }
 }
+/* FIX GALLERY CONTENT NOT SHOWING */
+.gallery-grid .reveal-up,
+.tour-gallery-grid .reveal-up,
+.gallery-wrap .reveal-up,
+.tour-gallery .reveal-up {
+  opacity: 1 !important;
+  transform: none !important;
+  visibility: visible !important;
+}
+
+/* Make gallery cards/images visible and clean */
+.gallery-grid,
+.tour-gallery-grid {
+  display: grid !important;
+  gap: 20px;
+}
+
+.gallery-grid img,
+.tour-gallery-grid img,
+.tour-gallery-grid .card {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
