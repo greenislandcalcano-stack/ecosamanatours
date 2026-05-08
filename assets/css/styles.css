@@ -3258,7 +3258,7 @@ footer,
     background: rgba(225, 255, 255, 0.28) !important;
   }
 }
-}
+
 /* SAFE PAGE CENTERING — DOES NOT BREAK HEADER */
 main {
   width: 100%;
@@ -3329,4 +3329,141 @@ img {
 /* Only use circles for true profile/avatar images */
 .media-img {
   border-radius: 18px !important;
+}
+/* === FINAL ECO-SAMANA STABILITY PATCH === */
+
+/* 1. Prevent horizontal drifting */
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* 2. Global animated background */
+.global-video-bg {
+  position: fixed !important;
+  inset: 0 !important;
+  width: 100vw !important;
+  height: 100dvh !important;
+  z-index: -9999 !important;
+  overflow: hidden !important;
+  pointer-events: none !important;
+  background: #dffcff !important;
+}
+
+.global-video-bg video {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  opacity: 0.55 !important;
+  filter: saturate(1.35) brightness(1.08);
+  transform: scale(1.16);
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -9998;
+  background: rgba(225, 255, 255, 0.25);
+  pointer-events: none;
+}
+
+/* 3. Safe centering */
+main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+main > section,
+.page-content,
+.tour-content,
+.home-team,
+.tour-section,
+.tour-gallery,
+.cayo-levantado-feature {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* 4. Hero stays full width but centered */
+.hero,
+.hero-curves,
+.tour-hero {
+  width: 100%;
+  max-width: none;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* 5. Header/dropdown always above page */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 9999 !important;
+}
+
+.dropdown,
+.dropdown-menu,
+.dropdown-content {
+  z-index: 10000 !important;
+}
+
+/* 6. Images: stop pill/cylinder distortion */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hero-image,
+.tour-card img,
+.gallery-grid img,
+.tour-gallery-grid img,
+.tour-block__image img,
+.guide-photo img,
+.guide-image img {
+  border-radius: 18px !important;
+  object-fit: cover;
+}
+
+/* Keep only true icons/logos from being forced weirdly */
+.brand img,
+.logo img {
+  border-radius: 0 !important;
+  object-fit: contain;
+}
+
+/* 7. Mobile refinements */
+@media (max-width: 768px) {
+  .global-video-bg video {
+    opacity: 0.45 !important;
+    transform: scale(1.28);
+  }
+
+  body::before {
+    background: rgba(225, 255, 255, 0.35);
+  }
+
+  .tour-hero,
+  .hero,
+  .hero-curves {
+    padding-top: 40px;
+  }
+
+  h1 {
+    font-size: clamp(2rem, 8vw, 2.6rem) !important;
+    line-height: 1.15;
+  }
+
+  .dropdown-menu,
+  .dropdown-content {
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    max-width: calc(100vw - 32px);
+  }
 }
