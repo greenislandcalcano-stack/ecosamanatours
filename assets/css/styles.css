@@ -3522,3 +3522,25 @@ img {
 
   color: #00796b !important;
 }
+/* KEEP EXCURSION DROPDOWN OPEN WHILE HOVERING */
+.dropdown {
+  position: relative;
+}
+
+/* Remove hover gap */
+.dropdown-content,
+.dropdown-menu {
+  top: 100%;
+  margin-top: 0 !important;
+  padding-top: 10px;
+}
+
+/* Keep visible while hovering */
+.dropdown:hover .dropdown-content,
+.dropdown:hover .dropdown-menu,
+.dropdown-content:hover,
+.dropdown-menu:hover {
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
