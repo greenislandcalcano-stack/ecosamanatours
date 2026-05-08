@@ -3231,5 +3231,31 @@ footer,
   .price-box,
   .page-heading-wrap {
     backdrop-filter: blur(3px);
+  }/* MOBILE: keep the animated palm video visible */
+@media (max-width: 768px) {
+   
+  .global-video-bg {
+    position: fixed !important;
+    inset: 0 !important;
+    width: 100vw !important;
+    height: 100dvh !important;
+    z-index: -9999 !important;
+    overflow: hidden !important;
+    background: #dffcff !important;
   }
+
+  .global-video-bg video {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    opacity: 0.70 !important;
+    filter: saturate(1.25) brightness(1.08);
+    transform: scale(1.18);
+  }
+
+  body::before {
+    background: rgba(225, 255, 255, 0.28) !important;
+  }
+}
 }
