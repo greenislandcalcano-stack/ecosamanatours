@@ -7,22 +7,51 @@ keywords: "pirate treasure hunt samana, adventure tour dominican republic, islan
 image: /assets/images/pirate-hero.jpg
 ---
 
-<style>
+<<style>
+  .tour-hero {
+    padding-top: 0;
+  }
+
+  .tour-hero .container {
+    max-width: 1200px;
+  }
+
+  .tour-hero .intro-fun {
+    position: relative;
+    max-width: 1200px;
+    min-height: 620px;
+    margin: 0 auto 2.5rem;
+    padding: 6rem 9rem 5rem;
+    background: url('/assets/images/parchment-pirate.png') center/100% 100% no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+  }
+
+  .tour-hero .intro-fun .parchment-text {
+    max-width: 760px;
+    text-align: center;
+    color: #3b2414;
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.75;
+    font-size: 1.15rem;
+    text-shadow: 0 1px 0 rgba(255, 248, 220, 0.35);
+  }
+
+  .tour-hero .intro-fun .parchment-text p {
+    margin: 0 0 1.25rem;
+  }
+
+  .tour-hero .intro-fun .parchment-text strong {
+    color: #2b170b;
+  }
+
   .tour-gallery-grid figure {
     background: #111827;
   }
 
-  /* Make parchment BIG */
-  min-height: 620px;
-  padding: 6rem 9rem 5rem;
- background: url('/assets/images/parchment-pirate.png') center/120% 120% no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 2;
-}
-  
- .tour-gallery-grid figcaption {
+  .tour-gallery-grid figcaption {
     color: #ffffff;
     font-weight: 600;
     text-shadow: 0 0 6px rgba(0, 0, 0, 0.9);
@@ -39,42 +68,8 @@ image: /assets/images/pirate-hero.jpg
     content: " ";
   }
 
-  .tour-hero .lead {
-    max-width: 850px;
-    margin: 0 auto 1rem;
-  }
-  
- .tour-hero .intro-fun {
-  position: relative;
-  max-width: 1200px;
-  margin: 2.5rem auto 0;
-
-
-  .tour-hero .intro-fun .parchment-text {
-    max-width: 760px;
-    text-align: center;
-    color: #3b2414;
-    font-family: Georgia, "Times New Roman", serif;
-    line-height: 1.75;
-    font-size: 1.15rem;
-    text-shadow: 0 1px 0 rgba(255, 248, 220, 0.35);
-  }
-
-  .tour-hero .intro-fun .parchment-text p {
-    margin: 0 0 1.25rem;
-  }
-
-  .tour-hero .intro-fun .parchment-text p:last-child {
-    margin-bottom: 0;
-  }
-
-  .tour-hero .intro-fun .parchment-text strong {
-    color: #2b170b;
-  }
-
   @media (max-width: 900px) {
     .tour-hero .intro-fun {
-      max-width: 100%;
       min-height: auto;
       padding: 3rem 2.2rem;
       background-size: 100% 100%;
@@ -89,7 +84,6 @@ image: /assets/images/pirate-hero.jpg
   @media (max-width: 640px) {
     .tour-hero .intro-fun {
       padding: 2.2rem 1.2rem;
-      border-radius: 18px;
       background-size: cover;
     }
 
@@ -130,11 +124,24 @@ image: /assets/images/pirate-hero.jpg
     </div>
 
     <div class="intro-fun">
-      <div class="parchment-text">
-      
-      </div>
-    </div>
+  <div class="parchment-text">
+    <p>
+      Somewhere along the coast of <strong>Samaná Bay</strong>, an old pirate map has awakened.
+      The clues are hidden, the waters are shining, and the treasure waits for the brave crew
+      clever enough to find it.
+    </p>
+
+    <p>
+      This is not just a boat ride. This is a family adventure of snorkeling, beach games,
+      tropical mystery, and pirate laughter — created for children, parents, friends,
+      and every dreamer who still believes the sea keeps secrets.
+    </p>
+
+    <p>
+      Welcome aboard the <strong>Pirate Treasure Hunt</strong>.
+    </p>
   </div>
+</div>
 </section>
 
 <section class="container mt-3">
