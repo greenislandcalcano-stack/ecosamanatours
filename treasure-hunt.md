@@ -139,10 +139,6 @@ image: /assets/images/pirate-hero.jpg
     alt="Pirate Treasure Hunt parchment introduction">
 </section>
 
-<div class="container center">
-
-  <h1>Pirate Treasure Hunt – Hidden Coves & Island Adventure</h1>
-
   <p>
     Turn your day at sea into a real-life pirate story with one of the most original
     family excursions in Samaná.
