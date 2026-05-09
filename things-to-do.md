@@ -192,7 +192,9 @@ document.addEventListener("DOMContentLoaded", function () {
       allow="autoplay; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen>
     </iframe>
-
+<a href="/kayak-los-haitises/">
+Kayak Tour in Los Haitises
+</a>
     <div class="video-overlay">
       <h1>Things To Do in Samaná</h1>
       <p>Waterfalls, whales, snorkeling, and unforgettable adventures with EcoSamana.</p>
