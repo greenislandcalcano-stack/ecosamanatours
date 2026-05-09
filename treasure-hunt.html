@@ -7,13 +7,22 @@ keywords: "pirate treasure hunt samana, adventure tour dominican republic, islan
 image: /assets/images/pirate-hero.jpg
 ---
 
- background: url('/assets/images/parchment-pirate.png') center/120% 120% no-repeat;
 <style>
   .tour-gallery-grid figure {
     background: #111827;
   }
 
-  .tour-gallery-grid figcaption {
+  /* Make parchment BIG */
+  min-height: 620px;
+  padding: 6rem 9rem 5rem;
+ background: url('/assets/images/parchment-pirate.png') center/120% 120% no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+  
+ .tour-gallery-grid figcaption {
     color: #ffffff;
     font-weight: 600;
     text-shadow: 0 0 6px rgba(0, 0, 0, 0.9);
@@ -40,15 +49,6 @@ image: /assets/images/pirate-hero.jpg
   max-width: 1200px;
   margin: 2.5rem auto 0;
 
-  /* Make parchment BIG */
-  min-height: 620px;
-  padding: 6rem 9rem 5rem;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 2;
-}
 
   .tour-hero .intro-fun .parchment-text {
     max-width: 760px;
