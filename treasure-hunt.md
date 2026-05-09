@@ -205,44 +205,11 @@ image: /assets/images/pirate-hero.jpg
 
 </style>
 
-<section class="tour-hero">
-
-<div class="pirate-parchment">
-
-  <div class="pirate-parchment__inner">
-
-    <p class="pirate-small">
-      🏴‍☠️ A Message From The Old Pirates of Samaná
-    </p>
-
-    <h2>
-      The Treasure Has Been Hidden Again...
-    </h2>
-
-    <p>
-      Somewhere beyond the mangroves and emerald waters of Samaná Bay,
-      an old pirate map has resurfaced.
-    </p>
-
-    <p>
-      Families, explorers, and brave young captains are invited to follow
-      mysterious clues, snorkel through tropical waters, and search for
-      a legendary hidden chest along the coast.
-    </p>
-
-    <p>
-      This is not simply a tour...
-      it is a living pirate adventure filled with riddles,
-      beaches, sea stories, teamwork, and unforgettable memories.
-    </p>
-
-    <p class="pirate-ending">
-      Welcome aboard the Pirate Treasure Hunt.
-    </p>
-
-  </div>
-
-</div>
+<section class="parchment-opening">
+  <img 
+    src="/assets/images/parchment-pirate.png" 
+    alt="Pirate Treasure Hunt parchment introduction">
+</section>
 
 <div class="container center">
 
