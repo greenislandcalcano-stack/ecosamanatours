@@ -3250,7 +3250,7 @@ footer,
     height: 100% !important;
     object-fit: cover !important;
     opacity: 0.60 !important;
-    filter: saturate(1.4) brightness(1.15);
+    filter: saturate(1.04) brightness(1.05);
     transform: scale(1.18);
   }
 
@@ -3543,4 +3543,28 @@ img {
   display: block !important;
   opacity: 1 !important;
   visibility: visible !important;
+}
+/* FORCE GALLERY TO SHOW */
+.gallery-grid,
+.tour-gallery-grid {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Force reveal animation elements visible */
+.gallery-grid .reveal-up,
+.tour-gallery-grid .reveal-up,
+.tour-gallery .reveal-up,
+.gallery-wrap .reveal-up,
+.card.reveal-up {
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: none !important;
+}
+
+/* Ensure cards themselves render */
+.tour-gallery-grid .card,
+.gallery-grid .card {
+  display: block !important;
+  opacity: 1 !important;
 }
