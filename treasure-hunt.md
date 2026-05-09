@@ -9,41 +9,6 @@ image: /assets/images/pirate-hero.jpg
 
 <style>
 
-.pirate-parchment{
-
-  position:relative;
-
-  width:100%;
-  max-width:1100px;
-
-  margin:70px auto 40px;
-
-  background:url('/assets/images/parchment-pirate.png')
-  center center / contain no-repeat;
-
-  min-height:780px;
-
-  display:flex;
-  align-items:center;
-  justify-content:center;
-
-  padding:120px 140px;
-
-}
-
-.pirate-parchment__inner{
-
-  max-width:720px;
-
-  text-align:center;
-
-  color:#3e2715;
-
-  font-family:Georgia, serif;
-
-  line-height:1.9;
-
-}
 
 .pirate-small{
 
@@ -57,23 +22,8 @@ image: /assets/images/pirate-hero.jpg
   opacity:0.85;
 }
 
-.pirate-parchment h2{
 
-  font-size:3rem;
 
-  line-height:1.1;
-
-  margin-bottom:30px;
-
-  color:#2b170b;
-}
-
-.pirate-parchment p{
-
-  font-size:1.18rem;
-
-  margin-bottom:22px;
-}
 
 .pirate-ending{
 
@@ -174,34 +124,12 @@ image: /assets/images/pirate-hero.jpg
 }
 
 @media(max-width:900px){
-
-  .pirate-parchment{
-
-    padding:80px 50px;
-
-    min-height:auto;
-
-    background-size:cover;
-  }
-
-  .pirate-parchment h2{
-    font-size:2rem;
-  }
-
-  .pirate-parchment p{
-    font-size:1rem;
-  }
-
+  
 }
 
 @media(max-width:640px){
 
-  .pirate-parchment{
-
-    padding:60px 25px;
-  }
-
-}
+ }
 
 </style>
 
