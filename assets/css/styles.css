@@ -764,6 +764,8 @@ section h3 {
   .dropdown{
     width:100%;
     max-width:320px;
+    position:relative;
+    display:block;
     text-align:center;
   }
 
@@ -776,20 +778,47 @@ section h3 {
     font-size:1rem;
     font-weight:600;
     color:#103b34;
+    cursor:pointer;
   }
 
   .dropdown-content{
+
+    /* THIS IS THE IMPORTANT FIX */
+    position:relative !important;
+
+    left:auto !important;
+    right:auto !important;
+
+    transform:none !important;
+
     width:100%;
-    left:50%;
-    right:auto;
-    transform:translateX(-50%);
+    max-width:320px;
+
     margin:10px auto 0;
+
+    display:none;
+
+    opacity:1;
+    visibility:visible;
+
+    background:#020617;
+
+    border-radius:16px;
+
     text-align:center;
+
+    box-shadow:0 12px 24px rgba(0,0,0,0.25);
   }
 
   .dropdown-content a{
+    display:block;
     text-align:center;
     padding:14px 18px;
+  }
+
+  .dropdown:hover .dropdown-content,
+  .dropdown:focus-within .dropdown-content{
+    display:block;
   }
 
 }
