@@ -6,35 +6,22 @@
     <a href="{{ '/' | relative_url }}" class="brand">EcoSamana Adventures 🌿</a>
 
     <nav class="nav" aria-label="Main">
+
       <div class="dropdown">
+        <button class="dropbtn" type="button">Home ▾</button>
 
-<button class="dropbtn" type="button">
-  Home ▾
-</button>
-  <div class="dropdown-content">
+        <div class="dropdown-content">
+          <a href="{{ '/' | relative_url }}">Home Page</a>
+          <a href="{{ '/about/' | relative_url }}">About Us</a>
+          <a href="{{ '/things-to-do-samana/' | relative_url }}">Things To Do</a>
+          <a href="{{ '/impact-program/' | relative_url }}">Impact Program</a>
+        </div>
+      </div>
 
-    <a href="{{ '/' | relative_url }}">Home Page</a>
-
-    <a href="{{ '/about/' | relative_url }}">
-      About Us
-    </a>
-
-    <a href="{{ '/things-to-do-samana/' | relative_url }}">
-      Things To Do
-    </a>
-
-    <a href="{{ '/impact-program/' | relative_url }}">
-      Impact Program
-    </a>
-
-  </div>
-
-</div>
       <a href="{{ '/gallery/' | relative_url }}">Gallery</a>
+
       <div class="dropdown">
-        <button class="dropbtn" type="button">
-  Excursions ▾
-</button>
+        <button class="dropbtn" type="button">Excursions ▾</button>
 
         <div class="dropdown-content">
           <a href="/haitises-half-day-sanchez.html">Half-Day Los Haitises (Sánchez)</a>
@@ -50,14 +37,15 @@
       </div>
 
       <a href="{{ '/contact/' | relative_url }}">Contact</a>
-    </nav>
 
-    <a class="btn btn--gold nav-book"
-       href="https://wa.me/15046572553?text=Hello%20EcoSamana%20Adventures!%20I%20want%20to%20book%20a%20tour."
-       target="_blank"
-       rel="noopener">
-      Book Now
-    </a>
+      <a class="btn btn--gold nav-book"
+         href="https://wa.me/15046572553?text=Hello%20EcoSamana%20Adventures!%20I%20want%20to%20book%20a%20tour."
+         target="_blank"
+         rel="noopener">
+        Book Now
+      </a>
+
+    </nav>
 
   </div>
 </header>
