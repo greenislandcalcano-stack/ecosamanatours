@@ -3630,3 +3630,54 @@ img {
     display: block;
   }
 }
+@media (max-width: 768px) {
+
+  .navbar{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    padding:12px 18px;
+  }
+
+  .nav{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:12px;
+    margin-top:14px;
+  }
+
+  .dropdown{
+    width:100%;
+    max-width:320px;
+    text-align:center;
+  }
+
+  .dropbtn{
+    width:100%;
+    text-align:center;
+    padding:14px 18px;
+    border:none;
+    background:transparent;
+    font-size:1rem;
+    font-weight:600;
+    color:#103b34;
+  }
+
+  .dropdown-content{
+    width:100%;
+    left:0;
+    right:0;
+    margin:10px auto 0;
+    text-align:center;
+  }
+
+  .dropdown-content a{
+    text-align:center;
+    padding:14px 18px;
+  }
+
+}
