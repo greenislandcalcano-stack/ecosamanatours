@@ -878,7 +878,7 @@ section h3 {
     text-align:center !important;
   }
 }
-/* TRUE MOBILE HEADER FIX */
+/* MOBILE HEADER — CLEAN ACCORDION VERSION */
 @media (max-width: 768px) {
 
   .site-header {
@@ -888,7 +888,7 @@ section h3 {
   .site-header .navbar {
     width: 100%;
     max-width: 100%;
-    padding: 14px 16px;
+    padding: 14px 18px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -897,7 +897,7 @@ section h3 {
   .site-header .brand {
     width: 100%;
     text-align: center;
-    margin-bottom: 12px;
+    margin-bottom: 14px;
   }
 
   .site-header .nav {
@@ -905,59 +905,63 @@ section h3 {
     max-width: 340px;
     margin: 0 auto;
     padding: 0;
-
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 12px;
+    align-items: stretch;
+    gap: 10px;
   }
 
   .site-header .nav > a,
-  .site-header .dropdown,
-  .site-header .nav-book {
-    width: 100%;
-    max-width: 320px;
-    text-align: center;
-  }
-
   .site-header .dropbtn,
-  .site-header .nav > a,
   .site-header .nav-book {
-    display: block;
     width: 100%;
+    display: block;
+    text-align: center;
+    padding: 12px 16px;
+    border-radius: 18px;
+  }
+
+  .site-header .dropdown {
+    width: 100%;
+    display: block;
+    position: relative;
   }
 
   .site-header .dropdown-content {
-    position: static;
-    transform: none;
+    position: static !important;
+    transform: none !important;
+    left: auto !important;
+    right: auto !important;
+
+    display: none;
     width: 100%;
-    max-width: 320px;
-    margin: 10px auto 0;
+    max-width: 100%;
+
+    margin: 8px 0 0;
+    padding: 6px;
+
+    background: #ffffff;
+    border-radius: 18px;
+    box-shadow: 0 10px 22px rgba(0,0,0,0.12);
   }
-}
-.dropdown-content {
-  position: absolute;
-  top: 100%;
-  right: 0;
-  left: auto;
 
-  min-width: 180px;
-  max-width: 220px;
+  .site-header .dropdown-content a {
+    display: block;
+    width: 100%;
+    padding: 11px 14px;
+    text-align: center;
+    color: #103b34;
+    border-radius: 14px;
+    white-space: normal;
+  }
 
-  background: #020617;
+  .site-header .dropdown-content a:hover {
+    background: #e5f7f2;
+    color: #103b34;
+  }
 
-  border-radius: 14px;
-  border: 1px solid rgba(148, 163, 184, 0.35);
-
-  padding: 6px 0;
-
-  box-shadow: 0 14px 28px rgba(15, 23, 42, 0.45);
-
-  display: none;
-  opacity: 0;
-  visibility: hidden;
-
-  transition: all 0.16s ease-out;
-
-  z-index: 9999;
+  .site-header .dropdown:focus-within .dropdown-content,
+  .site-header .dropdown:hover .dropdown-content {
+    display: block;
+  }
 }
