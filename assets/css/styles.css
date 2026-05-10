@@ -871,3 +871,60 @@ section h3 {
     text-align:center !important;
   }
 }
+/* TRUE MOBILE HEADER FIX */
+@media (max-width: 768px) {
+
+  .site-header {
+    overflow-x: hidden;
+  }
+
+  .site-header .navbar {
+    width: 100%;
+    max-width: 100%;
+    padding: 14px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .site-header .brand {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+
+  .site-header .nav {
+    width: 100%;
+    max-width: 340px;
+    margin: 0 auto;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .site-header .nav > a,
+  .site-header .dropdown,
+  .site-header .nav-book {
+    width: 100%;
+    max-width: 320px;
+    text-align: center;
+  }
+
+  .site-header .dropbtn,
+  .site-header .nav > a,
+  .site-header .nav-book {
+    display: block;
+    width: 100%;
+  }
+
+  .site-header .dropdown-content {
+    position: static;
+    transform: none;
+    width: 100%;
+    max-width: 320px;
+    margin: 10px auto 0;
+  }
+}
