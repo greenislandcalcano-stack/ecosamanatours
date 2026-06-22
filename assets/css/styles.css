@@ -1007,3 +1007,18 @@ section h3 {
   border-radius:18px;
   box-shadow:0 10px 24px rgba(0,0,0,0.12);
 }
+.pirate-qr-card{
+  grid-column:1 / -1;
+  max-width:980px;
+  margin:10px auto 0;
+  text-align:center;
+}
+
+.pirate-qr-card .pirate-qr-img{
+  width:100%;
+  height:auto !important;
+  max-height:none !important;
+  object-fit:contain !important;
+  display:block;
+  background:white;
+}
