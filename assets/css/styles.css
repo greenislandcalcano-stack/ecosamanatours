@@ -991,3 +991,19 @@ section h3 {
 .pirate-qr-link:hover{
   text-decoration:underline;
 }
+.pirate-qr-card{
+  text-align:center;
+}
+
+.pirate-qr-card .pirate-qr-img{
+  width:220px;
+  height:auto !important;
+  max-width:100%;
+  object-fit:contain !important;
+  display:block;
+  margin:20px auto;
+  padding:12px;
+  background:white;
+  border-radius:18px;
+  box-shadow:0 10px 24px rgba(0,0,0,0.12);
+}
