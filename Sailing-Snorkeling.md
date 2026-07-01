@@ -6,6 +6,7 @@ description: "Sailing in Samaná Bay near Cayo Vigía: calm waters, reef fish, a
 keywords: "Snorkeling samana, sailing in the Caribbean, snorkeling tour samana bay, cayo Levantado snorkeling, family snorkeling samana, sailing dominican republic samana"
 image: /assets/images/snorkeling-hero.jpg
 ---
+
 <style>
   .tour-gallery-grid figure {
     background: #111827;
@@ -23,31 +24,27 @@ image: /assets/images/snorkeling-hero.jpg
     color: #111827;
     font-weight: 700;
   }
-
-  .tour-content .itinerary strong::after {
-    content: " ";
-  }
 </style>
 
 <section class="tour-hero">
   <div class="container">
     <p class="eyebrow">Family-Friendly Ocean Adventure</p>
-    <h1>Snorkeling in Samaná Bay – Cayo Vigía Reef Adventure</h1>
+    <h1>Sailing & Snorkeling in Samaná Bay</h1>
 
     <p class="lead">
-      Explore calm, clear water in Samaná Bay with an easy boat ride to reef areas near Cayo Vigía.
-      Perfect for beginners, families, and anyone who wants a beautiful underwater moment — safely and responsibly.
+      Enjoy a full-day catamaran sailing adventure around Cayo Levantado and Samaná Bay, with snorkeling stops,
+      beautiful coastal views, and lunch served on board.
     </p>
 
     <div class="hero-meta">
       <span>⏱ Full-day Tour</span>
-      <span>👨‍👩‍👧 Ideal for families &amp; beginners</span>
-      <span>🤿 Snorkeling gear included</span>
+      <span>⛵ Catamaran Sailing</span>
+      <span>🤿 3 Snorkeling Stops</span>
     </div>
 
     <div class="hero-ctas">
       <a class="btn" href="{{ '/book?tour=snorkeling-samana' | relative_url }}">Book Now</a>
-      <a class="btn secondary" href="https://wa.me/15046572553?text=Hi!%20I'd%20like%20to%20book%20the%20Snorkeling%20Tour%20in%20Samana%20Bay%20(Cayo%20Vigia).">
+      <a class="btn secondary" href="https://wa.me/15046572553?text=Hi!%20I'd%20like%20to%20book%20the%20Sailing%20and%20Snorkeling%20Tour%20in%20Samana%20Bay.">
         Chat on WhatsApp
       </a>
     </div>
@@ -72,40 +69,45 @@ image: /assets/images/snorkeling-hero.jpg
     <article class="tour-main">
       <h2>Overview</h2>
       <p>
-        If you’re searching for <strong>Sailing in Samaná</strong> with calm water and an easy pace, this is the one.
-        We head into <strong>Samaná Bay</strong> toward reef areas near <strong>Cayo Vigía</strong>, where visibility is often best in the morning.
-        Your guide helps with gear fitting, safety instructions, and simple techniques for first-time snorkelers.
+        Sail across the beautiful <strong>Samaná Bay</strong> aboard a comfortable catamaran and enjoy a relaxing
+        ocean adventure around <strong>Cayo Levantado</strong>. This tour combines sailing, swimming, snorkeling,
+        island views, and lunch on board.
       </p>
 
       <p>
-        This tour is designed for families, couples, and small groups — a relaxed ocean experience with beautiful colors,
-        reef fish, and photo moments. We follow responsible practices to protect marine life and coral.
+        During the day, we make several snorkeling stops around the bay and nearby reef areas. It is a great option
+        for families, couples, and travelers who want a full Caribbean experience with calm water, tropical scenery,
+        and local guide support.
       </p>
 
-      <h2>Itinerary (Typical)</h2>
+      <h2>Itinerary</h2>
       <ol class="itinerary">
-        <li><strong>Pickup &amp; boarding</strong> at Samaná pier or selected hotel docks in Santa Bárbara de Samaná.</li>
-        <li><strong>Boat ride across the bay</strong> with coastal views and island scenery.</li>
-        <li><strong>Gear &amp; safety briefing</strong> (mask fit, breathing tips, buoyancy, and reef-safe rules).</li>
-        <li><strong>Snorkeling session</strong> in calm water near reef areas (perfect for beginners).</li>
-        <li><strong>Relax &amp; photo time</strong> on the boat, with water and soft drinks.</li>
-        <li><strong>Return to Samaná</strong> with optional second stop depending on conditions and group comfort.</li>
+        <li><strong>Boarding:</strong> Meet the crew and receive a short safety briefing.</li>
+        <li><strong>Catamaran sailing:</strong> Sail through Samaná Bay with coastal views and ocean breeze.</li>
+        <li><strong>Snorkeling stop 1:</strong> Easy water entry and guide support for beginners.</li>
+        <li><strong>Snorkeling stop 2:</strong> Explore another calm area around the bay or Cayo Levantado.</li>
+        <li><strong>Lunch on board:</strong> Enjoy a freshly prepared meal served on the catamaran.</li>
+        <li><strong>Snorkeling stop 3:</strong> Final swim and photo opportunity before returning.</li>
+        <li><strong>Return:</strong> Sail back with music, views, and time to relax.</li>
       </ol>
 
       <h2>What’s Included</h2>
       <ul>
-        <li>Boat and certified crew.</li>
-        <li>Snorkeling gear (mask, snorkel, life jacket).</li>
-        <li>Guide support for beginners and families.</li>
-        <li>Soft drinks and water on board.</li>
-        <li>Hotel pickup and drop-off from selected areas (on request).</li>
+        <li>Catamaran boat experience.</li>
+        <li>Captain and crew.</li>
+        <li>Local guide support.</li>
+        <li>Snorkeling gear.</li>
+        <li>Life jackets.</li>
+        <li>Lunch served on board.</li>
+        <li>Water and soft drinks.</li>
       </ul>
 
       <h2>Good to Know</h2>
       <ul>
-        <li><strong>Best time:</strong> Morning hours often have the calmest water.</li>
-        <li><strong>Skill level:</strong> Beginner-friendly — life jackets available.</li>
-        <li><strong>Reef care:</strong> No touching coral; reef-safe sunscreen recommended.</li>
+        <li><strong>Best time:</strong> Morning departures usually offer calmer water.</li>
+        <li><strong>Skill level:</strong> Beginner-friendly.</li>
+        <li><strong>Reef care:</strong> Please do not touch coral or marine life.</li>
+        <li><strong>Weather:</strong> Route and snorkeling stops may change depending on sea conditions.</li>
       </ul>
     </article>
 
@@ -113,9 +115,9 @@ image: /assets/images/snorkeling-hero.jpg
       <div class="card key-info">
         <h3>Key Info</h3>
         <ul>
-          <li><strong>Full-Day Sailing & Snorkeling</li>
+          <li><strong>Duration:</strong> Full-day sailing and snorkeling</li>
           <li><strong>Activity level:</strong> Easy · beginner-friendly</li>
-          <li><strong>Highlights:</strong> Reef fish, calm water, bay views</li>
+          <li><strong>Highlights:</strong> Catamaran, snorkeling, Cayo Levantado, lunch on board</li>
           <li><strong>Departure:</strong> Samaná pier / selected hotels</li>
         </ul>
       </div>
@@ -127,7 +129,7 @@ image: /assets/images/snorkeling-hero.jpg
           <li>Reef-safe sunscreen and hat.</li>
           <li>Water shoes or sandals.</li>
           <li>Waterproof phone case or camera.</li>
-          <li>Cash for special coktails and tip</li>
+          <li>Cash for cocktails, souvenirs, and tips.</li>
         </ul>
       </div>
     </aside>
@@ -139,30 +141,30 @@ image: /assets/images/snorkeling-hero.jpg
     <div class="tour-pricing-header">
       <h2>Prices</h2>
       <p>
-        Choose the option that best fits your group. All tours include certified guides, life jackets,
-        and responsible underwater practices.
+        Choose the option that best fits your group. All tours include crew support, life jackets,
+        snorkeling gear, and responsible ocean practices.
       </p>
     </div>
 
     <div class="price-grid">
       <div class="price-box">
-        <h3>Shared Boat</h3>
+        <h3>Shared Catamaran</h3>
         <div class="price">
-          From US$ 85 <span>/ adult</span>
+          From US$85 <span>/ adult</span>
         </div>
         <p>Great for couples, solo travelers, and small families joining other guests.</p>
         <ul>
-          <li>From US$ 85 per adult · US$ 60 per child</li>
-          <li>Full-Day Tour</li>
-          <li>Monday & Friday - Morning  departures</li>
+          <li>From US$85 per adult · US$60 per child</li>
+          <li>Full-day tour</li>
+          <li>Monday &amp; Friday morning departures</li>
         </ul>
       </div>
 
       <div class="price-box price-box--highlight">
         <span class="price-badge">Most Popular</span>
-        <h3>Private Sail Boat and Snorkel </h3>
+        <h3>Private Sail Boat & Snorkel</h3>
         <div class="price">
-          From US$ 1200 <span>/ boat</span>
+          From US$1,200 <span>/ boat</span>
         </div>
         <p>Perfect for families or friends who want a private experience and flexible timing.</p>
         <ul>
@@ -198,24 +200,27 @@ image: /assets/images/snorkeling-hero.jpg
 <section class="tour-gallery">
   <h2>Snorkeling Highlights in Samaná</h2>
   <p class="tour-gallery-intro">
-    Calm bay water, reef fish, and easy entry — a relaxed snorkeling tour designed for comfort and safety.
+    Calm bay water, reef fish, sailing views, and easy entry — a relaxed snorkeling tour designed for comfort and safety.
   </p>
 
   <div class="tour-gallery-grid">
     <figure>
-      <img src="{{ '/assets/images/snorkeling-001.jpg' | relative_url }}" alt="family snorkeling tour in samana bay">
+      <img src="{{ '/assets/images/snorkeling-001.jpg' | relative_url }}" alt="Family snorkeling tour in Samaná Bay">
       <figcaption>Family-friendly snorkeling in calm water</figcaption>
     </figure>
+
     <figure>
-      <img src="{{ '/assets/images/snorkeling-reef.jpg' | relative_url }}" alt="samana bay snorkeling tour">
+      <img src="{{ '/assets/images/snorkeling-reef.jpg' | relative_url }}" alt="Samaná Bay snorkeling reef tour">
       <figcaption>Coral reef and underwater snorkeling tour</figcaption>
     </figure>
+
     <figure>
-      <img src="{{ '/assets/images/snorkeling-boat.jpg' | relative_url }}" alt="snorkeling boat tour departing from samana pier">
+      <img src="{{ '/assets/images/snorkeling-boat.jpg' | relative_url }}" alt="Snorkeling boat tour departing from Samaná pier">
       <figcaption>Boat ride with bay views</figcaption>
     </figure>
+
     <figure>
-      <img src="{{ '/assets/images/snorkeling-cove.jpg' | relative_url }}" alt="family friendly calm snorkeling cove in samana dominican republic">
+      <img src="{{ '/assets/images/snorkeling-cove.jpg' | relative_url }}" alt="Calm snorkeling cove in Samaná Dominican Republic">
       <figcaption>Calm coves and clear water</figcaption>
     </figure>
   </div>
@@ -223,9 +228,9 @@ image: /assets/images/snorkeling-hero.jpg
 
 <section class="tour-bottom-cta">
   <div class="container">
-    <h2>Ready to snorkel Samaná Bay?</h2>
+    <h2>Ready to sail and snorkel Samaná Bay?</h2>
     <p>
-      Book your Snorkeling Tour today and enjoy a calm, beautiful ocean experience with local guides.
+      Book your full-day catamaran sailing and snorkeling tour and enjoy a beautiful ocean experience with local guides.
     </p>
     <a class="btn" href="{{ '/book?tour=snorkeling-samana' | relative_url }}">Book Snorkeling Tour</a>
   </div>
