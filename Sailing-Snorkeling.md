@@ -1,4 +1,4 @@
-----
+---
 layout: page
 title: "Sailing and Snorkeling in Samaná Bay – Samana Reef Adventure"
 permalink: /snorkeling-cayo-vigia/
@@ -6,7 +6,6 @@ description: "Sailing in Samaná Bay near Cayo Vigía: calm waters, reef fish, a
 keywords: "Snorkeling samana, sailing in the Caribbean, snorkeling tour samana bay, cayo Levantado snorkeling, family snorkeling samana, sailing dominican republic samana"
 image: /assets/images/snorkeling-hero.jpg
 ---
-
 <style>
   .tour-gallery-grid figure {
     background: #111827;
