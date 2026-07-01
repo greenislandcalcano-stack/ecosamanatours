@@ -114,7 +114,7 @@ image: /assets/images/snorkeling-hero.jpg
       <div class="card key-info">
         <h3>Key Info</h3>
         <ul>
-          <li><strong>Duration:</strong> 3–4 hours</li>
+          <li><strong>Full-Day Sailing & Snorkeling</li>
           <li><strong>Activity level:</strong> Easy · beginner-friendly</li>
           <li><strong>Highlights:</strong> Reef fish, calm water, bay views</li>
           <li><strong>Departure:</strong> Samaná pier / selected hotels</li>
@@ -128,6 +128,7 @@ image: /assets/images/snorkeling-hero.jpg
           <li>Reef-safe sunscreen and hat.</li>
           <li>Water shoes or sandals.</li>
           <li>Waterproof phone case or camera.</li>
+          <li>Cash for special coktails and tip</li>
         </ul>
       </div>
     </aside>
@@ -148,7 +149,7 @@ image: /assets/images/snorkeling-hero.jpg
       <div class="price-box">
         <h3>Shared Boat</h3>
         <div class="price">
-          From US$ 45 <span>/ adult</span>
+          From US$ 85 <span>/ adult</span>
         </div>
         <p>Great for couples, solo travelers, and small families joining other guests.</p>
         <ul>
@@ -166,7 +167,7 @@ image: /assets/images/snorkeling-hero.jpg
         </div>
         <p>Perfect for families or friends who want a private experience and flexible timing.</p>
         <ul>
-          <li>Up to 12 people</li>
+          <li>Up to 15 people</li>
           <li>Flexible departure time</li>
           <li>More guide attention</li>
         </ul>
