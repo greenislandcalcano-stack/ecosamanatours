@@ -1,4 +1,4 @@
----
+----
 layout: page
 title: "Sailing and Snorkeling in Samaná Bay – Samana Reef Adventure"
 permalink: /snorkeling-cayo-vigia/
