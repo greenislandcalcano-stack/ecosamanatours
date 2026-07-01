@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "Snorkeling in Samaná Bay – Cayo Vigía Reef Adventure"
+title: "Sailing and Snorkeling in Samaná Bay – Samana Reef Adventure"
 permalink: /snorkeling-cayo-vigia/
-description: "Snorkeling in Samaná Bay near Cayo Vigía: calm waters, reef fish, and a family-friendly boat tour with EcoSamana Adventures."
-keywords: "snorkeling samana, snorkeling tour samana bay, cayo vigia snorkeling, family snorkeling samana, snorkeling dominican republic samana"
+description: "Sailing in Samaná Bay near Cayo Vigía: calm waters, reef fish, and a family-friendly boat tour with EcoSamana Adventures."
+keywords: "snorkeling samana, sailing in the Caribbean, snorkeling tour samana bay, cayo Levantado snorkeling, family snorkeling samana, sailing dominican republic samana"
 image: /assets/images/snorkeling-hero.jpg
 ---
 
@@ -152,21 +152,21 @@ image: /assets/images/snorkeling-hero.jpg
         </div>
         <p>Great for couples, solo travelers, and small families joining other guests.</p>
         <ul>
-          <li>From US$ 45 per adult · US$ 30 per child</li>
-          <li>Approx. 3–4 hours total</li>
-          <li>Morning &amp; afternoon departures</li>
+          <li>From US$ 85 per adult · US$ 60 per child</li>
+          <li>Full-Day Tour</li>
+          <li>Monday & Friday - Morning  departures</li>
         </ul>
       </div>
 
       <div class="price-box price-box--highlight">
         <span class="price-badge">Most Popular</span>
-        <h3>Private Snorkel Boat</h3>
+        <h3>Private Sail Boat and Snorkel </h3>
         <div class="price">
-          From US$ 350 <span>/ boat</span>
+          From US$ 1200 <span>/ boat</span>
         </div>
         <p>Perfect for families or friends who want a private experience and flexible timing.</p>
         <ul>
-          <li>Up to 8–10 people</li>
+          <li>Up to 12 people</li>
           <li>Flexible departure time</li>
           <li>More guide attention</li>
         </ul>
