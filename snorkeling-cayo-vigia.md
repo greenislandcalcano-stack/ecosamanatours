@@ -3,7 +3,7 @@ layout: page
 title: "Sailing and Snorkeling in Samaná Bay – Samana Reef Adventure"
 permalink: /snorkeling-cayo-vigia/
 description: "Sailing in Samaná Bay near Cayo Vigía: calm waters, reef fish, and a family-friendly boat tour with EcoSamana Adventures."
-keywords: "snorkeling samana, sailing in the Caribbean, snorkeling tour samana bay, cayo Levantado snorkeling, family snorkeling samana, sailing dominican republic samana"
+keywords: "Snorkeling samana, sailing in the Caribbean, snorkeling tour samana bay, cayo Levantado snorkeling, family snorkeling samana, sailing dominican republic samana"
 image: /assets/images/snorkeling-hero.jpg
 ---
 
@@ -41,7 +41,7 @@ image: /assets/images/snorkeling-hero.jpg
     </p>
 
     <div class="hero-meta">
-      <span>⏱ Half-day (3–4 hours)</span>
+      <span>⏱ Full-day Tour</span>
       <span>👨‍👩‍👧 Ideal for families &amp; beginners</span>
       <span>🤿 Snorkeling gear included</span>
     </div>
@@ -60,7 +60,7 @@ image: /assets/images/snorkeling-hero.jpg
   <div class="video-wrapper">
     <iframe
       src="https://www.youtube.com/embed/19JSsa_QgZ4"
-      title="Snorkeling in Samaná Bay – EcoSamana Adventures"
+      title="Sailing & Snorkeling in Samaná Bay – EcoSamana Adventures"
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       allowfullscreen>
@@ -73,7 +73,7 @@ image: /assets/images/snorkeling-hero.jpg
     <article class="tour-main">
       <h2>Overview</h2>
       <p>
-        If you’re searching for <strong>snorkeling in Samaná</strong> with calm water and an easy pace, this is the one.
+        If you’re searching for <strong>Sailing in Samaná</strong> with calm water and an easy pace, this is the one.
         We head into <strong>Samaná Bay</strong> toward reef areas near <strong>Cayo Vigía</strong>, where visibility is often best in the morning.
         Your guide helps with gear fitting, safety instructions, and simple techniques for first-time snorkelers.
       </p>
