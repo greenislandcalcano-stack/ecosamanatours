@@ -99,14 +99,26 @@ description: "Contact Eco-Samaná Adventures for tour reservations, questions ab
         Dominican Republic
       </p>
 
-      <!-- GOOGLE MAP -->
-      <iframe 
-        src="https://www.google.com/maps?q=Plaza+Hotel+Carretera+Sanchez+Samana+Km+1+Unit+3+Sanchez+32000&output=embed"
-        width="100%" 
-        height="250" 
-        style="border:0; margin-top:10px;" 
-        loading="lazy">
-      </iframe>
+      <!-- OFFICE LOCATION -->
+
+<div class="office-map">
+
+  <a
+    href="https://share.google/pciqwfAeJBw1RFrcB"
+    target="_blank"
+    rel="noopener"
+    class="btn btn-directions"
+    aria-label="Get directions to EcoSamana Adventures office">
+
+    📍 Get Directions
+
+  </a>
+
+  <p class="fineprint">
+    Opens Google Maps with the exact location of our office.
+  </p>
+
+</div>
 
       <div class="season-box">
         <p class="season-title">🐋 Whale Watching Season</p>
