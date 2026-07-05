@@ -1077,3 +1077,24 @@ section h3 {
     padding:26px;
   }
 }
+.office-map{
+  margin-top:1rem;
+  text-align:center;
+}
+
+.btn-directions{
+  display:inline-block;
+  padding:14px 22px;
+  border-radius:12px;
+  background:#0d6efd;
+  color:#fff;
+  text-decoration:none;
+  font-weight:700;
+  transition:.25s;
+}
+
+.btn-directions:hover{
+  background:#0b5ed7;
+  transform:translateY(-2px);
+  box-shadow:0 10px 20px rgba(13,110,253,.25);
+}
