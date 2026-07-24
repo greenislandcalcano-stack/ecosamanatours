@@ -1,264 +1,946 @@
 ---
 layout: page
-title: "Eco-Buggies Samaná – Beach & Off-Road Adventure"
+title: "Eco-Buggies Samaná – Beaches, Countryside & Off-Road Adventure"
 permalink: /eco-buggies.html
-description: "Drive eco-buggies through countryside trails to hidden beaches in Samaná. Visit Playa Morón, Las Canas, and a local cacao & coffee cabin."
-keywords: "buggy tour samana, playa moron buggy, off road samana, eco buggies samana, samana beach adventure"
+description: "Drive your own buggy through tropical countryside trails in Samaná. Visit Playa Las Canas, a traditional Dominican house, Playa Morón and Río El Limón."
+keywords: "buggy tour samana, eco buggies samana, playa moron buggy, playa las canas, rio el limon buggy tour, off road samana"
 image: /assets/images/buggies-hero.jpg
 ---
 
 <style>
-  /* Make buggies highlight captions readable in the gallery */
-  .tour-gallery-grid figure {
+  .buggy-page {
+    --buggy-green: #176b45;
+    --buggy-green-dark: #0f4d32;
+    --buggy-light: #effaf3;
+    --buggy-gold: #f2b134;
+    --buggy-border: #d9e8df;
+    --buggy-text: #1d2b24;
+  }
+
+  .buggy-page *,
+  .buggy-page *::before,
+  .buggy-page *::after {
+    box-sizing: border-box;
+  }
+
+  .buggy-page .container {
+    width: min(1120px, 92%);
+    margin: 0 auto;
+  }
+
+  .buggy-page .tour-hero {
+    position: relative;
+    overflow: hidden;
+    color: #ffffff;
+    padding: 5rem 0;
+    background:
+      linear-gradient(rgba(8, 40, 28, 0.72), rgba(8, 40, 28, 0.82)),
+      url("/assets/images/buggies-hero.jpg") center/cover no-repeat;
+  }
+
+  .buggy-page .tour-hero-content {
+    max-width: 820px;
+  }
+
+  .buggy-page .eyebrow {
+    display: inline-block;
+    margin: 0 0 1rem;
+    padding: 0.45rem 0.9rem;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.16);
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .buggy-page .tour-hero h1 {
+    margin: 0 0 1.2rem;
+    color: #ffffff;
+    font-size: clamp(2.2rem, 5vw, 4rem);
+    line-height: 1.08;
+  }
+
+  .buggy-page .tour-hero .lead {
+    max-width: 760px;
+    margin: 0;
+    color: #f4fff8;
+    font-size: clamp(1.05rem, 2vw, 1.25rem);
+    line-height: 1.7;
+  }
+
+  .buggy-page .hero-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    margin: 1.7rem 0;
+  }
+
+  .buggy-page .hero-meta span {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.65rem 0.85rem;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.14);
+    font-weight: 600;
+  }
+
+  .buggy-page .hero-ctas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.85rem;
+  }
+
+  .buggy-page .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 48px;
+    padding: 0.8rem 1.25rem;
+    border: 2px solid var(--buggy-gold);
+    border-radius: 10px;
+    background: var(--buggy-gold);
+    color: #172018;
+    font-weight: 800;
+    text-decoration: none;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+  }
+
+  .buggy-page .btn:hover {
+    transform: translateY(-2px);
+    opacity: 0.94;
+  }
+
+  .buggy-page .btn.secondary {
+    border-color: #ffffff;
+    background: transparent;
+    color: #ffffff;
+  }
+
+  .buggy-page .section {
+    padding: 4rem 0;
+  }
+
+  .buggy-page .section-soft {
+    background: var(--buggy-light);
+  }
+
+  .buggy-page .section-heading {
+    max-width: 760px;
+    margin: 0 auto 2rem;
+    text-align: center;
+  }
+
+  .buggy-page .section-heading h2 {
+    margin-bottom: 0.75rem;
+    color: var(--buggy-green-dark);
+    font-size: clamp(1.8rem, 4vw, 2.6rem);
+  }
+
+  .buggy-page .section-heading p {
+    margin: 0;
+    color: #526159;
+    line-height: 1.7;
+  }
+
+  .buggy-page .quick-info-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1rem;
+    margin-top: -2.2rem;
+    position: relative;
+    z-index: 3;
+  }
+
+  .buggy-page .quick-info-card {
+    padding: 1.25rem;
+    border: 1px solid var(--buggy-border);
+    border-radius: 14px;
+    background: #ffffff;
+    box-shadow: 0 10px 28px rgba(25, 74, 51, 0.12);
+    text-align: center;
+  }
+
+  .buggy-page .quick-info-card .icon {
+    display: block;
+    margin-bottom: 0.35rem;
+    font-size: 1.7rem;
+  }
+
+  .buggy-page .quick-info-card strong {
+    display: block;
+    color: var(--buggy-green-dark);
+    font-size: 1.02rem;
+  }
+
+  .buggy-page .quick-info-card span:last-child {
+    display: block;
+    margin-top: 0.3rem;
+    color: #5d6c64;
+    line-height: 1.45;
+  }
+
+  .buggy-page .content-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1.65fr) minmax(280px, 0.75fr);
+    gap: 2rem;
+    align-items: start;
+  }
+
+  .buggy-page .main-content h2,
+  .buggy-page .sidebar-card h3 {
+    color: var(--buggy-green-dark);
+  }
+
+  .buggy-page .main-content p,
+  .buggy-page .main-content li,
+  .buggy-page .sidebar-card li {
+    color: var(--buggy-text);
+    line-height: 1.7;
+  }
+
+  .buggy-page .route-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0 2.5rem;
+  }
+
+  .buggy-page .route-card {
+    padding: 1.25rem;
+    border: 1px solid var(--buggy-border);
+    border-radius: 14px;
+    background: #ffffff;
+  }
+
+  .buggy-page .route-card .route-number {
+    display: inline-flex;
+    width: 34px;
+    height: 34px;
+    margin-bottom: 0.65rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: var(--buggy-green);
+    color: #ffffff;
+    font-weight: 800;
+  }
+
+  .buggy-page .route-card h3 {
+    margin: 0 0 0.45rem;
+    color: var(--buggy-green-dark);
+    font-size: 1.15rem;
+  }
+
+  .buggy-page .route-card p {
+    margin: 0;
+  }
+
+  .buggy-page .included-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.8rem 1.2rem;
+    padding: 0;
+    list-style: none;
+  }
+
+  .buggy-page .included-list li {
+    position: relative;
+    padding: 0.85rem 0.9rem 0.85rem 2.5rem;
+    border-radius: 10px;
+    background: var(--buggy-light);
+  }
+
+  .buggy-page .included-list li::before {
+    content: "✓";
+    position: absolute;
+    left: 0.9rem;
+    top: 0.8rem;
+    color: var(--buggy-green);
+    font-weight: 900;
+  }
+
+  .buggy-page .sidebar-card {
+    margin-bottom: 1.25rem;
+    padding: 1.4rem;
+    border: 1px solid var(--buggy-border);
+    border-radius: 14px;
+    background: #ffffff;
+    box-shadow: 0 8px 24px rgba(17, 60, 40, 0.08);
+  }
+
+  .buggy-page .sidebar-card h3 {
+    margin-top: 0;
+  }
+
+  .buggy-page .sidebar-card ul {
+    margin-bottom: 0;
+    padding-left: 1.2rem;
+  }
+
+  .buggy-page .sidebar-card.highlight-card {
+    border: 2px solid var(--buggy-gold);
+    background: #fffaf0;
+  }
+
+  .buggy-page .price-section {
+    padding: 4rem 0;
+    background: #f7faf8;
+  }
+
+  .buggy-page .price-category {
+    margin-bottom: 2rem;
+  }
+
+  .buggy-page .price-category-title {
+    display: flex;
+    gap: 0.65rem;
+    align-items: center;
+    margin: 0 0 1rem;
+    color: var(--buggy-green-dark);
+    font-size: 1.5rem;
+  }
+
+  .buggy-page .price-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.25rem;
+  }
+
+  .buggy-page .price-card {
+    position: relative;
+    padding: 1.6rem;
+    border: 1px solid var(--buggy-border);
+    border-radius: 16px;
+    background: #ffffff;
+    box-shadow: 0 10px 28px rgba(19, 73, 48, 0.09);
+  }
+
+  .buggy-page .price-card.premium {
+    border: 2px solid var(--buggy-gold);
+  }
+
+  .buggy-page .price-card h3 {
+    margin: 0 0 0.45rem;
+    color: var(--buggy-green-dark);
+    font-size: 1.25rem;
+  }
+
+  .buggy-page .price-main {
+    margin: 0.75rem 0 0.35rem;
+    color: var(--buggy-green);
+    font-size: clamp(2rem, 5vw, 2.8rem);
+    font-weight: 900;
+    line-height: 1;
+  }
+
+  .buggy-page .price-main small {
+    font-size: 0.95rem;
+    font-weight: 700;
+  }
+
+  .buggy-page .price-sub {
+    margin: 0;
+    color: #65736b;
+    font-size: 0.96rem;
+  }
+
+  .buggy-page .price-card ul {
+    margin: 1rem 0 0;
+    padding-left: 1.2rem;
+  }
+
+  .buggy-page .price-card li {
+    margin-bottom: 0.4rem;
+    line-height: 1.55;
+  }
+
+  .buggy-page .badge {
+    display: inline-block;
+    margin-bottom: 0.7rem;
+    padding: 0.35rem 0.65rem;
+    border-radius: 999px;
+    background: var(--buggy-gold);
+    color: #30250b;
+    font-size: 0.8rem;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+
+  .buggy-page .lunch-box {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    border-left: 5px solid var(--buggy-gold);
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0 8px 22px rgba(19, 73, 48, 0.07);
+  }
+
+  .buggy-page .lunch-box h3 {
+    margin: 0 0 0.45rem;
+    color: var(--buggy-green-dark);
+  }
+
+  .buggy-page .lunch-box p {
+    margin: 0;
+    line-height: 1.65;
+  }
+
+  .buggy-page .price-note {
+    margin-top: 1.25rem;
+    color: #59675f;
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .buggy-page .video-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.25rem;
+  }
+
+  .buggy-page .video-wrapper {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+    border-radius: 14px;
+    background: #111827;
+    box-shadow: 0 10px 26px rgba(0, 0, 0, 0.14);
+  }
+
+  .buggy-page .video-wrapper iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .buggy-page .tour-gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.25rem;
+  }
+
+  .buggy-page .tour-gallery-grid figure {
+    overflow: hidden;
+    margin: 0;
+    border-radius: 14px;
     background: #111827;
   }
 
-  .tour-gallery-grid figcaption {
+  .buggy-page .tour-gallery-grid img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+  }
+
+  .buggy-page .tour-gallery-grid figcaption {
+    padding: 0.75rem 0.9rem;
     color: #ffffff;
-    font-weight: 600;
-    text-shadow: 0 0 6px rgba(0, 0, 0, 0.9);
-    padding: 0.5rem 0.75rem;
+    font-weight: 700;
     text-align: center;
+  }
+
+  .buggy-page .bottom-cta {
+    padding: 4.5rem 0;
+    background:
+      linear-gradient(rgba(10, 58, 38, 0.9), rgba(10, 58, 38, 0.94)),
+      url("/assets/images/buggies-hero.jpg") center/cover no-repeat;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .buggy-page .bottom-cta h2 {
+    margin: 0 0 1rem;
+    color: #ffffff;
+    font-size: clamp(2rem, 4vw, 3rem);
+  }
+
+  .buggy-page .bottom-cta p {
+    max-width: 760px;
+    margin: 0 auto 1.5rem;
+    color: #f0fff6;
+    line-height: 1.7;
+  }
+
+  @media (max-width: 900px) {
+    .buggy-page .quick-info-grid,
+    .buggy-page .price-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .buggy-page .content-layout {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .buggy-page .tour-hero {
+      padding: 4rem 0;
+    }
+
+    .buggy-page .quick-info-grid,
+    .buggy-page .route-grid,
+    .buggy-page .included-list,
+    .buggy-page .price-grid,
+    .buggy-page .video-grid,
+    .buggy-page .tour-gallery-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .buggy-page .quick-info-grid {
+      margin-top: -1.2rem;
+    }
+
+    .buggy-page .hero-ctas {
+      flex-direction: column;
+    }
+
+    .buggy-page .hero-ctas .btn {
+      width: 100%;
+    }
   }
 </style>
 
-<section class="tour-hero">
-  <div class="container">
-    <p class="eyebrow">Off-Road Eco Adventure</p>
-    <h1>Eco-Buggies & Beach Adventure – Off-Road Samaná</h1>
-    <p class="lead">
-      Ride off-road buggies across the wild landscapes of Samaná, discover hidden beaches,
-      and visit a colorful countryside cabin where coffee and cacao come to life.
-    </p>
+<div class="buggy-page">
 
-    <div class="hero-meta">
-      <span>⏱ Half day · 9:00 AM – 1:00 PM</span>
-      <span>🏝 Las Canas &amp; Playa Morón</span>
-      <span>🛞 Rough countryside roads &amp; villages</span>
-    </div>
+  <section class="tour-hero">
+    <div class="container">
+      <div class="tour-hero-content">
+        <p class="eyebrow">Off-Road Eco Adventure</p>
 
-    <div class="hero-ctas">
-      <a class="btn" href="/book?tour=eco-buggies">Book Now</a>
-      <a class="btn secondary"
-         href="https://wa.me/15046572553?text=Hi!%20I'd%20like%20to%20book%20the%20Eco-Buggies%20and%20Beach%20Adventure.">
-        Chat on WhatsApp
-      </a>
-    </div>
-  </div>
-</section>
+        <h1>Eco-Buggies Samaná</h1>
 
-<section class="container mt-3">
-  <h2 class="center">Video Highlights</h2>
-
-  <div class="video-wrapper">
-    <iframe 
-      src="https://www.youtube.com/embed/aeWt559nhbw" 
-      title="Eco-Buggies &amp; Beach Adventure – Clip 1" 
-      frameborder="0" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-      allowfullscreen>
-    </iframe>
-  </div>
-  <<p class="text-center mt-2" style="max-width:700px;margin:0 auto;">
-  Real off-road action through jungle trails — feel the ride before you even arrive.
-</p>
-    <div class="video-wrapper mt-3">
-  <iframe 
-    src="https://www.youtube.com/embed/iMpCR8Wlu-c" 
-    title="Eco-Buggies Adventure – Jungle Ride & Action Clip" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-  </iframe>
-</div>
-  
-
-  <div class="video-wrapper mt-3">
-    <iframe 
-      src="https://www.youtube.com/embed/6ikHQZfu1JM" 
-      title="Eco-Buggies &amp; Beach Adventure – Clip 2" 
-      frameborder="0" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-      allowfullscreen>
-    </iframe>
-  </div>
-
-  <div class="video-wrapper mt-3">
-    <iframe 
-      src="https://www.youtube.com/embed/MCo9sZzNbHc" 
-      title="Eco-Buggies &amp; Beach Adventure – Clip 3" 
-      frameborder="0" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-      allowfullscreen>
-    </iframe>
-  </div>
-</section>
-
-<section class="tour-content">
-  <div class="container tour-layout">
-    <article class="tour-main">
-      <h2>Overview</h2>
-      <p>
-        Feel the wind and the scent of sea and earth as your buggy roars across the
-        rugged back roads of the Samaná peninsula. This half-day eco-adventure takes you
-        to two paradise-like beaches on the north shore of El Limón — <strong>Las Canas</strong>
-        and <strong>Playa Morón</strong> — with a stop at a colorful countryside cabin
-        where coffee and cacao are roasted the traditional way.
-      </p>
-
-      <p>
-        Along the way, you’ll pass through small picturesque villages, bright tropical
-        houses, and kids waving as you drive by. Nature explodes in color here:
-        emerald hills, blue ocean, and golden sand framed by coconut trees.
-      </p>
-
-      <h2>Itinerary (Typical)</h2>
-      <ol class="itinerary">
-        <li>
-          <strong>Pickup &amp; briefing</strong> at your hotel gates or boarding dock.
-          Meet your guides, get your helmets, and receive a short safety orientation.
-        </li>
-        <li>
-          <strong>Off-road ride to Las Canas</strong> along rough countryside tracks,
-          passing palm groves, small farms, and village life.
-        </li>
-        <li>
-          <strong>Las Canas Beach</strong> – first beach stop on the wild north shore.
-          Time for photos, a short walk, or simply enjoying the untouched scenery.
-        </li>
-        <li>
-          <strong>Countryside cabin visit</strong> – a colorful typical house where we
-          roast coffee and cacao. Learn how they are prepared, taste local flavors, and
-          discover a small eco-shelter with products like coffee, cocoa paste, honey,
-          coconut oil, hand-made cigars, and local paintings and crafts (optional purchase).
-        </li>
-        <li>
-          <strong>Final stop: Playa Morón</strong> – a paradise-like beach with
-          tranquil waters and palm-fringed sand. Perfect for a refreshing swim and
-          relaxing before the ride back.
-        </li>
-        <li>
-          <strong>Return ride</strong> back through the countryside to the starting point,
-          with more views of villages, hills, and coastline.
-        </li>
-      </ol>
-
-      <h2>What’s Included</h2>
-      <ul>
-        <li>Single or double off-road buggy (your choice).</li>
-        <li>Local eco-guide and support team.</li>
-        <li>Helmets and basic safety briefing.</li>
-        <li>Visit to two beaches: Las Canas &amp; Playa Morón.</li>
-        <li>Stop at a countryside cabin with coffee &amp; cacao roasting demonstration.</li>
-        <li>Hotel pickup and drop-off from selected areas.</li>
-      </ul>
-
-      <section class="price-section">
-        <h2>Prices</h2>
-
-        <p class="price-intro">
-          Choose the option that best fits your needs. All tours include experienced guides,
-          safety orientation, and eco-friendly practices.
+        <p class="lead">
+          Drive your own buggy through tropical countryside trails and discover
+          Playa Las Canas, a traditional Dominican house, Playa Morón and the
+          refreshing Río El Limón.
         </p>
 
-        <div class="price-grid">
-          <!-- Double Buggy Option -->
-          <article class="price-card highlight">
-            <h3>Double Buggy (2 people)</h3>
-            <p class="price-main">US$ 220 per buggy</p>
-            <h3>Single Buggy (1 person)</h3>
-            <p class="price-main">US$ 155 per buggy</p>
-            <p class="price-sub">Shared by 2 people in one buggy</p>
-            <ul>
-              <li>Approx. 4–5 hours total.</li>
-              <li>Morning and afternoon departures.</li>
-              <li>Guided off-road route with beach stops.</li>
-              <li>Perfect for couples, friends party , or family.</li>
-            </ul>
-            <span class="badge">Super Popular</span>
-          </article>
-
-          <!-- Groups & Incentives -->
-          <article class="price-card">
-            <h3>Groups &amp; Incentives</h3>
-            <p class="price-main">Custom quote</p>
-            <p class="price-sub">Agencies, schools &amp; corporate groups</p>
-            <ul>
-              <li>Special group rates.</li>
-              <li>Multi-buggy / multi-vehicle options.</li>
-              <li>Extra services on request.</li>
-              <li>Perfect for beach parties &amp; large groups.</li>
-            </ul>
-          </article>
+        <div class="hero-meta">
+          <span>⏱ 3–4 hours</span>
+          <span>🕘 Two daily departures</span>
+          <span>🏝 Beaches, countryside and river</span>
+          <span>🛞 You drive your own buggy</span>
         </div>
 
-        <p class="price-notes">
-          Final price depends on group size and any extra services requested.
-          Contact us for a tailored quote.
-        </p>
-      </section>
-    </article>
+        <div class="hero-ctas">
+          <a class="btn" href="/book?tour=eco-buggies">
+            Book This Adventure
+          </a>
 
-    <aside class="tour-sidebar">
-      <div class="card key-info">
-        <h3>Key Info</h3>
-        <ul>
-          <li><strong>Duration:</strong> 4 hours (half day)</li>
-          <li><strong>Route:</strong> El Limón countryside &amp; north shore</li>
-          <li><strong>Beaches:</strong> Las Canas &amp; Playa Morón</li>
-          <li><strong>Meeting point:</strong> Hotel gates / boarding dock</li>
-        </ul>
+          <a
+            class="btn secondary"
+            href="https://wa.me/15046572553?text=Hi!%20I%20would%20like%20information%20about%20the%20Eco-Buggies%20Saman%C3%A1%20tour."
+          >
+            Chat on WhatsApp
+          </a>
+        </div>
       </div>
+    </div>
+  </section>
 
-      <div class="card bring">
-        <h3>What to Bring</h3>
-        <ul>
-          <li>Face bandana or scarf (against debris & dust).</li>
-          <li>Sunglasses and eco-sunscreen.</li>
-          <li>Bathing clothes and towel.</li>
-          <li>Closed shoes or sturdy sandals.</li>
-          <li>Cash for souvenirs and tips.</li>
-          <li>Camera or phone for amazing photos.</li>
-        </ul>
-      </div>
-    </aside>
-  </div>
-</section>
-
-<section class="tour-gallery">
-  <h2>Eco-Buggies &amp; Beach Highlights</h2>
-  <p class="tour-gallery-intro">
-    A glimpse of what you’ll experience: rough country trails, colorful cabins,
-    and two of the most beautiful beaches on the north shore of Samaná.
-  </p>
-
-  <div class="tour-gallery-grid">
-    <figure>
-      <img src="/assets/images/buggy-el-limon001.png" alt="Buggies driving along a countryside trail in Samaná">
-      <figcaption>Off-road trails through the Samaná countryside</figcaption>
-    </figure>
-    <figure>
-      <img src="/assets/images/beach-canas029.jpg" alt="Las Canas beach with palm trees and turquoise water">
-      <figcaption>First stop: wild and open Las Canas Beach</figcaption>
-    </figure>
-    <figure>
-      <img src="/assets/images/cabin-buggy022.jpg" alt="Colorful countryside house with coffee and cacao roasting">
-      <figcaption>Traditional countryside cabin with coffee &amp; cacao roasting</figcaption>
-    </figure>
-    <figure>
-      <img src="/assets/images/buggy-limon020.jpg" alt="Playa Morón beach with calm water and golden sand">
-      <figcaption>Final stop: paradise-like Playa Morón</figcaption>
-    </figure>
-  </div>
-</section>
-
-<section class="tour-bottom-cta">
   <div class="container">
-    <h2>Ready for an off-road Caribbean adventure?</h2>
-    <p>
-      Join our Eco-Buggies &amp; Beach Adventure and discover the true colors of Samaná:
-      rugged roads, friendly villages, and beaches that feel like a private paradise.
-    </p>
-    <a class="btn" href="/book?tour=eco-buggies">Book Eco-Buggies &amp; Beach</a>
+    <div class="quick-info-grid">
+
+      <div class="quick-info-card">
+        <span class="icon">🕘</span>
+        <strong>Morning Tour</strong>
+        <span>Departure at 8:45 a.m.</span>
+      </div>
+
+      <div class="quick-info-card">
+        <span class="icon">🕜</span>
+        <strong>Afternoon Tour</strong>
+        <span>Departure at 1:45 p.m.</span>
+      </div>
+
+      <div class="quick-info-card">
+        <span class="icon">⏱</span>
+        <strong>Duration</strong>
+        <span>Approximately 3 to 4 hours</span>
+      </div>
+
+      <div class="quick-info-card">
+        <span class="icon">📅</span>
+        <strong>Availability</strong>
+        <span>Excursions every day</span>
+      </div>
+
+    </div>
   </div>
-</section>
+
+  <section class="section">
+    <div class="container content-layout">
+
+      <article class="main-content">
+
+        <h2>Explore the Wild Side of Samaná</h2>
+
+        <p>
+          Get ready for an exciting ride through the tropical countryside of
+          El Limón. You will drive your own buggy along rural trails, pass through
+          small communities and enjoy several refreshing stops surrounded by
+          beaches, palm trees and Dominican nature.
+        </p>
+
+        <p>
+          The experience combines off-road adventure, local culture, beautiful
+          beaches and a visit to one of the area's most refreshing rivers.
+        </p>
+
+        <h2>Places You Will Visit</h2>
+
+        <div class="route-grid">
+
+          <article class="route-card">
+            <span class="route-number">1</span>
+            <h3>Playa Las Canas</h3>
+            <p>
+              Enjoy time at this peaceful tropical beach, take photos and cool
+              off in the ocean.
+            </p>
+          </article>
+
+          <article class="route-card">
+            <span class="route-number">2</span>
+            <h3>Traditional Dominican House</h3>
+            <p>
+              Discover local countryside traditions and taste Dominican coffee,
+              handmade chocolate, cacao and mamajuana.
+            </p>
+          </article>
+
+          <article class="route-card">
+            <span class="route-number">3</span>
+            <h3>Playa Morón</h3>
+            <p>
+              Visit one of the most beautiful beaches in the El Limón area and
+              enjoy another refreshing swim.
+            </p>
+          </article>
+
+          <article class="route-card">
+            <span class="route-number">4</span>
+            <h3>Río El Limón</h3>
+            <p>
+              Finish with a refreshing visit to Poza de Doña Blanca, a natural
+              swimming area in Río El Limón.
+            </p>
+          </article>
+
+        </div>
+
+        <h2>What the Excursion Includes</h2>
+
+        <ul class="included-list">
+          <li>Guided buggy route through tropical countryside trails.</li>
+          <li>You drive your own buggy.</li>
+          <li>Visit and swimming time at Playa Las Canas.</li>
+          <li>Visit to a traditional Dominican countryside house.</li>
+          <li>Tasting of coffee, cacao, handmade chocolate and mamajuana.</li>
+          <li>Visit and swimming time at Playa Morón.</li>
+          <li>Visit and refreshing swim at Río El Limón.</li>
+          <li>Local guide and basic safety orientation.</li>
+        </ul>
+
+      </article>
+
+      <aside>
+
+        <div class="sidebar-card">
+          <h3>Key Information</h3>
+          <ul>
+            <li><strong>Duration:</strong> approximately 3–4 hours</li>
+            <li><strong>First departure:</strong> 8:45 a.m.</li>
+            <li><strong>Second departure:</strong> 1:45 p.m.</li>
+            <li><strong>Availability:</strong> every day</li>
+            <li><strong>Driving:</strong> guests drive their own buggy</li>
+          </ul>
+        </div>
+
+        <div class="sidebar-card">
+          <h3>What to Bring</h3>
+          <ul>
+            <li>Comfortable clothes that may get dusty or muddy</li>
+            <li>Bathing suit and towel</li>
+            <li>Closed shoes or secure sandals</li>
+            <li>Sunglasses and sunscreen</li>
+            <li>Bandana or scarf for dust</li>
+            <li>Waterproof phone protection</li>
+            <li>Cash for souvenirs, lunch and tips</li>
+          </ul>
+        </div>
+
+        <div class="sidebar-card highlight-card">
+          <h3>Important</h3>
+          <p>
+            Buggy prices are charged per vehicle according to the selected
+            category and passenger capacity.
+          </p>
+        </div>
+
+      </aside>
+
+    </div>
+  </section>
+
+  <section class="price-section">
+    <div class="container">
+
+      <div class="section-heading">
+        <h2>Buggy Prices</h2>
+        <p>
+          Select your preferred buggy category and passenger capacity.
+          The price shown is the total price per buggy.
+        </p>
+      </div>
+
+      <div class="price-category">
+
+        <h3 class="price-category-title">
+          🛞 Standard Buggy
+        </h3>
+
+        <div class="price-grid">
+
+          <article class="price-card">
+            <h3>Standard Buggy</h3>
+            <p class="price-main">
+              US$100
+            </p>
+            <p class="price-sub">
+              Total price for up to 2 people
+            </p>
+
+            <ul>
+              <li>Capacity: 1 or 2 passengers</li>
+              <li>Guided off-road excursion</li>
+              <li>Beach, countryside and river stops</li>
+              <li>Approximately 3–4 hours</li>
+            </ul>
+          </article>
+
+          <article class="price-card">
+            <h3>Standard Buggy</h3>
+            <p class="price-main">
+              US$130
+            </p>
+            <p class="price-sub">
+              Total price for up to 4 people
+            </p>
+
+            <ul>
+              <li>Capacity: up to 4 passengers</li>
+              <li>Ideal for families and small groups</li>
+              <li>Guided off-road excursion</li>
+              <li>All scheduled tour stops included</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+
+      <div class="price-category">
+
+        <h3 class="price-category-title">
+          ⭐ Premium Buggy
+        </h3>
+
+        <div class="price-grid">
+
+          <article class="price-card premium">
+            <span class="badge">Premium</span>
+            <h3>Premium Buggy</h3>
+            <p class="price-main">
+              US$120
+            </p>
+            <p class="price-sub">
+              Total price for up to 2 people
+            </p>
+
+            <ul>
+              <li>Capacity: 1 or 2 passengers</li>
+              <li>Premium buggy category</li>
+              <li>Guided off-road excursion</li>
+              <li>All scheduled tour stops included</li>
+            </ul>
+          </article>
+
+          <article class="price-card premium">
+            <span class="badge">Premium</span>
+            <h3>Premium Buggy</h3>
+            <p class="price-main">
+              US$180
+            </p>
+            <p class="price-sub">
+              Total price for up to 4 people
+            </p>
+
+            <ul>
+              <li>Capacity: up to 4 passengers</li>
+              <li>Premium buggy category</li>
+              <li>Ideal for families and groups</li>
+              <li>All scheduled tour stops included</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+
+      <div class="lunch-box">
+        <h3>🍽 Optional Dominican Lunch</h3>
+        <p>
+          Add a traditional Dominican buffet lunch for
+          <strong>US$10 per person</strong>.
+        </p>
+      </div>
+
+      <p class="price-note">
+        Prices are per buggy and are based on the vehicle category and maximum
+        passenger capacity selected. Optional lunch is charged separately per person.
+        Availability is subject to confirmation.
+      </p>
+
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+      <div class="section-heading">
+        <h2>Video Highlights</h2>
+        <p>
+          Watch the real off-road action, countryside trails and tropical scenery
+          that make this one of Samaná’s most exciting adventures.
+        </p>
+      </div>
+
+      <div class="video-grid">
+
+        <div class="video-wrapper">
+          <iframe
+            src="https://www.youtube.com/embed/aeWt559nhbw"
+            title="Eco-Buggies Samaná Adventure Video 1"
+            frameborder="0"
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <div class="video-wrapper">
+          <iframe
+            src="https://www.youtube.com/embed/iMpCR8Wlu-c"
+            title="Eco-Buggies Samaná Adventure Video 2"
+            frameborder="0"
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <div class="video-wrapper">
+          <iframe
+            src="https://www.youtube.com/embed/6ikHQZfu1JM"
+            title="Eco-Buggies Samaná Adventure Video 3"
+            frameborder="0"
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <div class="video-wrapper">
+          <iframe
+            src="https://www.youtube.com/embed/MCo9sZzNbHc"
+            title="Eco-Buggies Samaná Adventure Video 4"
+            frameborder="0"
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-soft">
+    <div class="container">
+
+      <div class="section-heading">
+        <h2>Eco-Buggies Adventure Highlights</h2>
+        <p>
+          Tropical trails, local culture, beautiful beaches and refreshing
+          natural swimming stops.
+        </p>
+      </div>
+
+      <div class="tour-gallery-grid">
+
+        <figure>
+          <img
+            src="/assets/images/buggy-el-limon001.png"
+            alt="Buggies traveling along a countryside trail in Samaná"
+            loading="lazy"
+          >
+          <figcaption>
+            Off-road trails through the Samaná countryside
+          </figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="/assets/images/beach-canas029.jpg"
+            alt="Playa Las Canas with palm trees and tropical water"
+            loading="lazy"
+          >
+          <figcaption>
+            Swimming and relaxation at Playa Las Canas
+          </figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="/assets/images/cabin-buggy022.jpg"
+            alt="Traditional Dominican countryside house with coffee and cacao"
+            loading="lazy"
+          >
+          <figcaption>
+            Traditional house with coffee, cacao and local products
+          </figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="/assets/images/buggy-limon020.jpg"
+            alt="Playa Morón beach in the El Limón area of Samaná"
+            loading="lazy"
+          >
+          <figcaption>
+            Tropical beach stop at Playa Morón
+          </figcaption>
+        </figure>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="bottom-cta">
+    <div class="container">
+      <h2>Ready to Drive Through Samaná?</h2>
+
+      <p>
+        Choose your buggy, select a morning or afternoon departure and enjoy
+        beaches, countryside culture, tropical trails and Río El Limón in one
+        unforgettable adventure.
+      </p>
+
+      <a class="btn" href="/book?tour=eco-buggies">
+        Book Eco-Buggies Samaná
+      </a>
+    </div>
+  </section>
+
+</div>
