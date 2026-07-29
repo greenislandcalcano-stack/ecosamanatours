@@ -414,44 +414,54 @@ image: /assets/images/buggies-hero.jpg
     height: 100%;
   }
 
-  .buggy-page .tour-gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1.25rem;
-  }
+  /* ---------- Gallery ---------- */
 
-  .buggy-page .tour-gallery-grid figure {
-    overflow: hidden;
-    margin: 0;
-    border-radius: 14px;
-    background: #111827;
+  .buggy-page .tour-gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:1.25rem;
   }
 
   .buggy-page .tour-gallery-grid figure{
+    display:flex;
+    flex-direction:column;
     overflow:hidden;
-    border-radius:18px;
+    margin:0;
+    border-radius:16px;
     background:#111827;
-}
+    box-shadow:0 10px 24px rgba(0,0,0,.12);
+  }
 
-.buggy-page .tour-gallery-grid img{
+  .buggy-page .tour-gallery-grid img{
     display:block;
     width:100%;
     height:320px;
     object-fit:cover;
     object-position:center;
     transition:.35s;
-}
-
-.buggy-page .tour-gallery-grid figure:hover img{
-    transform:scale(1.05);
-}
   }
 
-  .buggy-page .tour-gallery-grid figcaption {
-    padding: 0.75rem 0.9rem;
-    color: #ffffff;
-    font-weight: 700;
-    text-align: center;
+  .buggy-page .tour-gallery-grid img.promo-image{
+    object-fit:contain;
+    padding:8px;
+    background:#111827;
+  }
+
+  .buggy-page .tour-gallery-grid figure:hover img{
+    transform:scale(1.04);
+  }
+
+  .buggy-page .tour-gallery-grid figcaption{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    min-height:60px;
+    padding:.9rem 1rem;
+    background:#111827;
+    color:#fff;
+    font-weight:700;
+    text-align:center;
+    line-height:1.35;
   }
 
   .buggy-page .bottom-cta {
@@ -872,6 +882,7 @@ image: /assets/images/buggies-hero.jpg
 
         <figure>
           <img
+            class="promo-image"
             src="/assets/images/4styles-buggies.png"
             alt="Buggies traveling along a countryside trail in Samaná"
             loading="lazy"
@@ -905,6 +916,7 @@ image: /assets/images/buggies-hero.jpg
 
         <figure>
           <img
+            class="promo-image"
             src="/assets/images/buggy4 premium.png"
             alt="Playa Morón beach in the El Limón area of Samaná"
             loading="lazy"
