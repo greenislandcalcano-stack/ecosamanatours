@@ -262,6 +262,7 @@ image: /assets/images/pirate-hero.jpg
   <div class="container">
 
     <h2>Ready to join the pirates of Samaná?</h2>
+    {% include secure-payment.html %}
 
     <p>
       Book your Pirate Treasure Hunt today and give your family a story they will never forget.
