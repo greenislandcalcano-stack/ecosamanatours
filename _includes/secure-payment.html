@@ -1,0 +1,117 @@
+
+<!-- EcoSamana Secure Payment Component -->
+
+<div class="eco-payment-box">
+  <div class="eco-payment-icon" aria-hidden="true">🔒</div>
+
+  <h3>Secure Your Adventure</h3>
+
+  <p>
+    Ready to book? Once your excursion details are confirmed,
+    our team will send you a personalized secure payment link.
+  </p>
+
+  <div class="eco-payment-features">
+    <span>✓ Secure card checkout</span>
+    <span>✓ Personalized payment link</span>
+    <span>✓ Booking confirmation</span>
+  </div>
+
+  {% assign payment_tour = include.tour | default: page.title %}
+
+  {% capture payment_message %}
+  Hello EcoSamana Adventures! I would like to request
+  a secure payment link for {{ payment_tour }}.
+  Please confirm availability and the total price.
+  {% endcapture %}
+
+  <a
+    class="eco-payment-button"
+    href="https://wa.me/15046572553?text={{ payment_message | strip_newlines | url_encode }}"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    💳 Request Secure Payment Link
+  </a>
+
+  <p class="eco-payment-note">
+    Payment requests identify Luzelin Services LLC
+    as the collecting business. Never send card details
+    through WhatsApp or email.
+  </p>
+</div>
+
+<style>
+.eco-payment-box {
+  max-width: 850px;
+  margin: 2.5rem auto;
+  padding: 2rem 1.5rem;
+  border-radius: 20px;
+  background: linear-gradient(145deg, #073b36, #11665b);
+  color: white;
+  text-align: center;
+  box-shadow: 0 12px 30px rgba(0,0,0,.15);
+}
+
+.eco-payment-icon {
+  font-size: 2.2rem;
+}
+
+.eco-payment-box h3 {
+  color: #fff;
+  font-size: 1.6rem;
+  margin: .75rem 0;
+}
+
+.eco-payment-box p {
+  line-height: 1.6;
+}
+
+.eco-payment-features {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 1.5rem 0;
+}
+
+.eco-payment-features span {
+  background: rgba(255,255,255,.12);
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-size: .9rem;
+}
+
+.eco-payment-button {
+  display: inline-block;
+  background: #f5c451;
+  color: #17332d;
+  padding: 15px 24px;
+  border-radius: 12px;
+  font-weight: 800;
+  text-decoration: none;
+  transition: .2s;
+}
+
+.eco-payment-button:hover {
+  background: #ffda78;
+  transform: translateY(-2px);
+}
+
+.eco-payment-button:focus-visible {
+  outline: 3px solid white;
+  outline-offset: 4px;
+}
+
+.eco-payment-note {
+  font-size: .8rem;
+  opacity: .85;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 600px) {
+  .eco-payment-box {
+    padding: 1.5rem 1rem;
+  }
+}
+</style>
