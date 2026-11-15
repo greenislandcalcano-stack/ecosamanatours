@@ -229,6 +229,7 @@ image: /assets/images/snorkeling-hero.jpg
 <section class="tour-bottom-cta">
   <div class="container">
     <h2>Ready to sail and snorkel Samaná Bay?</h2>
+    {% include secure-payment.html %}
     <p>
       Book your full-day catamaran sailing and snorkeling tour and enjoy a beautiful ocean experience with local guides.
     </p>
