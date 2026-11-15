@@ -1098,3 +1098,95 @@ section h3 {
   transform:translateY(-2px);
   box-shadow:0 10px 20px rgba(13,110,253,.25);
 }
+
+/* ECOSAMANA SECURE PAYMENTS */
+
+.secure-payments {
+  margin: 3rem auto 1.5rem;
+  max-width: 920px;
+}
+
+.payment-panel {
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+  border-radius: 22px;
+  background: linear-gradient(145deg, #073b36, #11665b);
+  color: #ffffff;
+  box-shadow: 0 15px 35px rgba(0,0,0,.16);
+}
+
+.payment-icon {
+  font-size: 2.7rem;
+  margin-bottom: .6rem;
+}
+
+.payment-panel h2 {
+  color: #ffffff;
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  margin-bottom: 1rem;
+}
+
+.payment-intro {
+  max-width: 680px;
+  margin: 0 auto 1.5rem;
+  line-height: 1.7;
+}
+
+.payment-benefits {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  max-width: 700px;
+  margin: 1.5rem auto 2rem;
+  text-align: left;
+}
+
+.payment-benefits div {
+  padding: 13px;
+  border-radius: 12px;
+  background: rgba(255,255,255,.1);
+  border: 1px solid rgba(255,255,255,.18);
+}
+
+.payment-request-btn {
+  display: inline-block;
+  padding: 16px 26px;
+  border-radius: 12px;
+  background: #f5c451;
+  color: #17332d;
+  font-weight: 800;
+  text-decoration: none;
+  transition: transform .2s, background .2s;
+}
+
+.payment-request-btn:hover {
+  background: #ffda78;
+  transform: translateY(-2px);
+}
+
+.payment-request-btn:focus-visible {
+  outline: 3px solid #ffffff;
+  outline-offset: 4px;
+}
+
+.payment-disclosure {
+  max-width: 650px;
+  margin: 1.5rem auto 0;
+  font-size: .85rem;
+  line-height: 1.6;
+  color: #e3f0ed;
+}
+
+@media (max-width: 600px) {
+  .payment-panel {
+    padding: 2rem 1rem;
+  }
+
+  .payment-benefits {
+    grid-template-columns: 1fr;
+  }
+
+  .payment-request-btn {
+    max-width: 100%;
+  }
+}
