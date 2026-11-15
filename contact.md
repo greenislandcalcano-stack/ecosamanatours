@@ -127,6 +127,48 @@ description: "Contact Eco-Samaná Adventures for tour reservations, questions ab
       </div>
     </aside>
   </div>
+  
+<!-- SECURE PAYMENTS SECTION -->
+<section class="secure-payments" aria-labelledby="securePaymentsTitle">
+  <div class="payment-panel">
+    <div class="payment-icon" aria-hidden="true">🔒</div>
+
+    <h2 id="securePaymentsTitle">
+      Secure Payments & Reservations
+    </h2>
+
+    <p class="payment-intro">
+      Your adventure begins with peace of mind!
+      Once your excursion details and availability are confirmed,
+      our reservations team will send you a personalized,
+      secure payment link.
+    </p>
+
+    <div class="payment-benefits">
+      <div>✓ Secure online card checkout</div>
+      <div>✓ Personalized payment link for your reservation</div>
+      <div>✓ Booking confirmation after payment verification</div>
+      <div>✓ Friendly assistance from our local team</div>
+    </div>
+
+    <a
+      class="payment-request-btn"
+      href="https://wa.me/15046572553?text=Hello%20EcoSamana%20Adventures%21%20I%20would%20like%20to%20request%20a%20secure%20payment%20link%20for%20my%20excursion%20reservation."
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      💳 Request Secure Payment Link
+    </a>
+
+    <p class="payment-disclosure">
+      Payments are processed through our designated payment
+      provider. The payment request will identify the
+      collecting business, Luzelin Services LLC.
+      Never share your card details through WhatsApp or email.
+    </p>
+  </div>
+</section>
+
 </section>
 
 <!-- Sticky WhatsApp button -->
